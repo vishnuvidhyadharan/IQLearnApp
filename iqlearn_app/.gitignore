@@ -43,3 +43,9 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Local Database & Secrets
+*.db
+*.sqlite
+*.sqlite3
+.env

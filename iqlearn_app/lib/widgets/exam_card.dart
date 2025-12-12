@@ -7,6 +7,7 @@ class ExamCard extends StatelessWidget {
   final String status; // not_started, in_progress, completed
   final VoidCallback onTap;
   final bool isUpdateAvailable;
+  final int? score;
 
   const ExamCard({
     super.key,
@@ -16,6 +17,7 @@ class ExamCard extends StatelessWidget {
     required this.status,
     required this.onTap,
     this.isUpdateAvailable = false,
+    this.score,
   });
 
   Color get _backgroundColor {
@@ -107,9 +109,9 @@ class ExamCard extends StatelessWidget {
                         color: Colors.green,
                         borderRadius: BorderRadius.circular(12),
                       ),
-                      child: const Text(
-                        'Done',
-                        style: TextStyle(
+                      child: Text(
+                        score != null ? 'Score: $score/$totalQuestions' : 'Done',
+                        style: const TextStyle(
                           color: Colors.white,
                           fontSize: 12,
                           fontWeight: FontWeight.bold,

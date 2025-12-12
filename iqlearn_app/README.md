@@ -1,301 +1,90 @@
-# IQ Learn - MCQ Examination App
+# IQ Learn
 
-A comprehensive Flutter-based learning application that provides MCQ (Multiple Choice Question) examinations with AI-powered explanations and chat functionality.
+IQ Learn is a comprehensive Flutter-based quiz and exam application designed to help users master various subjects through interactive tests. It features a robust exam engine, progress tracking, and smart content updates.
 
 ## Features
 
-### 🔐 Authentication
-- OTP-based login using email or mobile number
-- Secure session management
-- Auto-login on app restart
+*   **Categorized Exams:** Browse exams by categories such as History, Geography, Chemistry, and more.
+*   **Smart Updates:** The app automatically detects content changes in exam files and updates them without losing your progress unless necessary.
+*   **Offline & Remote Support:** Comes with bundled questions for offline use and supports fetching new/updated exams from a remote source (GitHub).
+*   **Progress Tracking:** Tracks your scores, completed questions, and time spent on each exam.
+*   **Review & Retake:** Review your answers after completing an exam or choose to retake it to improve your score.
+*   **AI Integration:** (In Progress) Integration with Groq AI to provide detailed explanations for questions.
 
-### 📚 Exam Management
-- Color-coded exam list:
-  - **Light Blue**: Not started or in progress
-  - **Light Green**: Completed
-- Progress tracking (e.g., 45/100 questions answered)
-- Tiled/grid layout for easy browsing
-
-### ⏱️ Exam Taking
-- Countdown timer displayed in top-right corner
-- Color-coded timer warnings (red < 5 min, orange < 10 min)
-- Radio button options for answers
-- Mark questions for review
-- Auto-save progress
-- Navigation between questions
-- Auto-submit when timer expires
-
-### 📊 Results & Review
-- Visual score display with pie chart
-- Review all questions or only incorrect ones
-- Side-by-side comparison of user answer vs correct answer
-- AI-powered explanations for each question
-
-### 🤖 AI Integration
-- Gemini AI for question explanations
-- General chat interface
-- User-configurable API key in profile
-
-### 👤 User Profile
-- View user information
-- Manage Gemini API key
-- Secure storage of credentials
-
-### 🔧 Admin Features
-- Add question sets in MCQ text format
-- Preview questions before saving
-- Batch upload to database
-
-## Installation
+## Getting Started
 
 ### Prerequisites
 
-1. **Flutter SDK** (3.0 or higher)
-   ```bash
-   flutter doctor
-   ```
+*   [Flutter SDK](https://flutter.dev/docs/get-started/install) (version 3.10.3 or higher)
+*   Dart SDK
+*   Android Studio / VS Code with Flutter extensions
 
-2. **Firebase Account** (for OTP authentication)
-   - Create a project at [Firebase Console](https://console.firebase.google.com/)
-   - Enable Phone Authentication and Email Link Authentication
+### Installation
 
-3. **Gemini API Key** (for AI features)
-   - Get your API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/vishnuvidhyadharan/IQLearnApp.git
+    cd IQLearnApp/iqlearn_app
+    ```
 
-### Setup Steps
+2.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
 
-1. **Clone or navigate to the project**
-   ```bash
-   cd /home/vishnu/IQLearn/iqlearn_app
-   ```
+3.  **Run the application:**
+    ```bash
+    flutter run
+    ```
 
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
+## Adding New Exams
 
-3. **Configure Firebase**
-   
-   For Android:
-   ```bash
-   # Download google-services.json from Firebase Console
-   # Place it in android/app/
-   ```
-   
-   For iOS:
-   ```bash
-   # Download GoogleService-Info.plist from Firebase Console
-   # Place it in ios/Runner/
-   ```
+You can add new exams by creating simple text files.
 
-4. **Enable Firebase in main.dart**
-   
-   Open `lib/main.dart` and uncomment:
-   ```dart
-   await Firebase.initializeApp();
-   ```
+### File Format (`.txt`)
 
-5. **Configure Firebase Authentication**
-   
-   In Firebase Console:
-   - Enable Phone Authentication
-   - Enable Email Link Authentication
-   - Add authorized domains
-   - Configure dynamic links for email verification
+Create a text file (e.g., `physics_test.txt`) with the following format:
 
-6. **Run the app**
-   ```bash
-   flutter run
-   ```
+```text
+Topic: Physics Basics
 
-## Usage
-
-### For Users
-
-1. **Login**
-   - Choose email or mobile authentication
-   - Enter your email/phone number
-   - Verify with OTP
-
-2. **Browse Exams**
-   - View available exams on home screen
-   - Blue cards = not started/in progress
-   - Green cards = completed
-
-3. **Take an Exam**
-   - Tap an exam card to start
-   - Answer questions using radio buttons
-   - Mark questions for review if needed
-   - Submit when done or when timer expires
-
-4. **View Results**
-   - See your score and percentage
-   - Review incorrect answers
-   - Get AI explanations for any question
-
-5. **Add API Key**
-   - Go to Profile
-   - Enter your Gemini API key
-   - Use AI features (explanations & chat)
-
-6. **Chat with AI**
-   - Tap chat icon in home screen
-   - Ask questions on any topic
-   - Get instant AI responses
-
-### For Admins
-
-1. **Add Questions**
-   - Tap the "Add Exam" button on home screen
-   - Paste questions in MCQ format:
-     ```
-     Topic: Your Topic Name
-
-     1. Question text?
-     A. Option A
-     B. Option B
-     C. Option C
-     D. Option D
-     Ans: A
-
-     2. Next question?
-     ...
-     ```
-   - Preview parsed questions
-   - Save to database
-
-## MCQ Format
-
-Questions must follow this exact format:
-
-```
-Topic: Subject Name
-
-1. Question text here?
-A. First option
-B. Second option
-C. Third option
-D. Fourth option
-Ans: A
-
-2. Next question text?
-A. First option
-B. Second option
-C. Third option
-D. Fourth option
+1. What is the unit of force?
+A. Joule
+B. Newton
+C. Watt
+D. Pascal
 Ans: B
+
+2. What is the speed of light?
+A. 3x10^8 m/s
+B. 3x10^6 m/s
+C. 3x10^5 km/s
+D. Both A and C
+Ans: D
 ```
 
-**Important:**
-- Start with `Topic:` followed by the topic name
-- Number questions sequentially (1., 2., 3., etc.)
-- Options must be labeled A, B, C, D
-- Answer must be specified as `Ans:` followed by the letter
-- Leave blank lines between questions for better readability
+### Steps to Add:
+
+1.  Place the `.txt` file in the appropriate folder under `exam_questions/` (e.g., `exam_questions/physics/`).
+2.  If adding a new folder, ensure it is listed in `pubspec.yaml` under `assets`.
+3.  Update `exam_questions/index.json` if you want it to be discoverable via remote updates.
 
 ## Project Structure
 
-```
-lib/
-├── main.dart                 # App entry point
-├── models/                   # Data models
-│   ├── user.dart
-│   ├── exam.dart
-│   ├── question.dart
-│   ├── user_exam_progress.dart
-│   └── user_answer.dart
-├── services/                 # Business logic
-│   ├── database_service.dart
-│   ├── auth_service.dart
-│   └── gemini_service.dart
-├── screens/                  # UI screens
-│   ├── auth/
-│   │   ├── login_screen.dart
-│   │   └── otp_verification_screen.dart
-│   ├── home/
-│   │   └── home_screen.dart
-│   ├── exam/
-│   │   ├── exam_screen.dart
-│   │   └── results_screen.dart
-│   ├── chat/
-│   │   └── chat_screen.dart
-│   ├── profile/
-│   │   └── profile_screen.dart
-│   └── admin/
-│       └── add_questions_screen.dart
-├── widgets/                  # Reusable widgets
-│   ├── exam_card.dart
-│   ├── timer_widget.dart
-│   └── question_widget.dart
-└── utils/                    # Utilities
-    └── mcq_parser.dart
-```
-
-## Database Schema
-
-### Tables
-
-1. **users**
-   - id, email, mobile, name, gemini_api_key, created_at
-
-2. **exams**
-   - id, topic, total_questions, time_limit_minutes, created_at
-
-3. **questions**
-   - id, exam_id, question_number, question_text, option_a, option_b, option_c, option_d, correct_answer
-
-4. **user_exam_progress**
-   - id, user_id, exam_id, status, completed_questions, score, started_at, completed_at, time_remaining_seconds
-
-5. **user_answers**
-   - id, user_id, exam_id, question_id, selected_answer, is_correct, marked_for_review, answered_at
+*   `lib/models/`: Data models (Exam, Question, User, etc.)
+*   `lib/screens/`: UI Screens (Home, Exam, Auth, etc.)
+*   `lib/services/`: Business logic and services (Database, Auth, QuestionLoader)
+*   `lib/widgets/`: Reusable UI components
+*   `exam_questions/`: Text files containing exam data organized by category.
 
 ## Technologies Used
 
-- **Flutter**: Cross-platform mobile framework
-- **SQLite**: Local database (sqflite)
-- **Firebase Authentication**: OTP verification
-- **Google Gemini AI**: Question explanations and chat
-- **Provider**: State management
-- **FL Chart**: Data visualization
-
-## Troubleshooting
-
-### Firebase Issues
-- Make sure you've added google-services.json (Android) or GoogleService-Info.plist (iOS)
-- Verify Firebase project configuration
-- Check that authentication methods are enabled
-
-### OTP Not Received
-- Verify phone number format includes country code (e.g., +91)
-- Check Firebase Console for authentication logs
-- Ensure you're not in test mode with quota limits
-
-### Gemini API Errors
-- Verify API key is correct
-- Check API key hasn't exceeded quota
-- Ensure internet connection is stable
-
-### Database Errors
-- Clear app data and restart
-- Check permissions for file storage
-- Verify database schema is created correctly
-
-## Future Enhancements
-
-- [ ] Offline mode for exams
-- [ ] Leaderboards and achievements
-- [ ] Multiple language support
-- [ ] Dark mode
-- [ ] Export results as PDF
-- [ ] Question difficulty levels
-- [ ] Timed practice mode
-- [ ] Social sharing of scores
+*   **Flutter & Dart**
+*   **SQLite (sqflite):** Local database for storing exams and progress.
+*   **Provider:** State management.
+*   **http:** For fetching remote updates.
+*   **crypto:** For calculating content hashes to detect updates.
 
 ## License
 
-This project is for educational purposes.
-
-## Support
-
-For issues or questions, please contact the developer.
+[MIT License](LICENSE)

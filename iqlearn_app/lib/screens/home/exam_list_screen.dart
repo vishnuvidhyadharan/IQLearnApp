@@ -31,6 +31,32 @@ class _ExamListScreenState extends State<ExamListScreen> {
     _loadExams();
   }
 
+  Future<void> _refreshExams() async {
+    // 1. Check for updates from GitHub
+    try {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Checking for updates...'), duration: Duration(seconds: 1)),
+      );
+      
+      await _questionLoader.loadQuestionsFromFile();
+      
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Exams updated successfully')),
+        );
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Error updating exams: $e')),
+        );
+      }
+    }
+
+    // 2. Reload from DB
+    await _loadExams();
+  }
+
   Future<void> _loadExams() async {
     setState(() {
       _isLoading = true;
@@ -146,34 +172,42 @@ class _ExamListScreenState extends State<ExamListScreen> {
     }
   }
 
-  Future<void> _showUpdateDialog(Exam exam) async {
-    final confirmed = await showDialog<bool>(
+  Future<void> _showUpdateDialog(Exam exam, String status) async {
+    final choice = await showDialog<String>(
       context: context,
       builder: (context) => AlertDialog(
         title: const Text('Update Available'),
         content: Text(
           'An update is available for "${exam.topic}".\n\n'
           'Updating will reset your progress for this exam.\n'
-          'Do you want to continue?'
+          '${status == 'completed' ? 'You can choose to review your completed exam (old version) or update to the new version.' : 'Do you want to continue?'}'
         ),
         actions: [
           TextButton(
-            onPressed: () => Navigator.pop(context, false),
+            onPressed: () => Navigator.pop(context, 'cancel'),
             child: const Text('Cancel'),
           ),
+          if (status == 'completed')
+            TextButton(
+              onPressed: () => Navigator.pop(context, 'review'),
+              child: const Text('Review Old'),
+            ),
           TextButton(
-            onPressed: () => Navigator.pop(context, true),
+            onPressed: () => Navigator.pop(context, 'update'),
             child: const Text('Update', style: TextStyle(color: Colors.red)),
           ),
         ],
       ),
     );
 
-    if (confirmed == true) {
+    if (choice == 'review') {
+      _startExam(exam, isReviewMode: true);
+    } else if (choice == 'update') {
       setState(() => _isLoading = true);
       try {
-        final success = await _questionLoader.updateSpecificExam(exam.topic);
-        if (success) {
+        // Pass current category to prevent cross-category updates
+        final error = await _questionLoader.updateSpecificExam(exam.topic, category: widget.category);
+        if (error == null) {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
               const SnackBar(content: Text('Exam updated successfully')),
@@ -183,7 +217,7 @@ class _ExamListScreenState extends State<ExamListScreen> {
         } else {
           if (mounted) {
             ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(content: Text('Failed to update exam')),
+              SnackBar(content: Text('Failed to update exam: $error')),
             );
           }
         }
@@ -208,7 +242,7 @@ class _ExamListScreenState extends State<ExamListScreen> {
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : RefreshIndicator(
-              onRefresh: _loadExams,
+              onRefresh: _refreshExams,
               child: _exams.isEmpty
                   ? Center(
                       child: Column(
@@ -225,6 +259,27 @@ class _ExamListScreenState extends State<ExamListScreen> {
                             style: TextStyle(
                               fontSize: 18,
                               color: Colors.grey.shade600,
+                            ),
+                          ),
+                          const SizedBox(height: 24),
+                          // Debug Log Display
+                          Container(
+                            padding: const EdgeInsets.all(8),
+                            margin: const EdgeInsets.symmetric(horizontal: 16),
+                            height: 200,
+                            decoration: BoxDecoration(
+                              color: Colors.black12,
+                              borderRadius: BorderRadius.circular(8),
+                              border: Border.all(color: Colors.grey.shade300),
+                            ),
+                            child: SingleChildScrollView(
+                              child: Text(
+                                QuestionLoaderService.debugLog.toString(),
+                                style: const TextStyle(
+                                  fontFamily: 'monospace',
+                                  fontSize: 10,
+                                ),
+                              ),
                             ),
                           ),
                         ],
@@ -244,16 +299,18 @@ class _ExamListScreenState extends State<ExamListScreen> {
                         final progress = _progressMap[exam.id!];
                         final status = progress?.status ?? 'not_started';
                         final completedQuestions = progress?.completedQuestions ?? 0;
+                        final score = progress?.score;
 
                         return ExamCard(
                           topic: exam.topic,
                           totalQuestions: exam.totalQuestions,
                           completedQuestions: completedQuestions,
                           status: status,
+                          score: score,
                           isUpdateAvailable: exam.isUpdateAvailable,
                           onTap: () {
                             if (exam.isUpdateAvailable) {
-                              _showUpdateDialog(exam);
+                              _showUpdateDialog(exam, status);
                             } else if (status == 'completed') {
                               _handleCompletedExamTap(exam);
                             } else {

@@ -10,115 +10,121 @@ class QuestionLoaderService {
   final DatabaseService _db = DatabaseService.instance;
 
   static const String REMOTE_QUESTIONS_URL = 'https://raw.githubusercontent.com/vishnuvidhyadharan/IQLearnApp/master/iqlearn_app/exam_questions';
+  
+  // Static log for on-device debugging
+  static StringBuffer debugLog = StringBuffer();
+  
+  void _log(String message) {
+    print(message);
+    debugLog.writeln('${DateTime.now().hour}:${DateTime.now().minute}:${DateTime.now().second} $message');
+  }
 
-  /// Load questions from remote URL and local files
+  /// Load questions using index.json as the master list
   Future<void> loadQuestionsFromFile() async {
-    // 1. Load local assets first (fast)
     final existingExams = await _db.getAllExams();
     final existingTopics = existingExams.map((e) => e.topic.toLowerCase()).toSet();
     
-    await _loadLocalAssets(existingTopics);
-    
-    // 2. Try to load remote questions (background)
-    // Don't await this to allow UI to show local content immediately
-    _loadRemoteQuestions(existingTopics);
-  }
+    List<dynamic> masterList = [];
+    bool isRemoteIndex = false;
 
-  Future<void> _loadRemoteQuestions(Set<String> existingTopics) async {
+    // 1. Try to fetch Master List from Remote
     try {
-      // Add timestamp to bypass GitHub/CDN cache
       final timestamp = DateTime.now().millisecondsSinceEpoch;
       final indexUrl = '$REMOTE_QUESTIONS_URL/index.json?t=$timestamp';
+      _log('QuestionLoaderService: Fetching master list from $indexUrl');
       
-      print('QuestionLoaderService: Attempting to load remote questions from $indexUrl');
       final response = await http.get(Uri.parse(indexUrl));
-      
       if (response.statusCode == 200) {
-        final List<dynamic> fileList = json.decode(response.body);
-        print('QuestionLoaderService: Found remote files: $fileList');
-        
-        for (final fileName in fileList) {
-          if (fileName is String && fileName.endsWith('.txt')) {
-            try {
-              final fileUrl = '$REMOTE_QUESTIONS_URL/$fileName?t=$timestamp';
-              final fileResponse = await http.get(Uri.parse(fileUrl));
-              
-              if (fileResponse.statusCode == 200) {
-                final category = _extractCategory(fileName);
-                // Force update: isRemote=true will trigger delete-then-insert
-                await _processFileContent(fileResponse.body, fileName, existingTopics, isRemote: true, forceUpdate: true, category: category);
-              } else {
-                print('QuestionLoaderService: Failed to download $fileName: ${fileResponse.statusCode}');
-              }
-            } catch (e) {
-              print('QuestionLoaderService: Error downloading $fileName: $e');
-            }
-          }
-        }
-      } else {
-        print('QuestionLoaderService: Failed to fetch index.json: ${response.statusCode}');
+        masterList = json.decode(response.body);
+        isRemoteIndex = true;
+        _log('QuestionLoaderService: Loaded Remote Master List: $masterList');
       }
     } catch (e) {
-      print('QuestionLoaderService: Remote loading failed (offline?): $e');
+      _log('QuestionLoaderService: Remote index fetch failed: $e');
+    }
+
+    // 2. Fallback to Local Master List if Remote failed
+    if (masterList.isEmpty) {
+      try {
+        _log('QuestionLoaderService: Loading Local Master List from exam_questions/index.json');
+        final localIndexContent = await rootBundle.loadString('exam_questions/index.json');
+        masterList = json.decode(localIndexContent);
+        _log('QuestionLoaderService: Loaded Local Master List: $masterList');
+      } catch (e) {
+        _log('QuestionLoaderService: Local index load failed: $e');
+        // Final fallback: Hardcoded list (just in case)
+        masterList = [
+          "exam_questions/history/history_of_india.txt",
+          "exam_questions/history/newtest.txt",
+          "exam_questions/history/sample_que.txt",
+          "exam_questions/geography/test7.txt",
+          "exam_questions/chemistry/test.txt"
+        ];
+      }
+    }
+
+    // 3. Process each file in the Master List
+    for (final fileName in masterList) {
+      if (fileName is String && fileName.endsWith('.txt')) {
+        await _processFileFromMasterList(fileName, existingTopics, isRemoteIndex);
+      }
     }
   }
 
-  Future<void> _loadLocalAssets(Set<String> existingTopics) async {
-      // Get list of all files in exam_questions folder
-      List<String> questionFiles = [];
+  Future<void> _processFileFromMasterList(String fileName, Set<String> existingTopics, bool isRemoteIndex) async {
+    String? content;
+    bool isRemoteContent = false;
+    final category = _extractCategory(fileName);
+
+    // A. Try Remote Download (if index was remote or just try anyway)
+    try {
+      final timestamp = DateTime.now().millisecondsSinceEpoch;
+      // Fix: Handle potential double "exam_questions/" if present in both Base URL and File Name
+      String cleanFileName = fileName;
+      if (REMOTE_QUESTIONS_URL.endsWith('exam_questions') && fileName.startsWith('exam_questions/')) {
+        cleanFileName = fileName.substring('exam_questions/'.length);
+      }
       
+      final fileUrl = '$REMOTE_QUESTIONS_URL/$cleanFileName?t=$timestamp';
+      // _log('Downloading from: $fileUrl'); // Optional: Uncomment for verbose URL debugging
+      
+      final response = await http.get(Uri.parse(fileUrl));
+      
+      if (response.statusCode == 200) {
+        content = response.body;
+        isRemoteContent = true;
+        _log('QuestionLoaderService: Downloaded $fileName from Remote');
+      } else {
+        _log('QuestionLoaderService: HTTP ${response.statusCode} for $fileName');
+      }
+    } catch (e) {
+      _log('QuestionLoaderService: Failed to download $fileName: $e');
+    }
+
+    // B. Fallback to Local Asset
+    if (content == null) {
       try {
-        final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
-        final assets = manifest.listAssets();
-        questionFiles = assets
-            .where((String key) => key.startsWith('exam_questions/') && key.endsWith('.txt'))
-            .toList();
-        print('QuestionLoaderService: Loaded via AssetManifest API: $questionFiles');
+        content = await rootBundle.loadString(fileName);
+        _log('QuestionLoaderService: Loaded $fileName from Local Assets');
       } catch (e) {
-        print('QuestionLoaderService: AssetManifest API unavailable or failed ($e). Trying JSON parsing...');
-        try {
-          final manifestContent = await rootBundle.loadString('AssetManifest.json');
-          final Map<String, dynamic> manifestMap = json.decode(manifestContent);
-          questionFiles = manifestMap.keys
-              .where((String key) => key.startsWith('exam_questions/') && key.endsWith('.txt'))
-              .toList();
-        } catch (e2) {
-          print('QuestionLoaderService: Warning - Could not load AssetManifest.json: $e2');
-        }
+        _log('QuestionLoaderService: Failed to load local asset $fileName: $e');
       }
-      
-      // Fallback
-      if (questionFiles.isEmpty) {
-        print('QuestionLoaderService: No files found via manifest, trying fallback files...');
-        final potentialFiles = [
-          'exam_questions/history/history_of_india.txt',
-          'exam_questions/history/newtest.txt',
-          'exam_questions/history/sample_que.txt',
-          'exam_questions/history/test_quearion.txt',
-          'exam_questions/history/test.txt',
-          'exam_questions/geography/test7.txt'
-        ];
-        
-        for (final file in potentialFiles) {
-          try {
-            await rootBundle.loadString(file);
-            questionFiles.add(file);
-          } catch (e) {
-            // Ignore missing fallbacks
-          }
-        }
-      }
-      
-      for (final filePath in questionFiles) {
-        try {
-          final String fileContent = await rootBundle.loadString(filePath);
-          final category = _extractCategory(filePath);
-          await _processFileContent(fileContent, filePath, existingTopics, forceUpdate: false, category: category);
-        } catch (e) {
-          print('QuestionLoaderService: Error loading local file $filePath: $e');
-        }
-      }
+    }
+
+    // C. Process Content
+    if (content != null) {
+      await _processFileContent(
+        content, 
+        fileName, 
+        existingTopics, 
+        isRemote: isRemoteContent, 
+        forceUpdate: isRemoteContent, // Force update if it came from remote
+        category: category
+      );
+    }
   }
+
+
 
   String _calculateHash(String content) {
     var bytes = utf8.encode(content);
@@ -154,14 +160,14 @@ class QuestionLoaderService {
            
            // Check if content has actually changed
            if (existingExam.contentHash == newContentHash) {
-             print('QuestionLoaderService: Content unchanged for "${exam.topic}". Skipping update.');
+             _log('QuestionLoaderService: Content unchanged for "${exam.topic}". Skipping update.');
              return;
            }
            
            final hasProgress = await _db.hasProgressForExam(existingExam.id!);
            
            if (hasProgress && !ignoreProgress) {
-             print('QuestionLoaderService: Update available for "${exam.topic}" but user has progress. Flagging update.');
+             _log('QuestionLoaderService: Update available for "${exam.topic}" but user has progress. Flagging update.');
              // Flag update available, don't overwrite
              final updatedExam = Exam(
                id: existingExam.id,
@@ -176,13 +182,13 @@ class QuestionLoaderService {
              await _db.updateExam(updatedExam);
              return;
            } else {
-             print('QuestionLoaderService: Updating "${exam.topic}" - overwriting existing data');
+             _log('QuestionLoaderService: Updating "${exam.topic}" - overwriting existing data');
              // Delete existing exam (and questions)
              await _db.deleteExamByTopic(exam.topic);
              // Proceed to re-create
            }
         } else {
-           print('QuestionLoaderService: Skipping "${exam.topic}" - already loaded');
+           _log('QuestionLoaderService: Skipping "${exam.topic}" - already loaded');
            return;
         }
       }
@@ -211,9 +217,9 @@ class QuestionLoaderService {
       await _db.createQuestionsBatch(questionsWithExamId);
       existingTopics.add(exam.topic.toLowerCase()); 
       
-      print('QuestionLoaderService: Successfully loaded ${questions.length} questions for topic: ${exam.topic} from $sourceName (Category: $category)');
+      _log('QuestionLoaderService: Successfully loaded ${questions.length} questions for topic: ${exam.topic} from $sourceName (Category: $category)');
     } else {
-       print('QuestionLoaderService: Failed to parse file: $sourceName');
+       _log('QuestionLoaderService: Failed to parse file: $sourceName');
     }
   }
 
@@ -227,14 +233,21 @@ class QuestionLoaderService {
     
     int lineIndex = 0;
     
-    // Parse topic (first line should be "Topic: <topic_name>")
-    if (lines[lineIndex].trim().startsWith('Topic:')) {
-      topic = lines[lineIndex].trim().substring(6).trim();
+    // Parse topic (skip empty lines until "Topic:" is found)
+    while (lineIndex < lines.length) {
+      final line = lines[lineIndex].trim();
+      if (line.isNotEmpty) {
+        if (line.startsWith('Topic:')) {
+          topic = line.substring(6).trim();
+          lineIndex++;
+        }
+        break; // Stop after finding the first non-empty line (whether it's Topic or not)
+      }
       lineIndex++;
     }
     
     if (topic == null) {
-      print('No topic found in file');
+      _log('No topic found in file');
       return null;
     }
     
@@ -302,7 +315,7 @@ class QuestionLoaderService {
     }
     
     if (questions.isEmpty) {
-      print('No questions found in file');
+      _log('No questions found in file');
       return null;
     }
     
@@ -319,57 +332,81 @@ class QuestionLoaderService {
     };
   }
 
-  Future<bool> updateSpecificExam(String topic) async {
+  Future<String?> updateSpecificExam(String topic, {String? category}) async {
     try {
       final timestamp = DateTime.now().millisecondsSinceEpoch;
       final indexUrl = '$REMOTE_QUESTIONS_URL/index.json?t=$timestamp';
       
+      _log('Checking update for "$topic" from $indexUrl');
+      
       final response = await http.get(Uri.parse(indexUrl));
-      if (response.statusCode != 200) return false;
+      if (response.statusCode != 200) return 'Failed to fetch index: ${response.statusCode}';
       
       final List<dynamic> fileList = json.decode(response.body);
       
       for (final fileName in fileList) {
         if (fileName is String && fileName.endsWith('.txt')) {
+          // If category is specified, skip files not in that category
+          if (category != null) {
+            final fileCategory = _extractCategory(fileName);
+            if (fileCategory.toLowerCase() != category.toLowerCase()) {
+              continue;
+            }
+          }
+
           try {
-            final fileUrl = '$REMOTE_QUESTIONS_URL/$fileName?t=$timestamp';
+            // Fix: Handle potential double "exam_questions/"
+            String cleanFileName = fileName;
+            if (REMOTE_QUESTIONS_URL.endsWith('exam_questions') && fileName.startsWith('exam_questions/')) {
+              cleanFileName = fileName.substring('exam_questions/'.length);
+            }
+            
+            final fileUrl = '$REMOTE_QUESTIONS_URL/$cleanFileName?t=$timestamp';
             final fileResponse = await http.get(Uri.parse(fileUrl));
             
             if (fileResponse.statusCode == 200) {
-              // Parse just the header to check topic
               final content = fileResponse.body;
               final lines = content.split('\n');
-              if (lines.isNotEmpty && lines[0].trim().startsWith('Topic:')) {
-                final fileTopic = lines[0].trim().substring(6).trim();
-                
-                if (fileTopic.toLowerCase() == topic.toLowerCase()) {
-                  // Found the file! Force update.
-                  final existingExams = await _db.getAllExams();
-                  final existingTopics = existingExams.map((e) => e.topic.toLowerCase()).toSet();
-                  final category = _extractCategory(fileName);
-                  
-                  await _processFileContent(
-                    content, 
-                    fileName, 
-                    existingTopics, 
-                    isRemote: true, 
-                    forceUpdate: true, 
-                    ignoreProgress: true,
-                    category: category
-                  );
-                  return true;
+              
+              // Find topic line (skip empty lines)
+              String? fileTopic;
+              for (final line in lines) {
+                if (line.trim().isNotEmpty) {
+                  if (line.trim().startsWith('Topic:')) {
+                    fileTopic = line.trim().substring(6).trim();
+                  }
+                  break; // Stop after first non-empty line
                 }
+              }
+              
+              if (fileTopic != null && fileTopic.toLowerCase() == topic.toLowerCase()) {
+                // Found the file! Force update.
+                _log('Found matching file: $fileName for topic: $topic');
+                final existingExams = await _db.getAllExams();
+                final existingTopics = existingExams.map((e) => e.topic.toLowerCase()).toSet();
+                final category = _extractCategory(fileName);
+                
+                await _processFileContent(
+                  content, 
+                  fileName, 
+                  existingTopics, 
+                  isRemote: true, 
+                  forceUpdate: true, 
+                  ignoreProgress: true,
+                  category: category
+                );
+                return null; // Success (null error)
               }
             }
           } catch (e) {
-            print('Error checking file $fileName: $e');
+            _log('Error checking file $fileName: $e');
           }
         }
       }
-      return false;
+      return 'Exam file not found on server for topic: "$topic"';
     } catch (e) {
-      print('Error updating specific exam: $e');
-      return false;
+      _log('Error updating specific exam: $e');
+      return 'Error: $e';
     }
   }
 }

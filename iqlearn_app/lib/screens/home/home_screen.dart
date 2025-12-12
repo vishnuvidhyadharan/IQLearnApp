@@ -175,6 +175,27 @@ class _HomeScreenState extends State<HomeScreen> {
                               color: Colors.grey.shade500,
                             ),
                           ),
+                          const SizedBox(height: 24),
+                          // Debug Log Display
+                          Container(
+                            padding: const EdgeInsets.all(8),
+                            margin: const EdgeInsets.symmetric(horizontal: 16),
+                            height: 200,
+                            decoration: BoxDecoration(
+                              color: Colors.black12,
+                              borderRadius: BorderRadius.circular(8),
+                              border: Border.all(color: Colors.grey.shade300),
+                            ),
+                            child: SingleChildScrollView(
+                              child: Text(
+                                QuestionLoaderService.debugLog.toString(),
+                                style: const TextStyle(
+                                  fontFamily: 'monospace',
+                                  fontSize: 10,
+                                ),
+                              ),
+                            ),
+                          ),
                         ],
                       ),
                     )
