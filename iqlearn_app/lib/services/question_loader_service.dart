@@ -9,7 +9,7 @@ import 'database_service.dart';
 class QuestionLoaderService {
   final DatabaseService _db = DatabaseService.instance;
 
-  static const String REMOTE_QUESTIONS_URL = 'https://raw.githubusercontent.com/vishnuvidhyadharan/iqlearn/main';
+  static const String REMOTE_QUESTIONS_URL = 'https://raw.githubusercontent.com/vishnuvidhyadharan/iqlearnapp/main/exam_questions/';
 
   /// Load questions from remote URL and local files
   Future<void> loadQuestionsFromFile() async {
@@ -53,8 +53,9 @@ class QuestionLoaderService {
               final fileResponse = await http.get(Uri.parse(fileUrl));
               
               if (fileResponse.statusCode == 200) {
+                final category = _extractCategory(fileName);
                 // Force update: isRemote=true will trigger delete-then-insert
-                await _processFileContent(fileResponse.body, fileName, existingTopics, isRemote: true, forceUpdate: true);
+                await _processFileContent(fileResponse.body, fileName, existingTopics, isRemote: true, forceUpdate: true, category: category);
               } else {
                 print('QuestionLoaderService: Failed to download $fileName: ${fileResponse.statusCode}');
               }
@@ -99,9 +100,9 @@ class QuestionLoaderService {
       if (questionFiles.isEmpty) {
         print('QuestionLoaderService: No files found via manifest, trying fallback files...');
         final potentialFiles = [
-          'exam_questions/history_of_india.txt',
-          'exam_questions/test_quearion.txt',
-          'exam_questions/sample_que.txt'
+          'exam_questions/history/history_of_india.txt',
+          'exam_questions/history/sample_que.txt',
+          'exam_questions/geography/test7.txt'
         ];
         
         for (final file in potentialFiles) {
@@ -117,7 +118,8 @@ class QuestionLoaderService {
       for (final filePath in questionFiles) {
         try {
           final String fileContent = await rootBundle.loadString(filePath);
-          await _processFileContent(fileContent, filePath, existingTopics, forceUpdate: false);
+          final category = _extractCategory(filePath);
+          await _processFileContent(fileContent, filePath, existingTopics, forceUpdate: false, category: category);
         } catch (e) {
           print('QuestionLoaderService: Error loading local file $filePath: $e');
         }
@@ -130,7 +132,18 @@ class QuestionLoaderService {
     return digest.toString();
   }
 
-  Future<void> _processFileContent(String content, String sourceName, Set<String> existingTopics, {bool isRemote = false, bool forceUpdate = false, bool ignoreProgress = false}) async {
+  String _extractCategory(String filePath) {
+    // Format: exam_questions/<category>/<filename>
+    final parts = filePath.split('/');
+    if (parts.length >= 3 && parts[0] == 'exam_questions') {
+      // Capitalize first letter
+      final category = parts[1];
+      return category[0].toUpperCase() + category.substring(1);
+    }
+    return 'General';
+  }
+
+  Future<void> _processFileContent(String content, String sourceName, Set<String> existingTopics, {bool isRemote = false, bool forceUpdate = false, bool ignoreProgress = false, String category = 'General'}) async {
     final parsedData = _parseQuestions(content);
     
     if (parsedData != null) {
@@ -164,6 +177,7 @@ class QuestionLoaderService {
                createdAt: existingExam.createdAt,
                isUpdateAvailable: true,
                contentHash: existingExam.contentHash, // Keep old hash until updated
+               category: category,
              );
              await _db.updateExam(updatedExam);
              return;
@@ -185,6 +199,7 @@ class QuestionLoaderService {
         timeLimitMinutes: exam.timeLimitMinutes,
         createdAt: exam.createdAt,
         contentHash: newContentHash,
+        category: category,
       );
       
       final savedExam = await _db.createExam(examToSave);
@@ -202,7 +217,7 @@ class QuestionLoaderService {
       await _db.createQuestionsBatch(questionsWithExamId);
       existingTopics.add(exam.topic.toLowerCase()); 
       
-      print('QuestionLoaderService: Successfully loaded ${questions.length} questions for topic: ${exam.topic} from $sourceName (${isRemote ? "Remote" : "Local"})');
+      print('QuestionLoaderService: Successfully loaded ${questions.length} questions for topic: ${exam.topic} from $sourceName (Category: $category)');
     } else {
        print('QuestionLoaderService: Failed to parse file: $sourceName');
     }
@@ -337,6 +352,7 @@ class QuestionLoaderService {
                   // Found the file! Force update.
                   final existingExams = await _db.getAllExams();
                   final existingTopics = existingExams.map((e) => e.topic.toLowerCase()).toSet();
+                  final category = _extractCategory(fileName);
                   
                   await _processFileContent(
                     content, 
@@ -344,7 +360,8 @@ class QuestionLoaderService {
                     existingTopics, 
                     isRemote: true, 
                     forceUpdate: true, 
-                    ignoreProgress: true
+                    ignoreProgress: true,
+                    category: category
                   );
                   return true;
                 }

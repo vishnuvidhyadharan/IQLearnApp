@@ -6,6 +6,7 @@ class Exam {
   final DateTime? createdAt;
   final bool isUpdateAvailable;
   final String? contentHash;
+  final String category;
 
   Exam({
     this.id,
@@ -15,6 +16,7 @@ class Exam {
     this.createdAt,
     this.isUpdateAvailable = false,
     this.contentHash,
+    this.category = 'General',
   });
 
   Map<String, dynamic> toMap() {
@@ -26,6 +28,7 @@ class Exam {
       'created_at': createdAt?.toIso8601String(),
       'is_update_available': isUpdateAvailable ? 1 : 0,
       'content_hash': contentHash,
+      'category': category,
     };
   }
 
@@ -40,6 +43,7 @@ class Exam {
           : null,
       isUpdateAvailable: (map['is_update_available'] as int? ?? 0) == 1,
       contentHash: map['content_hash'] as String?,
+      category: map['category'] as String? ?? 'General',
     );
   }
 }

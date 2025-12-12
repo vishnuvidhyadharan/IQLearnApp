@@ -29,8 +29,9 @@ class DatabaseService {
       databaseFactory = databaseFactoryFfi;
       return await openDatabase(
         inMemoryDatabasePath,
-        version: 1,
+        version: 2,
         onCreate: _createDB,
+        onUpgrade: _onUpgrade,
       );
     }
     
@@ -42,8 +43,9 @@ class DatabaseService {
 
       return await openDatabase(
         path,
-        version: 1,
+        version: 2,
         onCreate: _createDB,
+        onUpgrade: _onUpgrade,
       );
     }
     
@@ -56,9 +58,16 @@ class DatabaseService {
 
     return await openDatabase(
       path,
-      version: 1,
+      version: 2,
       onCreate: _createDB,
+      onUpgrade: _onUpgrade,
     );
+  }
+
+  Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
+    if (oldVersion < 2) {
+      await db.execute("ALTER TABLE exams ADD COLUMN category TEXT DEFAULT 'General'");
+    }
   }
 
   Future<void> _createDB(Database db, int version) async {
@@ -89,7 +98,8 @@ class DatabaseService {
         time_limit_minutes INTEGER DEFAULT 120,
         created_at $textTypeNullable,
         is_update_available INTEGER DEFAULT 0,
-        content_hash $textTypeNullable
+        content_hash $textTypeNullable,
+        category TEXT DEFAULT 'General'
       )
     ''');
 
@@ -225,12 +235,30 @@ class DatabaseService {
       createdAt: exam.createdAt,
       isUpdateAvailable: exam.isUpdateAvailable,
       contentHash: exam.contentHash,
+      category: exam.category,
     );
   }
 
   Future<List<Exam>> getAllExams() async {
     final db = await database;
     final result = await db.query('exams', orderBy: 'created_at DESC');
+    return result.map((json) => Exam.fromMap(json)).toList();
+  }
+
+  Future<List<String>> getCategories() async {
+    final db = await database;
+    final result = await db.rawQuery('SELECT DISTINCT category FROM exams ORDER BY category ASC');
+    return result.map((row) => row['category'] as String).toList();
+  }
+
+  Future<List<Exam>> getExamsByCategory(String category) async {
+    final db = await database;
+    final result = await db.query(
+      'exams', 
+      where: 'category = ?', 
+      whereArgs: [category],
+      orderBy: 'created_at DESC'
+    );
     return result.map((json) => Exam.fromMap(json)).toList();
   }
 
