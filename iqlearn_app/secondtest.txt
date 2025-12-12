@@ -1,0 +1,22 @@
+Topic: second test file
+
+1. Who is known as the Father of the Nation in India?
+A. Jawaharlal Nehru
+B. Mahatma Gandhi
+C. Sardar Vallabhbhai Patel
+D. Subhas Chandra Bose
+Ans: B
+
+2. What is the capital of India?
+A. Mumbai
+B. Kolkata
+C. New Delhi
+D. Chennai
+Ans: C
+
+3. In which year did India gain independence from British rule?
+A. 1942
+B. 1945
+C. 1947
+D. 1950
+Ans: C
