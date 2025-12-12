@@ -69,7 +69,7 @@ class AuthService {
   }
 
   // Update user's Groq API key
-  Future<void> updateApiKey(String apiKey) async {
+  Future<bool> updateApiKey(String apiKey) async {
     if (_currentUser != null) {
       final updatedUser = _currentUser!.copyWith(groqApiKey: apiKey);
       await _db.updateUser(updatedUser);
@@ -77,7 +77,9 @@ class AuthService {
       
       // Initialize Groq service
       GroqService().initialize(apiKey);
+      return true;
     }
+    return false;
   }
 
   // Update user profile

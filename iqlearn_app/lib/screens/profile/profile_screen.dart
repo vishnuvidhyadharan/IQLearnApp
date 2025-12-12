@@ -59,7 +59,38 @@ class _ProfileScreenState extends State<ProfileScreen> {
   }
 
   Future<void> _saveApiKey() async {
-    // ... existing save logic ...
+    setState(() {
+      _isSaving = true;
+    });
+
+    try {
+      final success = await _authService.updateApiKey(_apiKeyController.text.trim());
+      
+      if (mounted) {
+        if (success) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('API key saved successfully!')),
+          );
+          setState(() {
+            _isEditing = false;
+          });
+        } else {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Failed to save: User not logged in')),
+          );
+        }
+      }
+    } catch (e) {
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text('Error saving API key: $e')),
+        );
+      }
+    } finally {
+      setState(() {
+        _isSaving = false;
+      });
+    }
   }
 
   Future<void> _toggleBiometric(bool value) async {
