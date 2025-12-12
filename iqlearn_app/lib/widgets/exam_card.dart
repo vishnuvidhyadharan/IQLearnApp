@@ -20,9 +20,14 @@ class ExamCard extends StatelessWidget {
     this.score,
   });
 
+  bool get _isLowScore {
+    if (score == null || totalQuestions == 0) return false;
+    return (score! / totalQuestions) < 0.7;
+  }
+
   Color get _backgroundColor {
     if (status == 'completed') {
-      return Colors.lightGreen.shade100;
+      return _isLowScore ? Colors.red.shade100 : Colors.lightGreen.shade100;
     } else {
       return Colors.lightBlue.shade100;
     }
@@ -30,7 +35,7 @@ class ExamCard extends StatelessWidget {
 
   Color get _borderColor {
     if (status == 'completed') {
-      return Colors.green.shade400;
+      return _isLowScore ? Colors.red.shade400 : Colors.green.shade400;
     } else {
       return Colors.blue.shade400;
     }
@@ -38,7 +43,7 @@ class ExamCard extends StatelessWidget {
 
   IconData get _icon {
     if (status == 'completed') {
-      return Icons.check_circle;
+      return _isLowScore ? Icons.cancel : Icons.check_circle;
     } else if (status == 'in_progress') {
       return Icons.play_circle;
     } else {
@@ -48,7 +53,7 @@ class ExamCard extends StatelessWidget {
 
   Color get _iconColor {
     if (status == 'completed') {
-      return Colors.green.shade700;
+      return _isLowScore ? Colors.red.shade700 : Colors.green.shade700;
     } else {
       return Colors.blue.shade700;
     }
@@ -75,11 +80,7 @@ class ExamCard extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Icon(
-                    _icon,
-                    size: 32,
-                    color: _iconColor,
-                  ),
+                  Icon(_icon, size: 32, color: _iconColor),
                   if (isUpdateAvailable)
                     Container(
                       padding: const EdgeInsets.symmetric(
@@ -106,11 +107,13 @@ class ExamCard extends StatelessWidget {
                         vertical: 4,
                       ),
                       decoration: BoxDecoration(
-                        color: Colors.green,
+                        color: _isLowScore ? Colors.red : Colors.green,
                         borderRadius: BorderRadius.circular(12),
                       ),
                       child: Text(
-                        score != null ? 'Score: $score/$totalQuestions' : 'Done',
+                        score != null
+                            ? 'Score: $score/$totalQuestions'
+                            : 'Done',
                         style: const TextStyle(
                           color: Colors.white,
                           fontSize: 12,
@@ -133,16 +136,17 @@ class ExamCard extends StatelessWidget {
               const SizedBox(height: 8),
               Text(
                 '$totalQuestions Questions',
-                style: TextStyle(
-                  fontSize: 14,
-                  color: Colors.grey.shade700,
-                ),
+                style: TextStyle(fontSize: 14, color: Colors.grey.shade700),
               ),
               const SizedBox(height: 12),
               LinearProgressIndicator(
-                value: totalQuestions > 0 ? completedQuestions / totalQuestions : 0,
+                value: totalQuestions > 0
+                    ? completedQuestions / totalQuestions
+                    : 0,
                 backgroundColor: Colors.grey.shade300,
-                color: status == 'completed' ? Colors.green : Colors.blue,
+                color: status == 'completed'
+                    ? (_isLowScore ? Colors.red : Colors.green)
+                    : Colors.blue,
               ),
               const SizedBox(height: 8),
               Text(

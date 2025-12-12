@@ -41,14 +41,11 @@ class AuthService {
       // Check if user with this email already exists
       var user = await _db.getUserByEmail(email);
       
-      if (user == null) {
-        // Create new user
-        user = await _db.createUser(User(
+      user ??= await _db.createUser(User(
           email: email,
           name: name,
           createdAt: DateTime.now(),
         ));
-      }
 
       // Set as current user
       _currentUser = user;

@@ -32,8 +32,8 @@ class _ResultsScreenState extends State<ResultsScreen> {
   bool _showOnlyIncorrect = false;
   List<Question> _questions = [];
   Map<int, UserAnswer> _answersMap = {};
-  Map<int, String> _explanations = {};
-  Map<int, bool> _loadingExplanations = {};
+  final Map<int, String> _explanations = {};
+  final Map<int, bool> _loadingExplanations = {};
 
   @override
   void initState() {
@@ -74,7 +74,9 @@ class _ResultsScreenState extends State<ResultsScreen> {
     if (!_groqService.isInitialized) {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Please add your Groq API key in the profile to use explanations.'),
+          content: Text(
+            'Please add your Groq API key in the profile to use explanations.',
+          ),
         ),
       );
       return;
@@ -85,10 +87,8 @@ class _ResultsScreenState extends State<ResultsScreen> {
     });
 
     try {
-      final explanation = await _groqService.getExplanation(
-        question: question,
-      );
-      
+      final explanation = await _groqService.getExplanation(question: question);
+
       setState(() {
         _explanations[question.id!] = explanation;
         _loadingExplanations[question.id!] = false;
@@ -97,7 +97,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
       setState(() {
         _loadingExplanations[question.id!] = false;
       });
-      
+
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text('Error getting explanation: $e')),
@@ -123,10 +123,13 @@ class _ResultsScreenState extends State<ResultsScreen> {
 
   List<Question> get _filteredQuestions {
     if (!_showOnlyIncorrect) return _questions;
-    
+
     return _questions.where((question) {
       final answer = _answersMap[question.id!];
-      return answer?.isCorrect == false;
+      // Include if answer is missing (unanswered) OR incorrect
+      return answer == null ||
+          answer.selectedAnswer == null ||
+          answer.isCorrect == false;
     }).toList();
   }
 
@@ -137,9 +140,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
     }
 
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Exam Results'),
-      ),
+      appBar: AppBar(title: const Text('Exam Results')),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(24),
         child: Column(
@@ -164,7 +165,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                       ),
                     ),
                     const SizedBox(height: 24),
-                    
+
                     // Score circle
                     SizedBox(
                       height: 200,
@@ -186,7 +187,8 @@ class _ResultsScreenState extends State<ResultsScreen> {
                               ),
                             ),
                             PieChartSectionData(
-                              value: (widget.totalQuestions - widget.score).toDouble(),
+                              value: (widget.totalQuestions - widget.score)
+                                  .toDouble(),
                               color: Colors.red,
                               title: '${widget.totalQuestions - widget.score}',
                               radius: 50,
@@ -201,7 +203,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
                       ),
                     ),
                     const SizedBox(height: 24),
-                    
+
                     // Score text
                     Text(
                       '${widget.score} / ${widget.totalQuestions}',
@@ -344,11 +346,12 @@ class _ResultsScreenState extends State<ResultsScreen> {
                         // Options
                         ...['A', 'B', 'C', 'D'].map((option) {
                           final isUserAnswer = userAnswer == option;
-                          final isCorrectAnswer = question.correctAnswer == option;
-                          
+                          final isCorrectAnswer =
+                              question.correctAnswer == option;
+
                           Color? backgroundColor;
                           Color? textColor;
-                          
+
                           if (isCorrectAnswer) {
                             backgroundColor = Colors.green.shade100;
                             textColor = Colors.green.shade900;
@@ -367,25 +370,37 @@ class _ResultsScreenState extends State<ResultsScreen> {
                                 color: isCorrectAnswer
                                     ? Colors.green
                                     : (isUserAnswer && !isCorrect)
-                                        ? Colors.red
-                                        : Colors.grey.shade300,
-                                width: (isCorrectAnswer || isUserAnswer) ? 2 : 1,
+                                    ? Colors.red
+                                    : Colors.grey.shade300,
+                                width: (isCorrectAnswer || isUserAnswer)
+                                    ? 2
+                                    : 1,
                               ),
                             ),
                             child: Row(
                               children: [
                                 if (isCorrectAnswer)
-                                  const Icon(Icons.check, color: Colors.green, size: 20)
+                                  const Icon(
+                                    Icons.check,
+                                    color: Colors.green,
+                                    size: 20,
+                                  )
                                 else if (isUserAnswer && !isCorrect)
-                                  const Icon(Icons.close, color: Colors.red, size: 20),
-                                if (isCorrectAnswer || (isUserAnswer && !isCorrect))
+                                  const Icon(
+                                    Icons.close,
+                                    color: Colors.red,
+                                    size: 20,
+                                  ),
+                                if (isCorrectAnswer ||
+                                    (isUserAnswer && !isCorrect))
                                   const SizedBox(width: 8),
                                 Expanded(
                                   child: Text(
                                     '$option. ${question.options[option]}',
                                     style: TextStyle(
                                       color: textColor ?? Colors.black87,
-                                      fontWeight: (isCorrectAnswer || isUserAnswer)
+                                      fontWeight:
+                                          (isCorrectAnswer || isUserAnswer)
                                           ? FontWeight.w600
                                           : FontWeight.normal,
                                     ),
@@ -405,7 +420,9 @@ class _ResultsScreenState extends State<ResultsScreen> {
                               ? const SizedBox(
                                   width: 16,
                                   height: 16,
-                                  child: CircularProgressIndicator(strokeWidth: 2),
+                                  child: CircularProgressIndicator(
+                                    strokeWidth: 2,
+                                  ),
                                 )
                               : const Icon(Icons.lightbulb_outline),
                           label: const Text('Explain'),
@@ -426,7 +443,11 @@ class _ResultsScreenState extends State<ResultsScreen> {
                               children: [
                                 Row(
                                   children: [
-                                    Icon(Icons.info, color: Colors.blue.shade700, size: 20),
+                                    Icon(
+                                      Icons.info,
+                                      color: Colors.blue.shade700,
+                                      size: 20,
+                                    ),
                                     const SizedBox(width: 8),
                                     Text(
                                       'Explanation',

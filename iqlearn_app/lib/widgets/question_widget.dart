@@ -7,6 +7,7 @@ class QuestionWidget extends StatelessWidget {
   final bool markedForReview;
   final Function(String) onAnswerSelected;
   final Function(bool) onMarkForReview;
+  final VoidCallback? onClearAnswer;
 
   const QuestionWidget({
     super.key,
@@ -15,6 +16,7 @@ class QuestionWidget extends StatelessWidget {
     required this.markedForReview,
     required this.onAnswerSelected,
     required this.onMarkForReview,
+    this.onClearAnswer,
   });
 
   @override
@@ -43,7 +45,13 @@ class QuestionWidget extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.only(bottom: 12),
                 child: InkWell(
-                  onTap: () => onAnswerSelected(option),
+                  onTap: () {
+                    if (isSelected) {
+                      onClearAnswer?.call();
+                    } else {
+                      onAnswerSelected(option);
+                    }
+                  },
                   borderRadius: BorderRadius.circular(12),
                   child: Container(
                     padding: const EdgeInsets.all(16),

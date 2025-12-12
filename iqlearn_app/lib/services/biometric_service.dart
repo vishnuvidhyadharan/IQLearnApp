@@ -1,7 +1,6 @@
 import 'package:flutter/services.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:local_auth/error_codes.dart' as auth_error;
 
 class BiometricService {
   final LocalAuthentication _auth = LocalAuthentication();
