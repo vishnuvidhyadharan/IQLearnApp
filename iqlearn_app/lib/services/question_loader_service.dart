@@ -9,28 +9,19 @@ import 'database_service.dart';
 class QuestionLoaderService {
   final DatabaseService _db = DatabaseService.instance;
 
-  static const String REMOTE_QUESTIONS_URL = 'https://raw.githubusercontent.com/vishnuvidhyadharan/iqlearnapp/main/exam_questions/';
+  static const String REMOTE_QUESTIONS_URL = 'https://raw.githubusercontent.com/vishnuvidhyadharan/IQLearnApp/master/iqlearn_app/exam_questions';
 
   /// Load questions from remote URL and local files
   Future<void> loadQuestionsFromFile() async {
-    try {
-      print('QuestionLoaderService: Starting to load questions...');
-      
-      // Get existing exams to check which ones are already loaded
-      final existingExams = await _db.getAllExams();
-      final existingTopics = existingExams.map((e) => e.topic.toLowerCase()).toSet();
-      print('QuestionLoaderService: Existing topics: $existingTopics');
-
-      // 1. Try to load remote questions first
-      await _loadRemoteQuestions(existingTopics);
-
-      // 2. Load local assets as fallback/supplement
-      await _loadLocalAssets(existingTopics);
-      
-    } catch (e) {
-      print('QuestionLoaderService: Critical error loading questions: $e');
-      rethrow;
-    }
+    // 1. Load local assets first (fast)
+    final existingExams = await _db.getAllExams();
+    final existingTopics = existingExams.map((e) => e.topic.toLowerCase()).toSet();
+    
+    await _loadLocalAssets(existingTopics);
+    
+    // 2. Try to load remote questions (background)
+    // Don't await this to allow UI to show local content immediately
+    _loadRemoteQuestions(existingTopics);
   }
 
   Future<void> _loadRemoteQuestions(Set<String> existingTopics) async {
@@ -101,7 +92,10 @@ class QuestionLoaderService {
         print('QuestionLoaderService: No files found via manifest, trying fallback files...');
         final potentialFiles = [
           'exam_questions/history/history_of_india.txt',
+          'exam_questions/history/newtest.txt',
           'exam_questions/history/sample_que.txt',
+          'exam_questions/history/test_quearion.txt',
+          'exam_questions/history/test.txt',
           'exam_questions/geography/test7.txt'
         ];
         

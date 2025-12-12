@@ -79,12 +79,15 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
+    print('DEBUG: SplashScreen initState');
     _checkLoginStatus();
   }
 
   Future<void> _checkLoginStatus() async {
+    print('DEBUG: _checkLoginStatus started');
     // Give splash screen a moment to display
     await Future.delayed(const Duration(seconds: 1));
+    print('DEBUG: 1 second delay finished');
 
     // TEMPORARY: Bypass login check if Firebase is not configured
     // Once Firebase is set up, uncomment the authentication check below
@@ -96,11 +99,14 @@ class _SplashScreenState extends State<SplashScreen> {
     const targetScreen = LoginScreen();
 
     if (mounted) {
+      print('DEBUG: Navigating to LoginScreen');
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
           builder: (context) => targetScreen,
         ),
       );
+    } else {
+      print('DEBUG: SplashScreen not mounted, skipping navigation');
     }
   }
 

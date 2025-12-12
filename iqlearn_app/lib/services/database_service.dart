@@ -66,7 +66,11 @@ class DatabaseService {
 
   Future<void> _onUpgrade(Database db, int oldVersion, int newVersion) async {
     if (oldVersion < 2) {
-      await db.execute("ALTER TABLE exams ADD COLUMN category TEXT DEFAULT 'General'");
+      try {
+        await db.execute("ALTER TABLE exams ADD COLUMN category TEXT DEFAULT 'General'");
+      } catch (e) {
+        print('Migration error (ignoring if column exists): $e');
+      }
     }
   }
 
