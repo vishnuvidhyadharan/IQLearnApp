@@ -1,7 +1,7 @@
 Thermodynamics: Fundamental concepts and definitions , various systems , intensive and extensive properties , Zeroth law of thermodynamics First law of thermodynamics , applications ,limitations. Second law of Ithermodynamics , general statements of second law,concept of entropy,calculation of entropy changes , Carnot's principle,Clausius inequality ,entropy and irreversibility, statistical explanation of entropy,Third law of thermodynamics. Thermodynamic properties of pure fluids , Gibbs free energy, work function, Joule, Thomson coefficient, Gibbs,Helmholtz equation ,method of Jacobians , thermodynamic diagrams ,fugacity and actiity of pure fluids Compressors, single,stage and multistage compression, refrigeration and liquefaction ,COP,various refrigeration cycles , general properties of refrigerant, Joule,Thomson expansion and liquefaction processes , power cycles , steam,power plant cycles , internal combustion engine cycles , gas,turbine power plant cycle. Properties of solutions , partial molar properties and methods of determination ,Lewis,Randall rule ,Raoult's law, Henry's law ,activity and activity coefficients in solutions, effect of temperature and pressure on activity coefficients , Gibbs,Duhem equations, property changes on mixing , heat effects of mixing processes.
 
 
-## 🔸 A. Fundamental Concepts of Thermodynamics
+Topic: Fundamental Concepts of Thermodynamics
 
 1. Thermodynamics is the science that deals with
 A. Motion of fluids

@@ -2,7 +2,7 @@ Introduction , definition of instrumentation,concept of an instrument,functional
 
 
 
-# 🔹 1. Introduction & Definition of Instrumentation (10 MCQs)
+Topic: Introduction & Definition of Instrumentation (10 MCQs)
 
 1. Instrumentation mainly deals with
 A. Design of machines

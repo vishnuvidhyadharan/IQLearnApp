@@ -1,7 +1,7 @@
 Chemical reaction equilibria ,reaction stoichiometry , equilibrium constant,standard free energy change , standard state ,feasibility of reaction,effect of temperature on equilibrium constant , presentation of free energy data , evaluation of K, equilibrium conversion in gas,phase reactions , effect of pressure and other parameters on conversion liquid,phase and heterogeneous reaction , reactions in solutions pressures of decomposition in gas,solid reaction , simultaneous reactions, phase,rule for reacting systems.
 
 
-# 🔹  Chemical Reaction Equilibria (10 MCQs)
+Topic: Chemical Reaction Equilibria (10 MCQs)
 
 1. A system is said to be in chemical equilibrium when
 A. Forward reaction stops

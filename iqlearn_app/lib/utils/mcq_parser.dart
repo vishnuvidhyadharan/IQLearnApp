@@ -1,7 +1,7 @@
 import '../models/question.dart';
 
 class MCQParser {
-  static ParseResult parse(String input) {
+  static ParseResult parse(String input, {String? filename}) {
     try {
       final lines = input.split('\n').where((line) => line.trim().isNotEmpty).toList();
       
@@ -9,13 +9,36 @@ class MCQParser {
         return ParseResult(success: false, error: 'Input is empty');
       }
 
-      // Extract topic from first line
+      // Extract topic
       String topic = '';
-      if (lines.first.toLowerCase().startsWith('topic:')) {
-        topic = lines.first.substring(6).trim();
-        lines.removeAt(0);
+      int searchLimit = lines.length < 50 ? lines.length : 50;
+      int topicLineIndex = -1;
+
+      for (int i = 0; i < searchLimit; i++) {
+        if (lines[i].toLowerCase().startsWith('topic:')) {
+          topic = lines[i].substring(6).trim();
+          topicLineIndex = i;
+          break;
+        }
+      }
+
+      if (topic.isEmpty) {
+        if (filename != null) {
+           // Fallback to filename
+           final parts = filename.split('/');
+           final fileNameWithExt = parts.last;
+           final nameOnly = fileNameWithExt.split('.').first;
+           
+           topic = nameOnly.split('_').map((word) {
+             if (word.isEmpty) return '';
+             return word[0].toUpperCase() + word.substring(1);
+           }).join(' ');
+        } else {
+           return ParseResult(success: false, error: 'Topic not found. First line should start with "Topic:" or filename must be provided.');
+        }
       } else {
-        return ParseResult(success: false, error: 'Topic not found. First line should start with "Topic:"');
+        // If topic found in file, remove that line so we don't parse it as a question
+        lines.removeAt(topicLineIndex);
       }
 
       List<ParsedQuestion> questions = [];

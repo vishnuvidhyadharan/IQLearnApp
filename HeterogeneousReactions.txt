@@ -2,7 +2,7 @@ Heterogeneous Reactions: Catalysis and catalytic reactors: Catalysts, types of c
 
 
 
-## 🔸 A. Catalysis – Fundamentals
+Topic: Catalysis – Fundamentals
 
 1. Catalysis is the phenomenon in which
 A. Reaction equilibrium is shifted

@@ -144,7 +144,7 @@ class QuestionLoaderService {
   }
 
   Future<void> _processFileContent(String content, String sourceName, Set<String> existingTopics, {bool isRemote = false, bool forceUpdate = false, bool ignoreProgress = false, String category = 'General'}) async {
-    final parsedData = _parseQuestions(content);
+    final parsedData = _parseQuestions(content, sourceName);
     
     if (parsedData != null) {
       final exam = parsedData['exam'] as Exam;
@@ -223,7 +223,7 @@ class QuestionLoaderService {
     }
   }
 
-  Map<String, dynamic>? _parseQuestions(String content) {
+  Map<String, dynamic>? _parseQuestions(String content, String sourceName) {
     final lines = content.split('\n');
     
     if (lines.isEmpty) return null;
@@ -233,21 +233,37 @@ class QuestionLoaderService {
     
     int lineIndex = 0;
     
-    // Parse topic (skip empty lines until "Topic:" is found)
-    while (lineIndex < lines.length) {
-      final line = lines[lineIndex].trim();
-      if (line.isNotEmpty) {
-        if (line.startsWith('Topic:')) {
-          topic = line.substring(6).trim();
-          lineIndex++;
-        }
-        break; // Stop after finding the first non-empty line (whether it's Topic or not)
+    // Parse topic (search in first 50 lines)
+    int searchLimit = lines.length < 50 ? lines.length : 50;
+    for (int i = 0; i < searchLimit; i++) {
+      final line = lines[i].trim();
+      if (line.isNotEmpty && line.startsWith('Topic:')) {
+        topic = line.substring(6).trim();
+        lineIndex = i + 1;
+        break;
       }
-      lineIndex++;
+    }
+
+    // Fallback: Use filename as topic if not found
+    if (topic == null) {
+      _log('No "Topic:" line found in $sourceName. Using filename as topic.');
+      // Extract filename from path (e.g., "exam_questions/chemistry/test.txt" -> "test")
+      final parts = sourceName.split('/');
+      final fileNameWithExt = parts.last;
+      final fileName = fileNameWithExt.split('.').first;
+      
+      // Capitalize and format
+      topic = fileName.split('_').map((word) {
+        if (word.isEmpty) return '';
+        return word[0].toUpperCase() + word.substring(1);
+      }).join(' ');
+      
+      // Reset lineIndex to 0 to scan for questions from the beginning
+      lineIndex = 0; 
     }
     
-    if (topic == null) {
-      _log('No topic found in file');
+    if (topic == null || topic.isEmpty) {
+      _log('Failed to determine topic for file: $sourceName');
       return null;
     }
     

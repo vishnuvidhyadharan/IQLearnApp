@@ -1,7 +1,7 @@
 Chemical Reaction Engineering: Overview of chemical reaction engineering, classification of chemical reactions, variables affecting the rate of reaction, definition of reaction rate, kinetics of homogeneous reaction, pseudo steady state hypothesis (PSSH), searching for a mechanism, General considerations, hydrogen bromide reaction polymerisation ,steps in free radical polymerisation, evaluation of rate equation by integral and differential analysis for co.nstant volume and variable volume system. Introduction to reactor design, classification of reactors, design of single and multiple reactions , size comparison of single and multiple reactors, auto catalytic reactions, design of evaluation of laboratory reactors, Integral (fixed bed. reactor, stirred batch reactor, stirred contained solid reactor (SCSR), differentia reactors: continuous stirred tank reactor (CSTR), Laminar flow reactor, stirred through transport reactor, re,calculating transport reactor
 
 
-## 🔸 A. Overview of Chemical Reaction Engineering
+Topic: Overview of Chemical Reaction Engineering
 
 1. Chemical Reaction Engineering mainly deals with
 A. Fluid flow behavior
