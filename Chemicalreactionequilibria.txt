@@ -1,0 +1,1330 @@
+Chemical reaction equilibria ,reaction stoichiometry , equilibrium constant,standard free energy change , standard state ,feasibility of reaction,effect of temperature on equilibrium constant , presentation of free energy data , evaluation of K, equilibrium conversion in gas,phase reactions , effect of pressure and other parameters on conversion liquid,phase and heterogeneous reaction , reactions in solutions pressures of decomposition in gas,solid reaction , simultaneous reactions, phase,rule for reacting systems.
+
+
+# 🔹  Chemical Reaction Equilibria (10 MCQs)
+
+1. A system is said to be in chemical equilibrium when
+A. Forward reaction stops
+B. Reverse reaction stops
+C. Forward and reverse reactions proceed at equal rates
+D. Concentrations become zero
+
+Ans: C
+
+1. Chemical equilibrium is possible only in
+A. Open system
+B. Closed system
+C. Isolated system
+D. Adiabatic system
+
+Ans: B
+
+1. For an equilibrium reaction, the equilibrium constant depends on
+A. Initial concentration
+B. Catalyst
+C. Temperature
+D. Pressure
+
+Ans: C
+
+1. Which is true for equilibrium?
+A. ΔG = maximum
+B. ΔG = zero
+C. ΔG < 0
+D. ΔG > 0
+
+Ans: B
+
+1. Equilibrium is dynamic because
+A. Molecules stop reacting
+B. Reaction ceases
+C. Both reactions continue
+D. Energy becomes zero
+
+Ans: C
+
+1. At equilibrium, the reaction quotient Q is
+A. Greater than K
+B. Less than K
+C. Equal to K
+D. Zero
+
+Ans: C
+
+1. Which factor does NOT affect equilibrium position?
+A. Concentration
+B. Temperature
+C. Catalyst
+D. Pressure
+
+Ans: C
+
+1. Equilibrium can be shifted by
+A. Adding inert gas at constant volume
+B. Changing temperature
+C. Adding catalyst
+D. Increasing vessel size only
+
+Ans: B
+
+1. For reversible reactions, equilibrium is achieved when
+A. Reaction is complete
+B. One reactant is exhausted
+C. Free energy is minimum
+D. Pressure is maximum
+
+Ans: C
+
+1. At equilibrium, the value of ΔG° is
+A. Zero
+B. Positive
+C. Negative
+D. Depends on K
+
+Ans: D
+
+
+
+# 🔹  Reaction Stoichiometry (10 MCQs)
+
+1. Stoichiometry is concerned with
+A. Reaction rate
+B. Heat transfer
+C. Quantitative relations in reactions
+D. Reaction mechanism
+
+Ans: C
+
+1. Limiting reactant is the one which
+A. Is in excess
+B. Reacts completely first
+C. Has highest molar mass
+D. Controls temperature
+
+Ans: B
+
+1. Percent yield is defined as
+A. Theoretical yield × 100
+B. Actual yield / theoretical yield × 100
+C. Theoretical yield / actual yield
+D. Maximum yield
+
+Ans: B
+
+1. A stoichiometric mixture contains
+A. Excess reactant
+B. Limiting reactant
+C. Reactants in exact proportions
+D. Products only
+
+Ans: C
+
+1. The mole ratio in a balanced equation represents
+A. Volume ratio only
+B. Mass ratio only
+C. Molecular ratio
+D. Molar ratio
+
+Ans: D
+
+1. Theoretical yield is
+A. Actual yield
+B. Maximum possible yield
+C. Minimum yield
+D. Experimental yield
+
+Ans: B
+
+1. If excess reactant is present, the product formed depends on
+A. Catalyst
+B. Limiting reactant
+C. Pressure
+D. Temperature
+
+Ans: B
+
+1. Atomic balance is required for
+A. Mass conservation
+B. Energy conservation
+C. Charge conservation
+D. Entropy
+
+Ans: A
+
+1. Stoichiometric calculations are based on
+A. Ideal gas law
+B. Balanced chemical equation
+C. Gibbs equation
+D. Raoult’s law
+
+Ans: B
+
+1. Which law governs stoichiometry?
+A. Law of definite proportions
+B. Boyle’s law
+C. Charles’ law
+D. Raoult’s law
+
+Ans: A
+
+
+
+# 🔹  Equilibrium Constant (10 MCQs)
+
+1. Equilibrium constant K is defined using
+A. Initial concentrations
+B. Equilibrium concentrations
+C. Stoichiometric coefficients only
+D. Rate constants
+
+Ans: B
+
+1. For reaction: aA + bB ⇌ cC + dD
+Kc equals
+A. (A + B)/(C + D)
+B. (C^c D^d)/(A^a B^b)
+C. (A^a B^b)/(C^c D^d)
+D. c+d/a+b
+
+Ans: B
+
+1. Larger value of K indicates
+A. Reactant favored
+B. Product favored
+C. No reaction
+D. Zero equilibrium
+
+Ans: B
+
+1. K depends on
+A. Concentration
+B. Catalyst
+C. Temperature
+D. Time
+
+Ans: C
+
+1. Units of K depend on
+A. Temperature
+B. Reaction stoichiometry
+C. Pressure
+D. Catalyst
+
+Ans: B
+
+1. For pure solids and liquids, activity is taken as
+A. Zero
+B. One
+C. Infinity
+D. Depends on temperature
+
+Ans: B
+
+1. Relationship between Kp and Kc is
+A. Kp = Kc
+B. Kp = Kc(RT)^Δn
+C. Kc = Kp/RT
+D. Kp = RT
+
+Ans: B
+
+1. If Δn = 0, then
+A. Kp = Kc
+B. Kp > Kc
+C. Kp < Kc
+D. Kp = 0
+
+Ans: A
+
+1. Reaction quotient Q compares with K to predict
+A. Reaction rate
+B. Reaction direction
+C. Reaction order
+D. Reaction yield
+
+Ans: B
+
+1. If Q < K, reaction proceeds
+A. Forward
+B. Backward
+C. Stops
+D. Randomly
+
+Ans: A
+
+
+
+# 🔹  Standard Free Energy Change (10 MCQs)
+
+1. Standard free energy change is denoted by
+A. ΔH°
+B. ΔS°
+C. ΔG°
+D. ΔE°
+
+Ans: C
+
+1. Relation between ΔG° and K is
+A. ΔG° = RT ln K
+B. ΔG° = −RT ln K
+C. ΔG° = −RT/K
+D. ΔG° = KRT
+
+Ans: B
+
+1. If ΔG° < 0, the reaction is
+A. Non-spontaneous
+B. At equilibrium
+C. Spontaneous
+D. Impossible
+
+Ans: C
+
+1. At equilibrium, ΔG equals
+A. ΔG°
+B. Zero
+C. RT
+D. ln K
+
+Ans: B
+
+1. Units of ΔG° are
+A. Joule
+B. Joule/mol
+C. kcal
+D. N/m
+
+Ans: B
+
+1. ΔG° depends on
+A. Initial conditions
+B. Standard states
+C. Catalyst
+D. Time
+
+Ans: B
+
+1. If K = 1, then
+A. ΔG° < 0
+B. ΔG° > 0
+C. ΔG° = 0
+D. ΔG° = RT
+
+Ans: C
+
+1. For endergonic reaction
+A. ΔG° negative
+B. ΔG° positive
+C. ΔG° zero
+D. ΔG° undefined
+
+Ans: B
+
+1. ΔG° is related to feasibility of reaction because it measures
+A. Heat evolved
+B. Disorder
+C. Maximum useful work
+D. Reaction speed
+
+Ans: C1. 
+
+1. Standard free energy is measured at
+A. Any condition
+B. Standard conditions
+C. High pressure
+D. Low temperature
+
+Ans: B
+
+
+## 🔹  Standard State (10 MCQs)
+
+1. Standard state of a gas refers to
+A. 1 atm pressure at any temperature
+B. 1 atm pressure at 298 K
+C. 1 bar pressure at 298 K
+D. Zero pressure
+
+Ans: C
+
+1. Standard state of a pure solid is
+A. 1 mol
+B. Unit activity
+C. 1 atm pressure
+D. Standard concentration
+
+Ans: B
+
+1. Activity of a pure liquid in standard state is
+A. Zero
+B. One
+C. Depends on temperature
+D. Depends on pressure
+
+Ans: B
+
+1. Standard state of a solute in solution is
+A. 1 mol/L
+B. Infinite dilution
+C. Unit activity
+D. 1 atm
+
+Ans: C
+
+1. Standard free energy change refers to
+A. Any conditions
+B. Equilibrium state
+C. Standard states of reactants and products
+D. Maximum pressure
+
+Ans: C
+
+1. Standard enthalpy and free energy values are tabulated at
+A. 0°C
+B. 273 K
+C. 298 K
+D. 373 K
+
+Ans: C
+
+1. Activity differs from concentration because it accounts for
+A. Temperature
+B. Pressure
+C. Non-ideal behavior
+D. Molecular weight
+
+Ans: C
+
+1. For gases, activity is approximated as
+A. Partial pressure
+B. Mole fraction
+C. Volume
+D. Density
+
+Ans: A
+
+1. Standard state does NOT depend on
+A. Pressure
+B. Temperature
+C. Reference condition
+D. Catalyst
+
+Ans: D
+
+1. Standard state concept is mainly used for
+A. Reaction kinetics
+B. Thermodynamic calculations
+C. Reaction mechanisms
+D. Stoichiometry
+
+Ans: B
+
+
+
+## 🔹 Feasibility of Reaction (10 MCQs)
+
+1. Feasibility of a reaction is determined by
+A. ΔH only
+B. ΔS only
+C. ΔG
+D. Activation energy
+
+Ans: C
+
+1. A reaction is feasible when
+A. ΔG > 0
+B. ΔG = 0
+C. ΔG < 0
+D. ΔH < 0
+
+Ans: C
+
+1. Reaction with ΔH < 0 and ΔS > 0 is
+A. Never feasible
+B. Always feasible
+C. Feasible at low temperature
+D. Feasible at high temperature
+
+Ans: B
+
+1. Reaction with ΔH > 0 and ΔS < 0 is
+A. Always feasible
+B. Feasible at high temperature
+C. Never feasible
+D. At equilibrium
+
+Ans: C
+
+1. If ΔG = 0, the system is at
+A. Maximum entropy
+B. Equilibrium
+C. Non-spontaneous state
+D. Maximum enthalpy
+
+Ans: B
+
+1. Feasible reaction means
+A. Fast reaction
+B. Spontaneous reaction
+C. Complete reaction
+D. Catalyzed reaction
+
+Ans: B
+
+1. Which factor does NOT affect feasibility?
+A. Temperature
+B. Pressure
+C. ΔH
+D. Catalyst
+
+Ans: D
+
+1. Gibbs free energy combines
+A. Enthalpy and entropy
+B. Energy and work
+C. Heat and pressure
+D. Volume and entropy
+
+Ans: A
+
+1. Feasibility does not indicate
+A. Direction
+B. Extent
+C. Speed
+D. Possibility
+
+Ans: C
+
+1. For reversible reactions, feasibility is related to
+A. Rate constant
+B. Equilibrium constant
+C. Activation energy
+D. Collision frequency
+
+Ans: B
+
+
+
+## 🔹  Effect of Temperature on Equilibrium Constant (10 MCQs)
+
+1. Effect of temperature on K is given by
+A. Boyle’s law
+B. Van’t Hoff equation
+C. Gibbs equation
+D. Arrhenius equation
+
+Ans: B
+
+1. For endothermic reactions, increase in temperature
+A. Decreases K
+B. Increases K
+C. Does not affect K
+D. Makes K zero
+
+Ans: B
+
+1. For exothermic reactions, increase in temperature
+A. Increases K
+B. Decreases K
+C. No change
+D. Makes reaction irreversible
+
+Ans: B
+
+1. Van’t Hoff equation relates
+A. K and pressure
+B. K and temperature
+C. K and concentration
+D. K and volume
+
+Ans: B
+
+1. Temperature dependence of K is due to
+A. Change in entropy
+B. Change in enthalpy
+C. Change in free energy
+D. Change in activation energy
+
+Ans: B
+
+1. Catalyst changes equilibrium constant by
+A. Increasing K
+B. Decreasing K
+C. No effect
+D. Changing ΔH
+
+Ans: C
+
+1. For ΔH = 0, equilibrium constant
+A. Depends on temperature
+B. Independent of temperature
+C. Becomes zero
+D. Becomes infinite
+
+Ans: B
+
+1. Higher temperature favors
+A. Exothermic direction
+B. Endothermic direction
+C. No direction
+D. Both directions
+
+Ans: B
+
+1. Van’t Hoff plot is a graph of
+A. ln K vs 1/T
+B. K vs T
+C. ln K vs T
+D. K vs 1/T
+
+Ans: A
+
+1. Slope of Van’t Hoff plot gives
+A. ΔS
+B. ΔG
+C. ΔH
+D. ΔE
+
+Ans: C
+
+
+
+## 🔹  Presentation of Free Energy Data (10 MCQs)
+
+1. Free energy data is commonly presented as
+A. ΔH vs T
+B. ΔG vs T
+C. ΔS vs T
+D. Cp vs T
+
+Ans: B
+
+1. Ellingham diagram is used for
+A. Acid–base reactions
+B. Oxidation–reduction reactions
+C. Polymerization
+D. Phase equilibrium
+
+Ans: B
+
+1. Ellingham diagram plots
+A. ΔH vs T
+B. ΔG° vs T
+C. ΔS vs T
+D. K vs T
+
+Ans: B
+
+1. Negative slope in Ellingham diagram indicates
+A. ΔH positive
+B. ΔS positive
+C. ΔS negative
+D. ΔH negative
+
+Ans: C
+
+1. Ellingham diagram is useful in
+A. Reaction kinetics
+B. Metal extraction
+C. Stoichiometry
+D. Electrochemistry
+
+Ans: B
+
+1. Intersection of lines in Ellingham diagram indicates
+A. Phase change
+B. Reaction feasibility change
+C. Melting point
+D. Boiling point
+
+Ans: B
+
+1. Lower line in Ellingham diagram represents
+A. Less stable oxide
+B. More stable oxide
+C. Unstable metal
+D. Higher entropy
+
+Ans: B
+
+1. Free energy data helps predict
+A. Reaction speed
+B. Reaction feasibility
+C. Reaction order
+D. Catalyst efficiency
+
+Ans: B
+
+1. Ellingham diagram assumes
+A. Constant entropy
+B. Constant enthalpy
+C. Ideal behavior
+D. Non-equilibrium
+
+Ans: B
+
+1. Ellingham diagram is temperature dependent because
+A. ΔS changes
+B. ΔG depends on T
+C. ΔH varies
+D. Pressure varies
+
+Ans: B
+
+
+🔹  Evaluation of Equilibrium Constant (K. (10 MCQs)
+
+1. Equilibrium constant can be evaluated using
+A. Initial concentrations
+B. Equilibrium concentrations
+C. Rate of reaction
+D. Activation energy
+
+Ans: B
+
+1. If ΔG° is known, K can be calculated using
+A. K = RT/ΔG°
+B. K = e^(−ΔG°/RT)
+C. K = −RT ln ΔG°
+D. K = ΔG°/RT
+
+Ans: B
+
+1. Larger value of K indicates
+A. Reaction does not proceed
+B. Equilibrium lies towards reactants
+C. Equilibrium lies towards products
+D. Reaction is slow
+
+Ans: C
+
+1. If K = 10⁻⁵, the reaction is
+A. Highly product favored
+B. Highly reactant favored
+C. At equilibrium
+D. Irreversible
+
+Ans: B
+
+1. K can be determined experimentally by measuring
+A. Heat evolved
+B. Equilibrium composition
+C. Reaction rate
+D. Activation energy
+
+Ans: B
+
+1. For gaseous reactions, K can be evaluated using
+A. Molarity only
+B. Partial pressures
+C. Volume only
+D. Density
+
+Ans: B
+
+1. If ΔG° = 0, then
+A. K = 0
+B. K = 1
+C. K = ∞
+D. K = RT
+
+Ans: B
+
+1. K value remains constant when
+A. Pressure changes
+B. Concentration changes
+C. Temperature remains constant
+D. Catalyst is added
+
+Ans: C
+
+1. For heterogeneous equilibria, K does NOT include
+A. Gases
+B. Solids
+C. Aqueous species
+D. Vapors
+
+Ans: B
+
+1. Equilibrium constant helps in predicting
+A. Reaction rate
+B. Reaction mechanism
+C. Extent of reaction
+D. Collision frequency
+
+Ans: C
+
+🔹  Equilibrium Conversion in Gas-Phase Reactions (10 MCQs)
+
+1. Equilibrium conversion refers to
+A. Reaction rate
+B. Fraction of reactant converted at equilibrium
+C. Total yield
+D. Initial concentration
+
+Ans: B
+
+1. For gas-phase reactions, equilibrium conversion depends on
+A. Temperature
+B. Pressure
+C. Stoichiometry
+D. All of the above
+
+Ans: D
+
+1. Increase in pressure favors reactions with
+A. Increase in moles
+B. Decrease in moles
+C. No change in moles
+D. Inert gases
+
+Ans: B
+
+1. For reaction with Δn = 0, pressure effect on conversion is
+A. Significant
+B. Zero
+C. Infinite
+D. Unpredictable
+
+Ans: B
+
+1. Higher equilibrium constant generally means
+A. Lower conversion
+B. Higher conversion
+C. No reaction
+D. Faster reaction
+
+Ans: B
+
+1. Gas-phase equilibrium conversion is usually expressed in terms of
+A. Weight fraction
+B. Mole fraction
+C. Volume fraction
+D. Density
+
+Ans: B
+
+1. Equilibrium conversion increases with temperature for
+A. Exothermic reactions
+B. Endothermic reactions
+C. Isothermal reactions
+D. Catalyzed reactions
+
+Ans: B
+
+1. Inert gas addition at constant pressure will
+A. Increase conversion
+B. Decrease conversion
+C. Not affect conversion
+D. Stop reaction
+
+Ans: B
+
+1. Equilibrium conversion can be found by solving
+A. Rate equation
+B. Mass balance and K expression
+C. Energy balance
+D. Entropy equation
+
+Ans: B
+
+1. Conversion at equilibrium is maximum when
+A. K is small
+B. K is large
+C. ΔG > 0
+D. Reaction is irreversible
+
+Ans: B
+
+🔹 1 Effect of Pressure and Other Parameters on Conversion (10 MCQs)
+
+1. Increase in pressure shifts equilibrium towards
+A. Higher moles
+B. Lower moles
+C. No change
+D. Inert gases
+
+Ans: B
+
+1. Pressure effect is significant when
+A. Δn = 0
+B. Δn ≠ 0
+C. Reaction is liquid phase
+D. Reaction is solid phase
+
+Ans: B
+
+1. Catalyst affects equilibrium conversion by
+A. Increasing K
+B. Decreasing K
+C. No change in K
+D. Changing ΔG°
+
+Ans: C
+
+1. Temperature affects conversion mainly by changing
+A. Pressure
+B. Equilibrium constant
+C. Stoichiometry
+D. Volume
+
+Ans: B
+
+1. Increase in feed concentration generally
+A. Decreases conversion
+B. Increases conversion
+C. Has no effect
+D. Stops reaction
+
+Ans: B
+
+1. Addition of inert gas at constant volume
+A. Affects conversion
+B. Does not affect conversion
+C. Increases K
+D. Decreases K
+
+Ans: B
+
+1. Volume change affects conversion mainly in
+A. Liquid-phase reactions
+B. Gas-phase reactions
+C. Solid-phase reactions
+D. Electrochemical reactions
+
+Ans: B
+
+1. Conversion depends on reaction parameters except
+A. Pressure
+B. Temperature
+C. Catalyst amount
+D. Equilibrium constant
+
+Ans: C
+
+1. Lower pressure favors reactions with
+A. Decrease in moles
+B. Increase in moles
+C. No change
+D. Liquids
+
+Ans: B
+
+1. Equilibrium conversion is independent of
+A. Reaction mechanism
+B. Temperature
+C. Pressure
+D. Composition
+
+Ans: A
+
+🔹 1 Liquid-Phase and Heterogeneous Reactions (10 MCQs)
+
+1. Liquid-phase reactions are generally
+A. Pressure dependent
+B. Pressure independent
+C. Temperature independent
+D. Volume dependent
+
+Ans: B
+
+1. In heterogeneous reactions, reactants are in
+A. Same phase
+B. Different phases
+C. Liquid phase only
+D. Gas phase only
+
+Ans: B
+
+1. Equilibrium constant for heterogeneous reactions excludes
+A. Gases
+B. Liquids
+C. Solids
+D. Solutions
+
+Ans: C
+
+1. Pressure effect is negligible in
+A. Gas-phase reactions
+B. Liquid-phase reactions
+C. Gas-solid reactions
+D. Gas-liquid reactions
+
+Ans: B
+
+1. Rate-controlling step in heterogeneous reactions is often
+A. Chemical reaction
+B. Diffusion
+C. Heat transfer
+D. Mixing
+
+Ans: B
+
+1. Activity of pure solid is taken as
+A. Zero
+B. One
+C. Infinite
+D. Variable
+
+Ans: B
+
+1. Liquid-phase equilibrium is mainly influenced by
+A. Pressure
+B. Concentration
+C. Volume
+D. Surface area
+
+Ans: B
+
+1. Heterogeneous equilibrium is common in
+A. Gas reactions
+B. Metal extraction
+C. Polymerization
+D. Combustion
+
+Ans: B
+
+1. Increase in surface area of solid reactant
+A. Increases equilibrium constant
+B. Increases rate
+C. Changes conversion
+D. Changes ΔG°
+
+Ans: B
+
+1. In heterogeneous systems, equilibrium constant depends on
+A. Solid quantity
+B. Surface area
+C. Temperature
+D. Particle size
+
+Ans: C
+
+1. Reactions in Solutions (10 MCQs)
+
+In solution reactions, equilibrium constant is generally expressed in terms of
+A. Partial pressure
+B. Concentration
+C. Volume
+D. Mass
+
+Ans: B
+
+1. Activity in dilute solutions is approximately equal to
+A. Mole fraction
+B. Molarity
+C. Molality
+D. Pressure
+
+Ans: B
+
+1. Ionic reactions in solutions are influenced by
+A. Ionic strength
+B. Volume
+C. Surface area
+D. Pressure
+
+Ans: A
+
+1. Activity coefficient approaches unity at
+A. High concentration
+B. Infinite dilution
+C. High temperature
+D. High pressure
+
+Ans: B
+
+1. Equilibrium constant in solution reactions is independent of
+A. Temperature
+B. Concentration scale
+C. Nature of solvent
+D. Standard state
+
+Ans: B
+
+1. Acid–base reactions in solution are usually
+A. Slow
+B. Irreversible
+C. Fast
+D. Endothermic
+
+Ans: C
+
+1. Solubility equilibrium is governed by
+A. Rate law
+B. Solubility product
+C. Henry’s law
+D. Raoult’s law
+
+Ans: B
+
+1. Common ion effect results in
+A. Increased solubility
+B. Decreased solubility
+C. No change
+D. Complete precipitation
+
+Ans: B
+
+1. Reaction quotient in solutions is calculated using
+A. Activities
+B. Pressures
+C. Volumes
+D. Mass fractions
+
+Ans: A
+
+1. Equilibrium in electrolyte solutions deviates from ideality due to
+A. Molecular interactions
+B. Ionic interactions
+C. Volume change
+D. Temperature change
+
+Ans: B
+
+🔹 1 Pressure of Decomposition in Gas–Solid Reactions (10 MCQs)
+
+1. Decomposition pressure is defined as
+A. Maximum pressure of gas
+B. Pressure at which decomposition and recombination are in equilibrium
+C. Total pressure of system
+D. Atmospheric pressure
+
+Ans: B
+
+1. Decomposition pressure depends on
+A. Amount of solid
+B. Surface area
+C. Temperature
+D. Catalyst
+
+Ans: C
+
+1. For CaCO₃ ⇌ CaO + CO₂, decomposition pressure refers to
+A. Pressure of CaO
+B. Pressure of CaCO₃
+C. Pressure of CO₂
+D. Total pressure
+
+Ans: C
+
+1. Increase in temperature causes decomposition pressure to
+A. Decrease
+B. Increase
+C. Remain constant
+D. Become zero
+
+Ans: B
+
+1. Decomposition occurs when
+A. External pressure > decomposition pressure
+B. External pressure < decomposition pressure
+C. Both equal
+D. Catalyst is added
+
+Ans: B
+
+1. Decomposition pressure is independent of
+A. Temperature
+B. Nature of solid
+C. Amount of solid
+D. Gas formed
+
+Ans: C
+
+1. For a given reaction, decomposition pressure at equilibrium is
+A. Constant at fixed temperature
+B. Variable
+C. Infinite
+D. Zero
+
+Ans: A
+
+1. Decomposition pressure concept applies mainly to
+A. Liquid reactions
+B. Gas reactions
+C. Gas–solid equilibria
+D. Solution reactions
+
+Ans: C
+
+1. Catalyst affects decomposition pressure by
+A. Increasing it
+B. Decreasing it
+C. No effect
+D. Making reaction irreversible
+
+Ans: C
+
+1. Decomposition pressure is a special case of
+A. Kc
+B. Kp
+C. Rate constant
+D. Solubility product
+
+Ans: B
+
+🔹 1 Simultaneous Reactions (10 MCQs)
+
+1. Simultaneous reactions are those where
+A. Only one reaction occurs
+B. Multiple reactions occur together
+C. Reactions stop at equilibrium
+D. Only reversible reactions occur
+
+Ans: B
+
+1. In simultaneous reactions, selectivity refers to
+A. Reaction rate
+B. Product preference
+C. Conversion
+D. Pressure
+
+Ans: B
+
+1. Conversion in simultaneous reactions depends on
+A. Stoichiometry
+B. Equilibrium constants
+C. Reaction conditions
+D. All of the above
+
+Ans: D
+
+1. Parallel reactions are a type of
+A. Single reaction
+B. Simultaneous reactions
+C. Reversible reactions
+D. Phase reactions
+
+Ans: B
+
+1. Yield in simultaneous reactions is defined as
+A. Product formed / reactant consumed
+B. Product formed / feed
+C. Reactant consumed / feed
+D. Rate of reaction
+
+Ans: A
+
+1. Selectivity greater than unity indicates
+A. Undesired product formation
+B. Desired product dominance
+C. No reaction
+D. Equilibrium
+
+Ans: B
+
+1. Equilibrium analysis of simultaneous reactions requires
+A. Only one K value
+B. Mass balance and multiple K values
+C. Rate constants only
+D. Enthalpy data
+
+Ans: B
+
+1. Catalyst in simultaneous reactions can
+A. Change equilibrium
+B. Change selectivity
+C. Change ΔG°
+D. Stop reaction
+
+Ans: B
+
+1. Series reactions are also called
+A. Parallel reactions
+B. Consecutive reactions
+C. Reversible reactions
+D. Phase reactions
+
+Ans: B
+
+1. Simultaneous reactions are common in
+A. Metal extraction
+B. Industrial chemical processes
+C. Laboratory titrations
+D. Combustion only
+
+Ans: B
+
+🔹 1Phase Rule for Reacting Systems (10 MCQs)
+
+1. Gibbs phase rule is
+A. F = C − P
+B. F = C − P + 2
+C. F = P − C + 2
+D. F = C + P − 2
+
+Ans: B
+
+1. For reacting systems, modified phase rule is
+A. F = C − P + 2
+B. F = C − P + 1
+C. F = C − P + 2 − R
+D. F = C − P − R
+
+Ans: C
+
+1. F represents
+A. Phases
+B. Components
+C. Degrees of freedom
+D. Reactions
+
+Ans: C
+
+1. R represents
+A. Rate
+B. Reactants
+C. Reactions
+D. Regions
+
+Ans: C
+
+1. Components in reacting systems are
+A. Number of species
+B. Independent species
+C. Phases present
+D. Reactions
+
+Ans: B
+
+1. Phase rule is applicable to
+A. Equilibrium systems only
+B. Non-equilibrium systems
+C. Kinetic systems
+D. Open systems
+
+Ans: A
+
+1. For single-phase, non-reacting system
+A. F = 0
+B. F = 1
+C. F = 2
+D. F = 3
+
+Ans: C
+
+1. Increase in number of phases causes degrees of freedom to
+A. Increase
+B. Decrease
+C. Remain same
+D. Become zero
+
+Ans: B
+
+1. Phase rule helps in predicting
+A. Reaction rate
+B. System behavior
+C. Reaction mechanism
+D. Activation energy
+
+Ans: B
+
+1. Phase rule is most useful in
+A. Solution chemistry
+B. Metallurgy
+C. Chemical thermodynamics
+D. Kinetics
+
+Ans: C
+

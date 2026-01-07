@@ -1,0 +1,1518 @@
+Heterogeneous Reactions: Catalysis and catalytic reactors: Catalysts, types of catalysts, catalyst properties, steps in a catalytic reaction, Heterogeneous data analysis for reactor design, catalyst deactivation, deactivation mechanisms, diffusion and reaction in porous catalysts, Thiele Modulus, internal effectiveness factor, overall effectiveness factor estimation of diffusion and reaction limited regimes , Weisz , Prater criterion for internal diffusion, Mears criterion for external diffusion. Fluid,Fluid reactions: Rate equations, kinetic regimes for mass transfer and reactions, rate equation for instantaneous and fast and slow reactions, two film theory, film conversion parameters, pressure drop in reactors, accounting the pressure drop in the rate law, flow through a packed bed, pressure drop in pipes, simultaneous reactions and separations.
+
+
+
+## 🔸 A. Catalysis – Fundamentals
+
+1. Catalysis is the phenomenon in which
+A. Reaction equilibrium is shifted
+B. Reaction rate is increased without catalyst being consumed
+C. Heat of reaction is changed
+D. Reaction order is fixed
+
+Ans: B
+
+
+
+2. A catalyst is a substance that
+A. Increases conversion at equilibrium
+B. Changes reaction stoichiometry
+C. Alters reaction rate without permanent chemical change
+D. Supplies energy to reaction
+
+Ans: C
+
+
+
+3. In catalytic reactions, the catalyst
+A. Appears in overall stoichiometric equation
+B. Is consumed during reaction
+C. Remains chemically unchanged at end
+D. Changes thermodynamic feasibility
+
+Ans: C
+
+
+
+4. Catalysts affect the rate of reaction by
+A. Increasing activation energy
+B. Decreasing activation energy
+C. Increasing reaction enthalpy
+D. Changing equilibrium constant
+
+Ans: B
+
+
+
+## 🔸 B. Types of Catalysts (VERY IMPORTANT)
+
+5. Based on phase, catalysis is classified into
+A. Positive and negative
+B. Homogeneous and heterogeneous
+C. Enzymatic and non-enzymatic
+D. Acidic and basic
+
+Ans: B
+
+
+
+6. In heterogeneous catalysis, the catalyst and reactants are
+A. In the same phase
+B. In different phases
+C. Both gases
+D. Both liquids
+
+Ans: B
+
+
+
+7. Which of the following is an example of heterogeneous catalysis?
+A. Esterification using H₂SO₄
+B. Decomposition of H₂O₂ using KI
+C. Haber process using iron catalyst
+D. Hydrolysis in aqueous solution
+
+Ans: C
+
+
+
+8. A positive catalyst
+A. Decreases reaction rate
+B. Increases reaction rate
+C. Stops reaction
+D. Shifts equilibrium
+
+Ans: B
+
+
+
+9. A negative catalyst (inhibitor)
+A. Increases rate
+B. Has no effect
+C. Decreases reaction rate
+D. Acts as reactant
+
+Ans: C
+
+
+
+10. Promoters are substances that
+A. Reduce catalyst activity
+B. Poison the catalyst
+C. Increase catalyst activity or stability
+D. Act as reactants
+
+Ans: C
+
+
+
+## 🔸 C. Catalyst Properties (PSC Favourite)
+
+11. Activity of a catalyst refers to
+A. Catalyst lifetime
+B. Selectivity toward product
+C. Ability to increase reaction rate
+D. Surface area only
+
+Ans: C
+
+
+
+12. Selectivity of a catalyst is the ability to
+A. Increase conversion
+B. Favor formation of desired product
+C. Increase surface area
+D. Increase temperature
+
+Ans: B
+
+
+
+13. Stability of a catalyst refers to its ability to
+A. Increase rate
+B. Maintain activity over time
+C. Increase selectivity
+D. Reduce pressure drop
+
+Ans: B
+
+
+
+14. High surface area of catalyst is desirable because it
+A. Increases pressure drop
+B. Increases number of active sites
+C. Reduces selectivity
+D. Reduces stability
+
+Ans: B
+
+
+
+15. Catalyst poisoning occurs due to
+A. Temperature increase
+B. Presence of impurities that deactivate active sites
+C. Increase in reactant concentration
+D. Pressure drop
+
+Ans: B
+
+
+
+## 🔸 D. Steps in a Catalytic Reaction (VERY IMPORTANT)
+
+16. A heterogeneous catalytic reaction generally involves
+A. One step
+B. Two steps
+C. Three steps
+D. Multiple elementary steps
+
+Ans: D
+
+
+
+17. The first step in a catalytic reaction is usually
+A. Surface reaction
+B. Adsorption of reactants
+C. Desorption of products
+D. Diffusion into bulk
+
+Ans: B
+
+
+
+18. Adsorption of reactants on catalyst surface may be
+A. Only physical
+B. Only chemical
+C. Physical or chemical
+D. Always irreversible
+
+Ans: C
+
+
+
+19. The rate-determining step in catalytic reactions is often
+A. Bulk diffusion
+B. Surface reaction
+C. Desorption only
+D. External mass transfer
+
+Ans: B
+
+
+
+20. Desorption is the step in which
+A. Reactants attach to surface
+B. Products leave catalyst surface
+C. Catalyst is regenerated
+D. Surface reaction occurs
+
+Ans: B
+
+
+
+21. After desorption, the catalyst surface becomes
+A. Inactive
+B. Poisoned
+C. Available for next cycle
+D. Destroyed
+
+Ans: C
+
+
+
+## 🔸 E. Conceptual PSC-Type Question
+
+22. In an ideal catalytic cycle, the catalyst
+A. Appears in rate law only
+B. Is consumed
+C. Is regenerated after each cycle
+D. Changes reaction equilibrium
+
+Ans: C
+
+
+
+## 🔸 A. Heterogeneous Data Analysis for Reactor Design
+
+23. Heterogeneous reaction data analysis is mainly required to
+A. Determine equilibrium constant
+B. Separate mass transfer effects from intrinsic kinetics
+C. Measure thermodynamic properties
+D. Estimate pressure drop only
+
+Ans: B
+
+
+
+24. In heterogeneous reactions, the observed rate may be influenced by
+A. Only intrinsic kinetics
+B. Only external mass transfer
+C. Only internal diffusion
+D. Combination of kinetics and mass transfer
+
+Ans: D
+
+
+
+25. To obtain intrinsic kinetic data, experiments should be conducted under
+A. High conversion
+B. Strong diffusion limitations
+C. Kinetically controlled regime
+D. Equilibrium conditions
+
+Ans: C
+
+
+
+26. Which of the following helps identify diffusion limitations?
+A. Arrhenius plot
+B. Weisz–Prater criterion
+C. Gibbs–Duhem equation
+D. Raoult’s law
+
+Ans: B
+
+
+
+27. A small value of Weisz–Prater parameter indicates
+A. Strong internal diffusion resistance
+B. Chemical reaction control
+C. External mass transfer control
+D. Catalyst deactivation
+
+Ans: B
+
+
+
+28. In heterogeneous reactor design, effectiveness factor (η. is used to account for
+A. Catalyst activity loss
+B. Internal diffusion resistance
+C. External heat transfer
+D. Pressure drop
+
+Ans: B
+
+
+
+## 🔸 B. Catalyst Deactivation (VERY IMPORTANT)
+
+29. Catalyst deactivation refers to
+A. Increase in catalyst activity
+B. Loss of catalytic activity with time
+C. Change in reaction equilibrium
+D. Catalyst regeneration
+
+Ans: B
+
+
+
+30. Catalyst deactivation results in
+A. Increased reaction rate
+B. Constant conversion
+C. Decreased conversion with time
+D. Increased selectivity
+
+Ans: C
+
+
+
+31. Catalyst deactivation is an important consideration mainly because it
+A. Changes stoichiometry
+B. Affects reactor performance over time
+C. Affects thermodynamic feasibility
+D. Increases activation energy
+
+Ans: B
+
+
+
+32. Deactivation can be classified as
+A. Physical and chemical
+B. Temporary and permanent
+C. Reversible and irreversible
+D. All of the above
+
+Ans: D
+
+
+
+## 🔸 C. Mechanisms of Catalyst Deactivation
+
+33. Poisoning occurs due to
+A. Sintering of catalyst
+B. Blocking of active sites by impurities
+C. Mechanical breakage
+D. Thermal cracking
+
+Ans: B
+
+
+
+34. Fouling (coking. refers to
+A. Loss of surface area due to high temperature
+B. Deposition of carbonaceous materials on catalyst
+C. Chemical reaction with catalyst
+D. Catalyst dissolution
+
+Ans: B
+
+
+
+35. Sintering leads to catalyst deactivation by
+A. Chemical poisoning
+B. Blocking pores
+C. Loss of active surface area due to particle growth
+D. Formation of coke
+
+Ans: C
+
+
+
+36. Thermal degradation of catalyst is most likely at
+A. Low temperature
+B. Moderate temperature
+C. High temperature
+D. Room temperature
+
+Ans: C
+
+
+
+37. Attrition in catalysts refers to
+A. Chemical reaction with reactants
+B. Mechanical wear and breakage
+C. Pore blockage
+D. Catalyst poisoning
+
+Ans: B
+
+
+
+## 🔸 D. Diffusion & Reaction in Porous Catalysts (VERY IMPORTANT)
+
+38. In porous catalysts, reaction may be controlled by
+A. External mass transfer
+B. Internal diffusion
+C. Intrinsic kinetics
+D. All of the above
+
+Ans: D
+
+
+
+39. Internal diffusion resistance occurs due to
+A. Gas film around particle
+B. Transport limitations inside catalyst pores
+C. Heat transfer to surroundings
+D. Pressure drop in reactor
+
+Ans: B
+
+
+
+40. The Thiele modulus (φ. represents the ratio of
+A. Reaction rate to diffusion rate
+B. External mass transfer to diffusion
+C. Heat transfer to reaction
+D. Pressure drop to flow rate
+
+Ans: A
+
+
+
+41. When Thiele modulus is very small (φ ≪ 1), the reaction is
+A. Diffusion controlled
+B. Reaction controlled
+C. Heat transfer controlled
+D. Equilibrium controlled
+
+Ans: B
+
+
+
+42. For large Thiele modulus (φ ≫ 1), the effectiveness factor (η. is
+A. Equal to 1
+B. Greater than 1
+C. Less than 1
+D. Zero
+
+Ans: C
+
+
+
+43. Effectiveness factor (η. is defined as
+A. Observed rate / intrinsic rate
+B. Intrinsic rate / observed rate
+C. Diffusion rate / reaction rate
+D. External rate / internal rate
+
+Ans: A
+
+
+
+44. Effectiveness factor is always
+A. Equal to or greater than 1
+B. Equal to 1
+C. Less than or equal to 1
+D. Negative
+
+Ans: C
+
+
+
+## 🔸 E. PSC-Focused Conceptual Questions
+
+45. Diffusion limitations in porous catalysts generally lead to
+A. Increase in observed reaction rate
+B. Decrease in apparent activation energy
+C. Increase in selectivity
+D. Increase in temperature sensitivity
+
+Ans: B
+
+
+
+46. In the presence of strong internal diffusion resistance, the observed rate becomes
+A. Independent of temperature
+B. Less sensitive to temperature
+C. More sensitive to temperature
+D. Equal to intrinsic rate
+
+Ans: B
+
+
+
+47. To minimize internal diffusion resistance, one should
+A. Increase catalyst particle size
+B. Decrease catalyst particle size
+C. Increase pressure drop
+D. Reduce surface area
+
+Ans: B
+
+
+
+48. Catalyst deactivation data is important in reactor design to
+A. Calculate equilibrium conversion
+B. Estimate reactor life and regeneration schedule
+C. Determine reaction stoichiometry
+D. Increase reaction order
+
+Ans: B
+
+
+
+
+## 🔸 A. Thiele Modulus (φ. – Fundamentals
+
+49. Thiele modulus (φ. represents the ratio of
+A. External mass transfer rate to reaction rate
+B. Reaction rate to internal diffusion rate
+C. Heat transfer rate to reaction rate
+D. Pressure drop to flow rate
+
+Ans: B
+
+
+
+50. Thiele modulus is a dimensionless number used to analyze
+A. Homogeneous reactions
+B. Heat transfer
+C. Diffusion and reaction in porous catalysts
+D. Reactor hydrodynamics
+
+Ans: C
+
+
+
+51. Thiele modulus depends on
+A. Reaction rate constant
+B. Catalyst particle size
+C. Effective diffusivity
+D. All of the above
+
+Ans: D
+
+
+
+52. For a first-order reaction in a spherical catalyst, Thiele modulus is proportional to
+A. Particle radius
+B. Square of particle radius
+C. Inverse of particle radius
+D. Catalyst porosity only
+
+Ans: A
+
+
+
+53. A small Thiele modulus (φ ≪ 1. indicates
+A. Strong diffusion limitation
+B. External mass transfer control
+C. Reaction-controlled regime
+D. Equilibrium control
+
+Ans: C
+
+
+
+54. A large Thiele modulus (φ ≫ 1. indicates
+A. Reaction-controlled regime
+B. Internal diffusion-controlled regime
+C. External diffusion control
+D. No resistance
+
+Ans: B
+
+
+
+## 🔸 B. Internal Effectiveness Factor (ηᵢ)
+
+55. Internal effectiveness factor (ηᵢ. is defined as
+A. Intrinsic rate / observed rate
+B. Observed rate / intrinsic rate
+C. Diffusion rate / reaction rate
+D. Surface rate / bulk rate
+
+Ans: B
+
+
+
+56. Internal effectiveness factor accounts for
+A. External mass transfer resistance
+B. Heat transfer resistance
+C. Internal diffusion resistance inside catalyst
+D. Catalyst deactivation
+
+Ans: C
+
+
+
+57. Value of internal effectiveness factor (ηᵢ. is always
+A. Greater than 1
+B. Equal to 1
+C. Less than or equal to 1
+D. Negative
+
+Ans: C
+
+
+
+58. When φ ≪ 1, the internal effectiveness factor is approximately
+A. 0
+B. 0.5
+C. 1
+D. Infinite
+
+Ans: C
+
+
+
+59. When φ ≫ 1, the internal effectiveness factor
+A. Approaches 1
+B. Approaches 0
+C. Becomes infinite
+D. Becomes negative
+
+Ans: B
+
+
+
+60. Internal effectiveness factor decreases with
+A. Decreasing particle size
+B. Increasing diffusivity
+C. Increasing reaction rate constant
+D. Decreasing temperature
+
+Ans: C
+
+
+
+## 🔸 C. Diffusion-Controlled vs Reaction-Controlled Regimes
+
+61. In a reaction-controlled regime, the observed rate is
+A. Limited by diffusion
+B. Equal to intrinsic rate
+C. Independent of temperature
+D. Independent of concentration
+
+Ans: B
+
+
+
+62. In a diffusion-controlled regime, the observed rate is
+A. Highly temperature sensitive
+B. Equal to intrinsic rate
+C. Less sensitive to temperature
+D. Independent of particle size
+
+Ans: C
+
+
+
+63. Strong internal diffusion limitation results in
+A. Higher apparent activation energy
+B. Lower apparent activation energy
+C. No change in activation energy
+D. Infinite activation energy
+
+Ans: B
+
+
+
+64. Diffusion-limited reactions are characterized by
+A. Uniform concentration inside catalyst
+B. Large concentration gradients inside catalyst
+C. Zero reaction rate
+D. Equilibrium conversion
+
+Ans: B
+
+
+
+## 🔸 D. Overall Effectiveness Factor (ηₒ)
+
+65. Overall effectiveness factor (ηₒ. accounts for
+A. Internal diffusion only
+B. External mass transfer only
+C. Both internal and external resistances
+D. Catalyst poisoning
+
+Ans: C
+
+
+
+66. Overall effectiveness factor is given by
+A. ηₒ = ηᵢ
+B. ηₒ = ηₑ
+C. ηₒ = ηᵢ × ηₑ
+D. ηₒ = ηᵢ + ηₑ
+
+Ans: C
+*(ηₑ = external effectiveness factor)*
+
+
+
+67. When external mass transfer resistance is negligible,
+A. ηₒ < ηᵢ
+B. ηₒ = ηᵢ
+C. ηₒ > ηᵢ
+D. ηₒ = 0
+
+Ans: B
+
+
+
+68. Overall effectiveness factor is always
+A. ≥ 1
+B. = 1
+C. ≤ 1
+D. Negative
+
+Ans: C
+
+
+
+## 🔸 E. Estimation & Design-Related Questions (PSC Favourite)
+
+69. To increase effectiveness factor, one should
+A. Increase catalyst particle size
+B. Decrease catalyst particle size
+C. Decrease diffusivity
+D. Increase diffusion resistance
+
+Ans: B
+
+
+
+70. High-temperature operation generally
+A. Increases diffusion limitation
+B. Reduces internal diffusion resistance
+C. Increases effectiveness factor
+D. Both B and C
+
+Ans: D
+
+
+
+71. For porous catalysts, effectiveness factor is most important in
+A. Homogeneous reactions
+B. Gas–solid catalytic reactions
+C. Liquid–liquid reactions
+D. Gas–gas reactions
+
+Ans: B
+
+
+
+72. Thiele modulus and effectiveness factor are mainly used to
+A. Determine equilibrium conversion
+B. Separate kinetics from diffusion effects
+C. Measure catalyst surface area
+D. Estimate pressure drop
+
+Ans: B
+
+
+
+
+## 🔸 A. Weisz–Prater Criterion (Internal Diffusion)
+
+73. The Weisz–Prater criterion is used to check
+A. External mass transfer resistance
+B. Heat transfer resistance
+C. Internal pore diffusion resistance
+D. Catalyst deactivation
+
+Ans: C
+
+
+
+74. The Weisz–Prater criterion is expressed as
+[
+C_{WP} = \frac{r_{obs} R_p^2}{C_s D_{eff}}
+]
+where (R_p. is
+A. Reactor radius
+B. Particle radius
+C. Pore radius
+D. Bed radius
+
+Ans: B
+
+
+
+75. In the Weisz–Prater criterion, (r_{obs}. represents
+A. Intrinsic reaction rate
+B. Observed reaction rate
+C. Diffusion rate
+D. Equilibrium rate
+
+Ans: B
+
+
+
+76. If the Weisz–Prater parameter
+[
+C_{WP} \ll 1
+]
+it indicates
+A. Strong internal diffusion limitation
+B. External diffusion control
+C. Reaction-controlled regime
+D. Catalyst deactivation
+
+Ans: C
+
+
+
+77. A large value of Weisz–Prater parameter indicates
+A. Negligible diffusion resistance
+B. Internal diffusion limitation is significant
+C. Reaction is kinetically controlled
+D. External mass transfer control
+
+Ans: B
+
+
+
+78. Weisz–Prater criterion is applicable mainly to
+A. Homogeneous reactions
+B. Gas-solid catalytic reactions
+C. Liquid–liquid reactions
+D. Gas-gas reactions
+
+Ans: B
+
+
+
+79. To reduce internal diffusion limitation, one should
+A. Increase catalyst particle size
+B. Decrease catalyst particle size
+C. Reduce temperature
+D. Reduce surface area
+
+Ans: B
+
+
+
+80. Effective diffusivity (D_{eff}. accounts for
+A. Bulk diffusion only
+B. Knudsen diffusion only
+C. Porosity and tortuosity of catalyst
+D. Reaction kinetics
+
+Ans: C
+
+
+
+## 🔸 B. Mears Criterion (External Diffusion)
+
+81. The Mears criterion is used to test for
+A. Internal pore diffusion
+B. External mass transfer resistance
+C. Heat transfer limitation
+D. Catalyst poisoning
+
+Ans: B
+
+
+
+82. The Mears criterion is given by
+[
+\frac{r_{obs} R_p}{k_g C_b} \ll 1
+]
+where (k_g. is
+A. Reaction rate constant
+B. Heat transfer coefficient
+C. Gas-phase mass transfer coefficient
+D. Diffusivity
+
+Ans: C
+
+
+
+83. In the Mears criterion, (C_b. represents
+A. Concentration at catalyst surface
+B. Bulk fluid concentration
+C. Pore concentration
+D. Equilibrium concentration
+
+Ans: B
+
+
+
+84. If the Mears criterion is satisfied (≪ 1), it implies
+A. External mass transfer controls reaction
+B. Internal diffusion controls reaction
+C. External mass transfer resistance is negligible
+D. Reaction is equilibrium-limited
+
+Ans: C
+
+
+
+85. External mass transfer resistance becomes important when
+A. Particle size is small
+B. Reaction rate is very high
+C. Fluid velocity is high
+D. Temperature is low
+
+Ans: B
+
+
+
+86. To minimize external diffusion resistance, one should
+A. Reduce fluid velocity
+B. Increase particle size
+C. Increase fluid velocity
+D. Reduce temperature
+
+Ans: C
+
+
+
+## 🔸 C. Comparison & PSC-Type Conceptual Questions
+
+87. Weisz–Prater criterion deals with diffusion
+A. Outside the particle
+B. Inside the particle
+C. In the bulk fluid
+D. In the reactor wall
+
+Ans: B
+
+
+
+88. Mears criterion primarily addresses resistance
+A. Inside catalyst pores
+B. Due to chemical kinetics
+C. In the external fluid film
+D. Due to heat generation
+
+Ans: C
+
+
+
+89. For reliable intrinsic kinetic data, both criteria must indicate
+A. Strong diffusion limitation
+B. Diffusion-controlled regime
+C. Negligible diffusion resistance
+D. Equilibrium control
+
+Ans: C
+
+
+
+90. If both Weisz–Prater and Mears criteria are satisfied, the observed rate represents
+A. Diffusion-controlled rate
+B. External mass transfer rate
+C. Intrinsic kinetic rate
+D. Equilibrium rate
+
+Ans: C
+
+
+
+## 🔸 A. Fluid–Fluid Reactions: Fundamentals
+
+91. A fluid–fluid reaction is one in which
+A. Both reactants are solids
+B. At least one reactant is solid
+C. Both reactants are fluids (gas or liquid)
+D. Reaction occurs only at catalyst surface
+
+Ans: C
+
+
+
+92. Fluid–fluid reactions commonly occur in
+A. Packed bed reactors
+B. Fixed solid catalysts
+C. Gas–liquid or liquid–liquid systems
+D. Solid–solid systems
+
+Ans: C
+
+
+
+93. In fluid–fluid reactions, the overall rate may be controlled by
+A. Chemical kinetics only
+B. Mass transfer only
+C. Both mass transfer and chemical reaction
+D. Thermodynamic equilibrium
+
+Ans: C
+
+
+
+## 🔸 B. Rate Equations for Fluid–Fluid Reactions
+
+94. For a slow reaction, the overall rate is controlled by
+A. Mass transfer
+B. Chemical reaction
+C. Diffusion in film only
+D. Solubility
+
+Ans: B
+
+
+
+95. For a very fast reaction, the overall rate is usually controlled by
+A. Chemical kinetics
+B. Mass transfer
+C. Temperature
+D. Catalyst activity
+
+Ans: B
+
+
+
+96. For an instantaneous reaction, reaction occurs
+A. Uniformly in bulk phase
+B. At equilibrium
+C. At the interface of two fluids
+D. Inside the reactor only
+
+Ans: C
+
+
+
+97. In instantaneous reactions, the rate of reaction is limited by
+A. Reaction kinetics
+B. Heat transfer
+C. Diffusion of reactants to the interface
+D. Equilibrium constant
+
+Ans: C
+
+
+
+## 🔸 C. Kinetic Regimes: Reaction vs Mass Transfer
+
+98. A reaction-controlled regime exists when
+A. Reaction rate ≫ mass transfer rate
+B. Mass transfer rate ≫ reaction rate
+C. Both rates are equal
+D. Diffusion is negligible
+
+Ans: B
+
+
+
+99. A mass-transfer-controlled regime exists when
+A. Reaction is very slow
+B. Reaction is very fast
+C. Temperature is low
+D. Pressure is high
+
+Ans: B
+
+
+
+100. In the mass-transfer-controlled regime, increasing temperature generally
+A. Greatly increases rate
+B. Has little effect on rate
+C. Stops reaction
+D. Changes stoichiometry
+
+Ans: B
+
+
+
+101. In reaction-controlled regime, rate is strongly dependent on
+A. Interfacial area
+B. Diffusivity
+C. Reaction rate constant
+D. Film thickness
+
+Ans: C
+
+
+
+## 🔸 D. Two-Film Theory (VERY IMPORTANT)
+
+102. Two-film theory assumes
+A. Perfect mixing everywhere
+B. Reaction occurs in bulk only
+C. Thin stagnant films exist on both sides of interface
+D. No concentration gradient exists
+
+Ans: C
+
+
+
+103. According to two-film theory, mass transfer resistance exists mainly in
+A. Bulk fluid
+B. Interface
+C. Thin fluid films
+D. Reactor walls
+
+Ans: C
+
+
+
+104. In gas–liquid systems, the overall mass transfer resistance is the sum of
+A. Gas-phase resistance only
+B. Liquid-phase resistance only
+C. Gas and liquid film resistances
+D. Chemical reaction resistance only
+
+Ans: C
+
+
+
+105. Two-film theory is most useful for analyzing
+A. Solid–solid reactions
+B. Homogeneous reactions
+C. Gas–liquid reactions
+D. Nuclear reactions
+
+Ans: C
+
+
+
+## 🔸 E. Film Conversion Parameters
+
+106. Film conversion refers to
+A. Conversion in bulk phase
+B. Conversion within stagnant film
+C. Overall reactor conversion
+D. Equilibrium conversion
+
+Ans: B
+
+
+
+107. Film conversion becomes significant when
+A. Reaction is very slow
+B. Reaction occurs mainly in bulk
+C. Reaction is fast compared to diffusion
+D. Temperature is low
+
+Ans: C
+
+
+
+108. For instantaneous reactions, film conversion is
+A. Zero
+B. Negligible
+C. Unity (complete)
+D. Less than 0.5
+
+Ans: C
+
+
+
+109. Film conversion depends strongly on
+A. Reaction stoichiometry
+B. Film thickness and diffusivity
+C. Reactor volume
+D. Pressure only
+
+Ans: B
+
+
+
+110. Decreasing film thickness generally
+A. Increases mass-transfer resistance
+B. Decreases mass-transfer rate
+C. Increases mass-transfer rate
+D. Has no effect
+
+Ans: C
+
+
+
+## 🔸 F. Comparative PSC-Type Questions
+
+111. For slow reactions, reaction mainly occurs
+A. At interface
+B. Inside the film
+C. In the bulk phase
+D. On reactor wall
+
+Ans: C
+
+
+
+112. For fast reactions, reaction occurs mainly
+A. In bulk phase
+B. Inside the film
+C. In the reactor outlet
+D. At equilibrium
+
+Ans: B
+
+
+
+113. For instantaneous reactions, reaction zone is
+A. Entire reactor
+B. Liquid bulk
+C. Gas bulk
+D. Interfacial surface
+
+Ans: D
+
+
+
+114. Increasing agitation in fluid–fluid systems primarily
+A. Increases reaction rate constant
+B. Reduces film thickness
+C. Changes equilibrium constant
+D. Stops diffusion
+
+Ans: B
+
+
+
+115. In fluid–fluid reactions, enhancement factor (>1. indicates
+A. Reaction retardation
+B. Pure diffusion
+C. Reaction enhances mass transfer
+D. Equilibrium limitation
+
+Ans: C
+
+
+
+116. Two-film theory assumes interface is
+A. Thick
+B. Turbulent
+C. At equilibrium
+D. Non-existent
+
+Ans: C
+
+
+
+
+
+## 🔸 A. Pressure Drop in Reactors
+
+117. Pressure drop in reactors is mainly important in
+A. Liquid-phase batch reactors
+B. Gas-phase flow reactors
+C. Solid–solid reactions
+D. Equilibrium reactors
+
+Ans: B
+
+
+
+118. Pressure drop affects reactor performance primarily by changing
+A. Temperature
+B. Catalyst activity
+C. Reactant concentration
+D. Stoichiometry
+
+Ans: C
+
+
+
+119. In gas-phase reactions, pressure drop along the reactor length generally
+A. Increases concentration
+B. Decreases concentration
+C. Has no effect
+D. Increases conversion always
+
+Ans: B
+
+
+
+120. Pressure drop becomes critical in reactor design when
+A. Reaction is slow
+B. Flow rates are low
+C. Gas velocities are high
+D. Catalyst is absent
+
+Ans: C
+
+
+
+## 🔸 B. Accounting for Pressure Drop in Rate Law
+
+121. For gas-phase reactions, rate expressions are often written in terms of
+A. Mole fraction only
+B. Partial pressure or concentration
+C. Volume only
+D. Mass flow rate
+
+Ans: B
+
+
+
+122. When pressure drop is significant, the concentration of reactants
+A. Remains constant
+B. Increases along reactor
+C. Decreases along reactor
+D. Becomes independent of conversion
+
+Ans: C
+
+
+
+123. In plug flow reactors with pressure drop, rate law must be coupled with
+A. Energy balance only
+B. Momentum balance
+C. Phase equilibrium
+D. Heat transfer coefficient
+
+Ans: B
+
+
+
+124. Pressure drop in gas reactors is often accounted for by using
+A. Ideal gas law
+B. Ergun equation
+C. Raoult’s law
+D. Henry’s law
+
+Ans: B
+
+
+
+## 🔸 C. Flow Through a Packed Bed (VERY IMPORTANT)
+
+125. Flow through a packed bed is characterized by
+A. Free molecular flow
+B. Laminar flow only
+C. Flow through void spaces between particles
+D. Turbulent jet flow
+
+Ans: C
+
+
+
+126. Pressure drop in packed beds depends on
+A. Particle size
+B. Bed porosity
+C. Fluid velocity
+D. All of the above
+
+Ans: D
+
+
+
+127. The Ergun equation is used to calculate
+A. Reaction rate
+B. Heat transfer coefficient
+C. Pressure drop in packed beds
+D. Catalyst effectiveness
+
+Ans: C
+
+
+
+128. Ergun equation accounts for
+A. Viscous losses only
+B. Kinetic energy losses only
+C. Both viscous and inertial effects
+D. Heat losses
+
+Ans: C
+
+
+
+129. Pressure drop in packed beds increases when
+A. Particle diameter increases
+B. Fluid velocity decreases
+C. Particle diameter decreases
+D. Bed porosity increases
+
+Ans: C
+
+
+
+130. High pressure drop in packed beds leads to
+A. Increased conversion always
+B. Higher pumping cost
+C. Catalyst regeneration
+D. Improved selectivity
+
+Ans: B
+
+
+
+## 🔸 D. Pressure Drop in Pipes
+
+131. Pressure drop in straight pipes is calculated using
+A. Bernoulli equation
+B. Darcy–Weisbach equation
+C. Ergun equation
+D. Fick’s law
+
+Ans: B
+
+
+
+132. Darcy–Weisbach equation relates pressure drop to
+A. Pipe diameter and velocity
+B. Pipe length and friction factor
+C. Fluid density
+D. All of the above
+
+Ans: D
+
+
+
+133. Friction factor in pipe flow depends on
+A. Reynolds number
+B. Pipe roughness
+C. Flow regime
+D. All of the above
+
+Ans: D
+
+
+
+134. Pressure drop in laminar pipe flow is
+A. Independent of velocity
+B. Proportional to velocity
+C. Proportional to square of velocity
+D. Independent of viscosity
+
+Ans: B
+
+
+
+## 🔸 E. Simultaneous Reactions and Separations
+
+135. Simultaneous reaction and separation refers to
+A. Reaction followed by separation
+B. Separation followed by reaction
+C. Reaction and separation occurring together
+D. Batch processing
+
+Ans: C
+
+
+
+136. Simultaneous reaction–separation systems are used mainly to
+A. Reduce reactor volume
+B. Shift equilibrium toward products
+C. Increase pressure
+D. Reduce temperature
+
+Ans: B
+
+
+
+137. Removing products during reaction generally
+A. Decreases conversion
+B. Stops reaction
+C. Shifts equilibrium toward products
+D. Has no effect
+
+Ans: C
+
+
+
+138. A common example of simultaneous reaction and separation is
+A. Batch reactor
+B. Distillation column reactor
+C. Plug flow reactor
+D. Fixed bed reactor
+
+Ans: B
+
+
+
+139. Reactive distillation is most suitable for
+A. Very slow reactions
+B. Equilibrium-limited reactions
+C. Irreversible reactions only
+D. Solid-phase reactions
+
+Ans: B
+
+
+
+140. Major advantage of simultaneous reaction–separation is
+A. Complex design
+B. Lower capital cost
+C. Higher equilibrium conversion
+D. Higher pressure drop
+
+Ans: C
+
+
+
+## 🔸 F. PSC-Focused Conceptual Questions
+
+141. In packed bed reactors, pressure drop affects rate primarily through
+A. Catalyst poisoning
+B. Temperature rise
+C. Change in reactant partial pressure
+D. Change in stoichiometry
+
+Ans: C
+
+
+
+142. Neglecting pressure drop in gas-phase packed bed reactors may lead to
+A. Under-design of reactor
+B. Over-prediction of conversion
+C. No design error
+D. Lower cost
+
+Ans: B
+
+
+
+143. Packed beds generally have higher pressure drop compared to
+A. CSTRs
+B. Empty tubular reactors
+C. Batch reactors
+D. All of the above
+
+Ans: B
+
+
+
+144. Simultaneous reaction–separation is especially useful when
+A. Reaction is kinetically controlled
+B. Reaction is equilibrium-limited
+C. Reaction is diffusion-controlled
+D. Reaction is instantaneous
+
+Ans: B

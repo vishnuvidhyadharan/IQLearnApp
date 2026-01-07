@@ -1,0 +1,2271 @@
+Introduction , definition of instrumentation,concept of an instrument,functional elements and functions of an instrument , classification of instruments, performance characteristics of an instrument like static and dynamic type, temperature measurement , electrical, non,electrical, contact and non,contact methods. Pressure measurement ,manometers of U,tube type, well type and inclined type, Prandtl and air type micro,manometers, Barometer method for atmospheric pressure measurement, low pressure measurement by Pirani gauge, McLeod gauge. thermal conductivity gauge, Transducers of electrical mechanical type, density measurement using constant volume hydrometer and, air pressure balance method, gas density detector and gas specific gravity measuring system. Flow measurements , Liquid and gas flow measurements, ways of measurirg liquids and gas flow, direct volume measurements, open channel flow measurements, turbine type flow meters strain gauge flow meters mass flow meter, measuring flow of dry materials, Thermal analysis , differential thermal analysis, thermo gravimetric, conductimetric analysis Chromatography and application, PH control temp control, heat exchangers, distillation column, reaction system etc. Moisture content and humidity definition, moisture content determination by thermal drying, Instruments for measuring humidity like hygrometer, psychrometer, dew point apparatus, pH measurement using calomel electrode, composition analysis using spectroscopic methods like absorption, emission and mass spectrometers, analysis of solids by X,ray diffraction, Gas analysis by thermal conductivity, polarography & chromatography
+
+
+
+# 🔹 1. Introduction & Definition of Instrumentation (10 MCQs)
+
+1. Instrumentation mainly deals with
+A. Design of machines
+B. Measurement and control of process variables
+C. Manufacturing techniques
+D. Structural analysis
+
+Ans: B
+
+2. An instrument is defined as a device used for
+A. Control only
+B. Measurement only
+C. Measurement and control
+D. Power generation
+
+Ans: C
+
+3. Instrumentation plays a major role in
+A. Structural design
+B. Process industries
+C. Transportation
+D. Agriculture
+
+Ans: B
+
+4. Measurement involves comparison of an unknown quantity with
+A. Any unit
+B. A standard
+C. A variable
+D. An assumption
+
+Ans: B
+
+5. Instrumentation is essential mainly for
+A. Increasing labor
+B. Improving safety and quality
+C. Reducing speed
+D. Eliminating control
+
+Ans: B
+
+6. Which is NOT a process variable?
+A. Temperature
+B. Pressure
+C. Velocity
+D. Voltage
+
+Ans: D
+
+7. Instrumentation system converts physical quantity into
+A. Mechanical output
+B. Electrical signal
+C. Chemical energy
+D. Thermal energy
+
+Ans: B
+
+8. The basic purpose of instrumentation is to
+A. Detect faults
+B. Measure and regulate variables
+C. Increase cost
+D. Replace operators
+
+Ans: B
+
+9. Instrumentation is widely used in
+A. Construction only
+B. Chemical plants
+C. Banking sector
+D. Education only
+
+Ans: B
+
+10. Accuracy in measurement mainly ensures
+ A. Speed
+ B. Reliability
+ C. Economy
+ D. Appearance
+
+Ans: B
+
+
+
+# 🔹 2. Concept of an Instrument & Functional Elements (10 MCQs)
+
+1. Functional elements of an instrument include
+A. Sensor, processor, output
+B. Pump, valve, tank
+C. Motor, gear, shaft
+D. Beam, column, slab
+
+Ans: A
+
+2. Primary sensing element directly senses
+A. Output signal
+B. Measured quantity
+C. Control signal
+D. Power supply
+
+Ans: B
+
+3. Transducer converts
+A. Electrical to electrical
+B. Mechanical to mechanical
+C. Physical quantity to electrical signal
+D. Signal to noise
+
+Ans: C
+
+4. Signal conditioning element is used to
+A. Measure temperature
+B. Amplify or modify signals
+C. Generate power
+D. Store data
+
+Ans: B
+
+5. Output element displays
+A. Raw signal
+B. Conditioned signal
+C. Final measurement
+D. Noise
+
+Ans: C
+
+6. Which is NOT a functional element?
+A. Sensing element
+B. Signal processor
+C. Power generator
+D. Data presentation
+
+Ans: C
+
+7. In a thermometer, mercury acts as
+A. Output element
+B. Signal processor
+C. Sensing element
+D. Controller
+
+Ans: C
+
+8. Functional elements work together to
+A. Control process only
+B. Measure and indicate quantity
+C. Store energy
+D. Reduce noise only
+
+Ans: B
+
+9. Instrument block diagram represents
+A. Physical layout
+B. Logical function
+C. Mechanical design
+D. Electrical wiring
+
+Ans: B
+
+10. The final stage of an instrument is
+ A. Sensing
+ B. Transduction
+ C. Signal conditioning
+ D. Data presentation
+
+Ans: D
+
+
+
+# 🔹 3. Classification of Instruments (10 MCQs)
+
+1. Instruments are classified based on
+A. Shape
+B. Function and operation
+C. Color
+D. Cost
+
+Ans: B
+
+2. Absolute instruments measure quantity
+A. By comparison
+B. By direct deflection
+C. In absolute terms
+D. Using calibration
+
+Ans: C
+
+3. Secondary instruments require
+A. No calibration
+B. Calibration with standards
+C. No reference
+D. No scale
+
+Ans: B
+
+4. Indicating instruments show
+A. Continuous record
+B. Instantaneous value
+C. Control action
+D. Stored data
+
+Ans: B
+
+5. Recording instruments provide
+A. Instant value
+B. Permanent record
+C. Control signal
+D. Digital output only
+
+Ans: B
+
+6. Integrating instruments measure
+A. Rate
+B. Total quantity over time
+C. Instantaneous value
+D. Error
+
+Ans: B
+
+7. Analog instruments give output in
+A. Binary form
+B. Discrete values
+C. Continuous form
+D. Digital pulses
+
+Ans: C
+
+8. Digital instruments provide output in
+A. Continuous form
+B. Analog voltage
+C. Discrete numbers
+D. Mechanical motion
+
+Ans: C
+
+9. Mechanical instruments mainly use
+A. Electrical signal
+B. Pneumatic signal
+C. Mechanical movement
+D. Optical signal
+
+Ans: C
+
+10. Electrical instruments are preferred due to
+ A. Larger size
+ B. Higher accuracy and remote indication
+ C. Higher cost
+ D. Mechanical wear
+
+Ans: B
+
+
+
+# 🔹 4. Performance Characteristics – Static & Dynamic (10 MCQs)
+
+1. Static characteristics relate to
+A. Time-varying input
+B. Steady input
+C. Frequency response
+D. Transient state
+
+Ans: B
+
+2. Accuracy refers to
+A. Repeatability
+B. Closeness to true value
+C. Sensitivity
+D. Resolution
+
+Ans: B
+
+3. Precision indicates
+A. Correctness
+B. Consistency
+C. Error
+D. Drift
+
+Ans: B
+
+4. Sensitivity is defined as
+A. Output/input
+B. Input/output
+C. Error/output
+D. Time/output
+
+Ans: A
+
+5. Resolution is the
+A. Maximum value
+B. Minimum detectable change
+C. Response speed
+D. Error
+
+Ans: B
+
+6. Drift is
+A. Sudden change
+B. Gradual change in output
+C. Random error
+D. Noise
+
+Ans: B
+
+7. Dynamic characteristics apply when
+A. Input is constant
+B. Input changes with time
+C. Output is steady
+D. Instrument is idle
+
+Ans: B
+
+8. Time constant represents
+A. Speed of response
+B. Accuracy
+C. Sensitivity
+D. Precision
+
+Ans: A
+
+9. Dynamic error occurs due to
+A. Calibration
+B. Lag in response
+C. Sensitivity
+D. Resolution
+
+Ans: B
+
+10. First-order instruments include
+ A. Thermometer
+ B. Tachometer
+ C. Oscilloscope
+ D. Ammeter
+
+Ans: A
+
+
+# 🔹 5. Temperature Measurement – Electrical & Non-Electrical, Contact & Non-Contact (10 MCQs)
+
+1. Temperature is a measure of
+A. Heat content
+B. Molecular kinetic energy
+C. Internal energy
+D. Enthalpy
+
+Ans: B
+
+2. Which is a contact type temperature sensor?
+A. Infrared thermometer
+B. Optical pyrometer
+C. Thermocouple
+D. Radiation pyrometer
+
+Ans: C
+
+3. Non-contact temperature measurement is based on
+A. Conduction
+B. Convection
+C. Radiation
+D. Resistance
+
+Ans: C
+
+4. Thermocouple works on the principle of
+A. Hall effect
+B. Seebeck effect
+C. Joule effect
+D. Thomson effect
+
+Ans: B
+
+5. RTD measures temperature by change in
+A. Capacitance
+B. Inductance
+C. Resistance
+D. Voltage
+
+Ans: C
+
+6. Platinum is used in RTD because of
+A. High conductivity
+B. Linear resistance–temperature relation
+C. Low melting point
+D. Low cost
+
+Ans: B
+
+7. Thermistor has
+A. Positive temperature coefficient
+B. Negative temperature coefficient
+C. Zero temperature coefficient
+D. Constant resistance
+
+Ans: B
+
+8. Optical pyrometer is suitable for
+A. Low temperature measurement
+B. Contact measurement
+C. Very high temperatures
+D. Liquid temperatures only
+
+Ans: C
+
+9. Electrical temperature measurement offers
+A. Low accuracy
+B. Remote indication
+C. Large error
+D. Slow response
+
+Ans: B
+
+10. Mercury thermometer is an example of
+ A. Electrical sensor
+ B. Non-contact sensor
+ C. Mechanical contact sensor
+ D. Radiation sensor
+
+Ans: C
+
+
+
+# 🔹 6. Pressure Measurement – Manometers (10 MCQs)
+
+1. Pressure is defined as
+A. Force × area
+B. Force / area
+C. Mass × acceleration
+D. Energy / volume
+
+Ans: B
+
+2. U-tube manometer measures pressure based on
+A. Elastic deformation
+B. Fluid column height
+C. Electrical resistance
+D. Thermal expansion
+
+Ans: B
+
+3. Well type manometer is used to measure
+A. Very high pressure
+B. Small pressure difference
+C. Absolute pressure
+D. Vacuum pressure
+
+Ans: B
+
+4. Inclined manometer is preferred for
+A. Large pressure
+B. Accurate low pressure measurement
+C. Atmospheric pressure
+D. Gas density
+
+Ans: B
+
+5. Manometer fluid should have
+A. Low density
+B. High vapor pressure
+C. Known density
+D. High viscosity
+
+Ans: C
+
+6. Mercury is commonly used because
+A. It wets glass
+B. High density
+C. Low density
+D. High viscosity
+
+Ans: B
+
+7. Prandtl manometer is used for measuring
+A. Static pressure
+B. Dynamic pressure
+C. Velocity of flow
+D. Density
+
+Ans: C
+
+8. Air type micromanometer is suitable for
+A. High pressure
+B. Low pressure difference
+C. Absolute pressure
+D. Vacuum only
+
+Ans: B
+
+9. Manometers are not suitable for
+A. Steady pressure
+B. Pulsating pressure
+C. Low pressure
+D. Differential pressure
+
+Ans: B
+
+10. Accuracy of manometer depends mainly on
+ A. Length of tube
+ B. Density of manometric fluid
+ C. Material of tube
+ D. Diameter of tube
+
+Ans: B
+
+
+
+# 🔹 7. Atmospheric & Low-Pressure Measurement (10 MCQs)
+
+1. Barometer measures
+A. Gauge pressure
+B. Absolute pressure
+C. Differential pressure
+D. Vacuum
+
+Ans: B
+
+2. Atmospheric pressure is measured using
+A. Bourdon gauge
+B. Manometer
+C. Barometer
+D. Pirani gauge
+
+Ans: C
+
+3. Standard atmospheric pressure is
+A. 760 mm Hg
+B. 100 mm Hg
+C. 1 mm Hg
+D. 10 mm Hg
+
+Ans: A
+
+4. Pirani gauge works on the principle of
+A. Ionization
+B. Thermal conductivity
+C. Elastic deformation
+D. Radiation
+
+Ans: B
+
+5. Pirani gauge is suitable for measuring
+A. High pressure
+B. Medium pressure
+C. Low pressure
+D. Atmospheric pressure
+
+Ans: C
+
+6. McLeod gauge is used to measure
+A. Very high pressure
+B. Vacuum
+C. Atmospheric pressure
+D. Liquid pressure
+
+Ans: B
+
+7. McLeod gauge is based on
+A. Boyle’s law
+B. Charles’ law
+C. Dalton’s law
+D. Graham’s law
+
+Ans: A
+
+8. Thermal conductivity gauge measures pressure by change in
+A. Resistance
+B. Density
+C. Heat loss
+D. Voltage
+
+Ans: C
+
+9. Pirani gauge cannot be used for
+A. Air
+B. Nitrogen
+C. Condensable vapors
+D. Inert gases
+
+Ans: C
+
+10. Barometer reading decreases with
+ A. Increase in altitude
+ B. Decrease in altitude
+ C. Increase in density
+ D. Increase in gravity
+
+Ans: A
+
+
+
+# 🔹 8. Electrical–Mechanical Transducers (10 MCQs)
+
+1. Transducer converts
+A. Mechanical energy to heat
+B. Physical quantity to electrical signal
+C. Electrical energy to mechanical
+D. Chemical energy to heat
+
+Ans: B
+
+2. Strain gauge works on change in
+A. Capacitance
+B. Inductance
+C. Resistance
+D. Voltage
+
+Ans: C
+
+3. LVDT is used to measure
+A. Pressure
+B. Displacement
+C. Temperature
+D. Flow
+
+Ans: B
+
+4. LVDT output is
+A. DC voltage
+B. AC voltage
+C. Resistance
+D. Frequency
+
+Ans: B
+
+5. Piezoelectric transducer is suitable for
+A. Static measurement
+B. Dynamic measurement
+C. Low temperature
+D. DC signals
+
+Ans: B
+
+6. Piezoelectric effect is observed in
+A. Metals
+B. Plastics
+C. Crystals
+D. Liquids
+
+Ans: C
+
+7. Inductive transducers are sensitive to
+A. Magnetic field
+B. Temperature
+C. Pressure
+D. Humidity
+
+Ans: A
+
+8. Capacitive transducers measure change in
+A. Resistance
+B. Voltage
+C. Capacitance
+D. Current
+
+Ans: C
+
+9. Electrical transducers are preferred due to
+A. Mechanical simplicity
+B. Remote measurement capability
+C. Low accuracy
+D. High wear
+
+Ans: B
+
+10. Transducer sensitivity is defined as
+ A. Input/output
+ B. Output/input
+ C. Error/input
+ D. Resolution/input
+
+Ans: B
+
+
+# 🔹 9. Density Measurement Methods (10 MCQs)
+
+1. Density is defined as
+A. Mass × volume
+B. Mass / volume
+C. Volume / mass
+D. Weight × volume
+
+Ans: B
+
+2. Constant volume hydrometer measures density by
+A. Weight measurement
+B. Buoyancy principle
+C. Pressure difference
+D. Electrical resistance
+
+Ans: B
+
+3. In constant volume hydrometer, density is proportional to
+A. Immersed depth
+B. Weight added
+C. Temperature
+D. Volume displaced
+
+Ans: B
+
+4. Air pressure balance method measures density based on
+A. Hydrostatic pressure
+B. Buoyant force
+C. Equal pressure condition
+D. Viscous force
+
+Ans: C
+
+5. Gas density detector works on the principle of
+A. Thermal conductivity
+B. Optical absorption
+C. Electrical capacitance
+D. Magnetic effect
+
+Ans: A
+
+6. Density of gas affects its
+A. Temperature
+B. Thermal conductivity
+C. Viscosity only
+D. Color
+
+Ans: B
+
+7. Specific gravity is the ratio of
+A. Density to volume
+B. Density to mass
+C. Density of substance to density of water
+D. Weight to volume
+
+Ans: C
+
+8. Gas specific gravity measuring system compares density of gas with
+A. Vacuum
+B. Air
+C. Water
+D. Nitrogen
+
+Ans: B
+
+9. Density measurement is independent of
+A. Pressure
+B. Temperature
+C. Composition
+D. Mass
+
+Ans: D
+
+10. Hydrometer readings are corrected mainly for
+ A. Pressure
+ B. Temperature
+ C. Humidity
+ D. Velocity
+
+Ans: B
+
+
+
+# 🔹 10. Flow Measurement – Basics (Liquid & Gas). (10 MCQs)
+
+1. Flow rate is defined as
+A. Mass per unit time
+B. Volume per unit time
+C. Velocity per unit time
+D. Pressure per unit time
+
+Ans: B
+
+2. Mass flow rate is expressed as
+A. kg/s
+B. m³/s
+C. N/s
+D. J/s
+
+Ans: A
+
+3. Volumetric flow rate depends on
+A. Density
+B. Temperature and pressure
+C. Mass only
+D. Gravity
+
+Ans: B
+
+4. Gas flow measurement is more sensitive to
+A. Temperature
+B. Pressure
+C. Density
+D. All of the above
+
+Ans: D
+
+5. Liquid flow measurement is generally
+A. Compressible
+B. Incompressible
+C. Highly elastic
+D. Unstable
+
+Ans: B
+
+6. Flow measurement devices work based on
+A. Energy conservation
+B. Bernoulli’s principle
+C. Momentum change
+D. All of the above
+
+Ans: D
+
+7. Differential pressure flow meters measure
+A. Velocity directly
+B. Pressure difference
+C. Mass directly
+D. Density
+
+Ans: B
+
+8. Flow rate increases with
+A. Increase in viscosity
+B. Increase in pressure difference
+C. Decrease in pipe diameter
+D. Increase in friction
+
+Ans: B
+
+9. Gas flow meters require correction for
+A. Pressure and temperature
+B. Viscosity only
+C. Pipe length
+D. Surface roughness
+
+Ans: A
+
+10. Primary element in flow measurement is
+ A. Sensor
+ B. Flow obstruction
+ C. Amplifier
+ D. Indicator
+
+Ans: B
+
+
+
+# 🔹 11. Liquid & Gas Flow Measurement Methods (10 MCQs)
+
+1. Orifice meter measures flow by
+A. Area reduction
+B. Velocity increase
+C. Pressure drop
+D. All of the above
+
+Ans: D
+
+2. Venturi meter has advantage of
+A. High pressure loss
+B. Low pressure loss
+C. Simple construction
+D. Low accuracy
+
+Ans: B
+
+3. Pitot tube measures
+A. Static pressure
+B. Dynamic pressure
+C. Velocity
+D. Density
+
+Ans: C
+
+4. Rotameter is a
+A. Differential pressure meter
+B. Variable area flow meter
+C. Positive displacement meter
+D. Turbine meter
+
+Ans: B
+
+5. Turbine flow meter output is proportional to
+A. Pressure
+B. Temperature
+C. Flow velocity
+D. Density
+
+Ans: C
+
+6. Strain gauge flow meter measures flow by
+A. Heat transfer
+B. Force on obstruction
+C. Pressure difference
+D. Viscosity
+
+Ans: B
+
+7. Mass flow meter measures
+A. Volume
+B. Density
+C. Mass directly
+D. Velocity
+
+Ans: C
+
+8. Coriolis mass flow meter works on
+A. Bernoulli principle
+B. Newton’s law
+C. Coriolis force
+D. Archimedes principle
+
+Ans: C
+
+9. Gas flow measurement accuracy improves with
+A. Lower pressure
+B. Higher density
+C. Stable temperature
+D. Smaller pipe
+
+Ans: C
+
+10. Flow meters for viscous fluids should have
+ A. Small diameter
+ B. Large pressure drop
+ C. Minimal obstruction
+ D. High velocity
+
+Ans: C
+
+
+
+# 🔹 12. Measurement of Flow of Dry Materials (10 MCQs)
+
+1. Dry material flow includes
+A. Liquids
+B. Gases
+C. Solids in bulk
+D. Slurries
+
+Ans: C
+
+2. Weigh belt feeder measures flow by
+A. Volume
+B. Weight
+C. Density
+D. Pressure
+
+Ans: B
+
+3. Screw feeder is suitable for
+A. Gas flow
+B. Liquid flow
+C. Powder flow
+D. Vapor flow
+
+Ans: C
+
+4. Impact flow meter works based on
+A. Momentum change
+B. Heat transfer
+C. Pressure difference
+D. Viscosity
+
+Ans: A
+
+5. Rotary valve is used for
+A. Measuring only
+B. Flow control of solids
+C. Liquid flow
+D. Gas measurement
+
+Ans: B
+
+6. Pneumatic conveying flow depends on
+A. Particle size
+B. Gas velocity
+C. Density
+D. All of the above
+
+Ans: D
+
+7. Mass flow of solids is usually expressed in
+A. m³/s
+B. kg/s
+C. N/s
+D. Pa
+
+Ans: B
+
+8. Dry material flow measurement is difficult due to
+A. Compressibility
+B. Irregular shape
+C. High viscosity
+D. Temperature
+
+Ans: B
+
+9. Hopper flow is affected by
+A. Angle of repose
+B. Particle size
+C. Moisture content
+D. All of the above
+
+Ans: D
+
+10. Load cell is used in
+ A. Gas flow
+ B. Liquid flow
+ C. Solid flow measurement
+ D. Temperature measurement
+
+Ans: C
+
+
+# 🔹 13. Thermal Analysis – DTA & TGA (10 MCQs)
+
+1. Thermal analysis involves study of
+A. Electrical properties
+B. Chemical composition
+C. Physical properties as a function of temperature
+D. Optical properties
+
+Ans: C
+
+2. Differential Thermal Analysis (DTA). measures
+A. Weight change
+B. Heat flow difference
+C. Electrical conductivity
+D. Mass flow
+
+Ans: B
+
+3. Thermogravimetric analysis (TGA). measures
+A. Heat evolved
+B. Temperature
+C. Weight change
+D. Volume change
+
+Ans: C
+
+4. DTA curve shows peaks due to
+A. Weight loss
+B. Phase change or reaction
+C. Electrical change
+D. Pressure change
+
+Ans: B
+
+5. TGA is useful in studying
+A. Melting point
+B. Decomposition and moisture content
+C. Density
+D. pH
+
+Ans: B
+
+6. Endothermic reaction in DTA gives
+A. Upward peak
+B. Downward peak
+C. Straight line
+D. No peak
+
+Ans: A
+
+7. TGA is commonly used for
+A. Gas analysis
+B. Solid analysis
+C. Liquid flow
+D. Humidity
+
+Ans: B
+
+8. Heating rate affects
+A. TGA curve
+B. DTA peak position
+C. Both A and B
+D. Neither A nor B
+
+Ans: C
+
+9. Thermal analysis is carried out under
+A. Constant pressure
+B. Controlled atmosphere
+C. Vacuum only
+D. Open air only
+
+Ans: B
+
+10. Combined DTA–TGA gives information about
+ A. Weight only
+ B. Heat only
+ C. Both thermal and mass changes
+ D. Density
+
+Ans: C
+
+
+
+# 🔹 14. Conductometric Analysis (10 MCQs)
+
+1. Conductometric analysis is based on measurement of
+A. Voltage
+B. Resistance
+C. Conductance
+D. Capacitance
+
+Ans: C
+
+2. Conductance depends on
+A. Temperature
+B. Concentration
+C. Nature of ions
+D. All of the above
+
+Ans: D
+
+3. Conductometric titration detects end point by
+A. Color change
+B. pH change
+C. Change in conductance
+D. Temperature change
+
+Ans: C
+
+4. Conductometric method is useful for
+A. Colored solutions
+B. Turbid solutions
+C. Both A and B
+D. Only clear solutions
+
+Ans: C
+
+5. Strong electrolyte shows
+A. High conductance
+B. Low conductance
+C. Zero conductance
+D. Constant conductance
+
+Ans: A
+
+6. Conductivity of solution increases with
+A. Decrease in temperature
+B. Increase in viscosity
+C. Increase in ionic mobility
+D. Decrease in ions
+
+Ans: C
+
+7. Conductometric titration curve shows
+A. Single straight line
+B. V-shaped curve
+C. No change
+D. Random pattern
+
+Ans: B
+
+8. Cell constant is required to
+A. Measure temperature
+B. Convert resistance to conductance
+C. Convert conductance to conductivity
+D. Measure pH
+
+Ans: C
+
+9. Conductometric analysis avoids
+A. Indicators
+B. Electrodes
+C. Solutions
+D. Calibration
+
+Ans: A
+
+10. Conductometric method is preferred when
+ A. Reaction is slow
+ B. End point is sharp
+ C. Indicator is unsuitable
+ D. Solution is dilute
+
+Ans: C
+
+
+
+# 🔹 15. Chromatography & Applications (10 MCQs)
+
+1. Chromatography separates components based on
+A. Density
+B. Molecular weight
+C. Distribution between phases
+D. Color
+
+Ans: C
+
+2. Stationary phase in paper chromatography is
+A. Paper
+B. Water
+C. Solvent
+D. Silica gel
+
+Ans: B
+
+3. Mobile phase in chromatography is
+A. Solid
+B. Liquid or gas
+C. Paper
+D. Adsorbent
+
+Ans: B
+
+4. Rf value is defined as
+A. Distance moved by solute / distance moved by solvent front
+B. Solute concentration
+C. Retention time
+D. Flow rate
+
+Ans: A
+
+5. Gas chromatography uses
+A. Liquid mobile phase
+B. Solid mobile phase
+C. Gas mobile phase
+D. Gel mobile phase
+
+Ans: C
+
+6. Column chromatography stationary phase is usually
+A. Water
+B. Silica or alumina
+C. Paper
+D. Gas
+
+Ans: B
+
+7. Chromatography is widely used in
+A. Structural design
+B. Environmental analysis
+C. Concrete testing
+D. Surveying
+
+Ans: B
+
+8. Retention time in chromatography depends on
+A. Temperature
+B. Nature of stationary phase
+C. Flow rate
+D. All of the above
+
+Ans: D
+
+9. Chromatography is used for
+A. Qualitative analysis only
+B. Quantitative analysis only
+C. Both qualitative and quantitative analysis
+D. Temperature measurement
+
+Ans: C
+
+10. Detector in gas chromatography converts
+ A. Gas to liquid
+ B. Chemical signal to electrical signal
+ C. Pressure to flow
+ D. Heat to mass
+
+Ans: B
+
+
+## 🔹 16. pH Measurement & Control (10 MCQs)
+
+1. pH is defined as
+A. −log[H⁺]
+B. log[H⁺]
+C. −log[OH⁻]
+D. log[OH⁻]
+
+Ans: A
+
+2. pH scale ranges approximately from
+A. 0 to 7
+B. 1 to 10
+C. 0 to 14
+D. −1 to 1
+
+Ans: C
+
+3. Glass electrode is sensitive to
+A. OH⁻ ions
+B. H⁺ ions
+C. Na⁺ ions
+D. Cl⁻ ions
+
+Ans: B
+
+4. Reference electrode commonly used in pH measurement is
+A. Hydrogen electrode
+B. Zinc electrode
+C. Calomel electrode
+D. Copper electrode
+
+Ans: C
+
+5. pH meter measures
+A. Current
+B. Resistance
+C. EMF
+D. Capacitance
+
+Ans: C
+
+6. pH control in industries is important for
+A. Product quality
+B. Corrosion prevention
+C. Process efficiency
+D. All of the above
+
+Ans: D
+
+7. Temperature affects pH measurement by changing
+A. Electrode potential
+B. Resistance only
+C. Color
+D. Density
+
+Ans: A
+
+8. Buffer solution is used to
+A. Increase pH
+B. Decrease pH
+C. Maintain constant pH
+D. Neutralize acid
+
+Ans: C
+
+9. Acidic solution has pH
+A. >7
+B. =7
+C. <7
+D. =0
+
+Ans: C
+
+10. pH measurement is widely used in
+ A. Structural engineering
+ B. Water treatment
+ C. Surveying
+ D. Transportation
+
+Ans: B
+
+
+
+## 🔹 17. Temperature Control Systems (10 MCQs)
+
+1. Temperature control system maintains
+A. Pressure
+B. Flow
+C. Desired temperature
+D. Density
+
+Ans: C
+
+2. Basic components of control system include
+A. Sensor, controller, actuator
+B. Pump, valve, tank
+C. Motor, gear, shaft
+D. Beam, slab, column
+
+Ans: A
+
+3. Controller output is used to
+A. Measure temperature
+B. Adjust control element
+C. Display temperature
+D. Store data
+
+Ans: B
+
+4. ON–OFF controller causes
+A. Smooth control
+B. Continuous variation
+C. Oscillation around set point
+D. No control
+
+Ans: C
+
+5. PID controller stands for
+A. Pressure–Integral–Derivative
+B. Proportional–Integral–Derivative
+C. Power–Input–Derivative
+D. Process–Input–Drive
+
+Ans: B
+
+6. Temperature sensor in control loop may be
+A. Thermocouple
+B. RTD
+C. Thermistor
+D. All of the above
+
+Ans: D
+
+7. Set point is
+A. Measured value
+B. Desired value
+C. Output value
+D. Error
+
+Ans: B
+
+8. Error signal equals
+A. Output − input
+B. Set point − measured value
+C. Input − output
+D. Gain × input
+
+Ans: B
+
+9. Closed loop control is preferred because it
+A. Has no feedback
+B. Is unstable
+C. Is more accurate
+D. Is simpler
+
+Ans: C
+
+10. Temperature control is essential in
+ A. Heat exchangers
+ B. Reactors
+ C. Distillation columns
+ D. All of the above
+
+Ans: D
+
+
+
+## 🔹 18. Heat Exchangers, Distillation Columns & Reaction Systems (10 MCQs)
+
+1. Heat exchanger is used to
+A. Generate heat
+B. Exchange heat between fluids
+C. Store heat
+D. Destroy heat
+
+Ans: B
+
+2. Common type of heat exchanger is
+A. Shell and tube
+B. Plate
+C. Double pipe
+D. All of the above
+
+Ans: D
+
+3. Distillation is based on difference in
+A. Density
+B. Viscosity
+C. Boiling point
+D. Surface tension
+
+Ans: C
+
+4. Distillation column has
+A. Reboiler and condenser
+B. Pump only
+C. Heater only
+D. Cooler only
+
+Ans: A
+
+5. Reaction system converts
+A. Energy to work
+B. Reactants to products
+C. Heat to pressure
+D. Flow to density
+
+Ans: B
+
+6. Temperature control in reactor is important to
+A. Improve selectivity
+B. Prevent runaway reactions
+C. Maintain yield
+D. All of the above
+
+Ans: D
+
+7. Countercurrent flow in heat exchanger gives
+A. Lower efficiency
+B. Higher efficiency
+C. Same efficiency
+D. No heat transfer
+
+Ans: B
+
+8. Packed column uses
+A. Trays
+B. Packing material
+C. Baffles
+D. Coils
+
+Ans: B
+
+9. Reflux ratio affects
+A. Column height
+B. Separation efficiency
+C. Feed rate
+D. Pressure only
+
+Ans: B
+
+10. Control variables in reactors include
+ A. Temperature
+ B. Pressure
+ C. Concentration
+ D. All of the above
+
+Ans: D
+
+
+
+## 🔹 19. Moisture Content & Humidity Measurement (10 MCQs)
+
+1. Moisture content refers to
+A. Dryness of air
+B. Amount of water present
+C. Temperature of air
+D. Density of air
+
+Ans: B
+
+2. Humidity is the measure of
+A. Water vapor in air
+B. Oxygen content
+C. CO₂ content
+D. Pressure
+
+Ans: A
+
+3. Absolute humidity is
+A. Mass of water vapor per unit volume
+B. Ratio of vapor pressures
+C. Relative moisture
+D. Dew point
+
+Ans: A
+
+4. Relative humidity is defined as
+A. Actual vapor pressure / saturation vapor pressure
+B. Mass / volume
+C. Pressure × temperature
+D. Density ratio
+
+Ans: A
+
+5. Thermal drying method determines moisture by
+A. Heating and weight loss
+B. Cooling
+C. Compression
+D. Radiation
+
+Ans: A
+
+6. Hygrometer measures
+A. Pressure
+B. Temperature
+C. Humidity
+D. Density
+
+Ans: C
+
+7. Psychrometer uses
+A. One thermometer
+B. Wet and dry bulb thermometers
+C. Pressure gauge
+D. Flow meter
+
+Ans: B
+
+8. Dew point apparatus measures
+A. Moisture content
+B. Dew point temperature
+C. Absolute humidity
+D. Pressure
+
+Ans: B
+
+9. High relative humidity indicates
+A. Dry air
+B. Moist air
+C. Cold air only
+D. High pressure
+
+Ans: B
+
+10. Humidity measurement is important in
+ A. HVAC systems
+ B. Food storage
+ C. Process industries
+ D. All of the above
+
+Ans: D
+
+
+
+## 🔹 20. Spectroscopic, X-ray & Gas Analysis Techniques (10 MCQs)
+
+1. Spectroscopic analysis is based on interaction of matter with
+A. Heat
+B. Radiation
+C. Pressure
+D. Electricity
+
+Ans: B
+
+2. Absorption spectroscopy measures
+A. Emitted radiation
+B. Absorbed radiation
+C. Scattered radiation
+D. Reflected radiation
+
+Ans: B
+
+3. Emission spectroscopy analyzes
+A. Excited atoms
+B. Ground state atoms
+C. Molecules only
+D. Ions only
+
+Ans: A
+
+4. Mass spectrometer separates ions based on
+A. Density
+B. Charge-to-mass ratio
+C. Temperature
+D. Pressure
+
+Ans: B
+
+5. X-ray diffraction is used for
+A. Liquid analysis
+B. Gas analysis
+C. Crystal structure analysis
+D. pH measurement
+
+Ans: C
+
+6. Bragg’s law relates
+A. Energy and mass
+B. Wavelength and angle
+C. Pressure and volume
+D. Temperature and entropy
+
+Ans: B
+
+7. Thermal conductivity gas analyzer works on difference in
+A. Density
+B. Viscosity
+C. Thermal conductivity
+D. Color
+
+Ans: C
+
+8. Polarography is an electrochemical method based on
+A. Optical absorption
+B. Current–voltage relationship
+C. Heat flow
+D. Gas diffusion
+
+Ans: B
+
+9. Chromatography is useful for
+A. Separation
+B. Identification
+C. Quantification
+D. All of the above
+
+Ans: D
+
+10. Gas analysis is important for
+ A. Environmental monitoring
+ B. Process control
+ C. Safety
+ D. All of the above
+
+Ans: D
+
+🔹 Pressure Measurement – Manometers (10 MCQs)
+
+1. Pressure is defined as
+A. Force × area
+B. Force / area
+C. Energy per unit volume
+D. Mass × acceleration
+
+Ans: B
+
+1. U-tube manometer measures pressure based on
+A. Elastic deformation
+B. Electrical resistance
+C. Height difference of manometric fluid
+D. Thermal expansion
+
+Ans: C
+
+1. In a U-tube manometer, higher pressure side corresponds to
+A. Higher liquid level
+B. Lower liquid level
+C. Same liquid level
+D. No liquid movement
+
+Ans: B
+
+1. Well-type manometer is mainly used for
+A. Very high pressures
+B. Large pressure differences
+C. Small pressure differences
+D. Atmospheric pressure
+
+Ans: C
+
+1. Advantage of inclined manometer over vertical manometer is
+A. Compact size
+B. Lower cost
+C. Greater sensitivity for small pressure differences
+D. Ability to measure high pressure
+
+Ans: C
+
+1. Inclined manometer increases sensitivity by
+A. Increasing density of liquid
+B. Increasing cross-section
+C. Increasing effective length of fluid column
+D. Using vacuum
+
+Ans: C
+
+1. Prandtl manometer is mainly used to measure
+A. Static pressure
+B. Absolute pressure
+C. Fluid velocity
+D. Atmospheric pressure
+
+Ans: C
+
+1. Air-type micromanometer is preferred because it
+A. Uses mercury
+B. Has high inertia
+C. Can measure extremely small pressure differences
+D. Measures vacuum only
+
+Ans: C
+
+1. Micromanometers are generally used for measuring pressure of the order of
+A. kPa
+B. MPa
+C. Very low mm of water column
+D. Atmospheric pressure
+
+Ans: C
+
+1. Which of the following is a limitation of liquid manometers?
+A. Simple construction
+B. High accuracy
+C. Not suitable for fluctuating pressures
+D. No calibration required
+
+Ans: C
+
+🔹 Atmospheric & Low-Pressure Measurement (10 MCQs)
+
+1. Barometer is used to measure
+A. Gauge pressure
+B. Differential pressure
+C. Absolute atmospheric pressure
+D. Vacuum pressure
+
+Ans: C
+
+1. Standard atmospheric pressure at sea level is approximately
+A. 760 mm of Hg
+B. 101.3 mm of Hg
+C. 10 mm of Hg
+D. 1 mm of Hg
+
+Ans: A
+
+1. Barometer works on the principle of balance between
+A. Atmospheric pressure and vapor pressure
+B. Liquid pressure and gravity
+C. Atmospheric pressure and weight of liquid column
+D. Density and volume
+
+Ans: C
+
+1. Atmospheric pressure measured by barometer decreases with
+A. Decrease in altitude
+B. Increase in altitude
+C. Increase in temperature
+D. Increase in density
+
+Ans: B
+
+1. Pirani gauge measures low pressure based on variation of
+A. Ionization current
+B. Electrical resistance
+C. Thermal conductivity of gas
+D. Gas viscosity
+
+Ans: C
+
+1. Pirani gauge is suitable for measuring pressure in the range of
+A. Atmospheric pressure
+B. High pressure
+C. Low pressure (vacuum)
+D. Very high pressure
+
+Ans: C
+
+1. Major limitation of Pirani gauge is that it
+A. Is expensive
+B. Depends on gas composition
+C. Cannot measure low pressure
+D. Requires liquid column
+
+Ans: B
+
+1. McLeod gauge works on the principle of
+A. Boyle’s law
+B. Charles’ law
+C. Dalton’s law
+D. Graham’s law
+
+Ans: A
+
+1. McLeod gauge is NOT suitable for measuring pressure of
+A. Non-condensable gases
+B. Condensable vapors
+C. Low pressure gases
+D. Vacuum
+
+Ans: B
+
+1. Thermal conductivity gauge differs from Pirani gauge mainly in
+A. Operating pressure range
+B. Use of electrical resistance
+C. Sensitivity and construction
+D. Measurement principle
+
+Ans: C
+
+🔹 Electrical–Mechanical Transducers & Density Measurement (10 MCQs)
+
+1. An electrical–mechanical transducer converts
+A. Electrical energy into heat
+B. Mechanical quantity into electrical signal
+C. Chemical energy into electrical energy
+D. Thermal energy into mechanical energy
+
+Ans: B
+
+1. Strain gauge works on the principle of change in
+A. Capacitance
+B. Inductance
+C. Electrical resistance
+D. Magnetic flux
+
+Ans: C
+
+1. LVDT is commonly used for measuring
+A. Temperature
+B. Pressure
+C. Linear displacement
+D. Flow rate
+
+Ans: C
+
+1. Piezoelectric transducers are best suited for
+A. Static measurements
+B. Dynamic measurements
+C. DC signals
+D. Low-frequency signals
+
+Ans: B
+
+1. Constant volume hydrometer measures density by observing change in
+A. Immersed length
+B. Volume displacement
+C. Weight required to maintain constant volume
+D. Pressure difference
+
+Ans: C
+
+1. Constant volume hydrometer operates based on
+A. Pascal’s law
+B. Bernoulli’s principle
+C. Archimedes’ principle
+D. Boyle’s law
+
+Ans: C
+
+1. Air pressure balance method measures density by balancing
+A. Weight of liquid columns
+B. Buoyant forces
+C. Pressure due to gas columns
+D. Electrical signals
+
+Ans: C
+
+1. Gas density detector generally works on the principle of
+A. Gas viscosity
+B. Gas thermal conductivity
+C. Gas pressure
+D. Gas velocity
+
+Ans: B
+
+1. Gas specific gravity measuring system compares density of gas with
+A. Vacuum
+B. Nitrogen
+C. Air
+D. Water vapor
+
+Ans: C
+
+1. Density measurement using gas specific gravity system is important mainly in
+A. Structural engineering
+B. Process control industries
+C. Surveying
+D. Transportation engineering
+
+Ans: B
+
+🔹 Flow Measurement Methods (10 MCQs)
+
+1. Direct volume measurement of flow involves measuring
+A. Velocity of fluid
+B. Pressure difference
+C. Volume collected per unit time
+D. Mass flow rate directly
+
+Ans: C
+
+1. Direct volume measurement is most suitable for
+A. High flow rates
+B. Steady laboratory flow
+C. Highly fluctuating flow
+D. Gas flow
+
+Ans: B
+
+1. Open channel flow refers to flow where
+A. Flow is under pressure
+B. Entire conduit is filled
+C. Free surface is exposed to atmosphere
+D. Flow is in vacuum
+
+Ans: C
+
+1. Common open channel flow measuring devices include
+A. Venturi meter and orifice
+B. Weirs and flumes
+C. Pitot tube and rotameter
+D. Turbine meter and LVDT
+
+Ans: B
+
+1. Discharge over a rectangular weir mainly depends on
+A. Width only
+B. Head of liquid
+C. Density of fluid
+D. Viscosity only
+
+Ans: B
+
+1. Turbine type flow meter measures flow rate based on
+A. Pressure drop
+B. Heat transfer
+C. Rotational speed of turbine
+D. Change in resistance
+
+Ans: C
+
+1. Output of a turbine flow meter is generally
+A. Analog voltage
+B. Mechanical displacement
+C. Frequency or pulse signal
+D. Temperature signal
+
+Ans: C
+
+1. Strain gauge flow meter measures flow by detecting
+A. Heat loss
+B. Force exerted by fluid on obstruction
+C. Change in fluid density
+D. Magnetic flux variation
+
+Ans: B
+
+1. Mass flow meter directly measures
+A. Volume per unit time
+B. Density of fluid
+C. Mass per unit time
+D. Velocity of fluid
+
+Ans: C
+
+1. Major advantage of mass flow meter is that it is
+A. Independent of temperature and pressure
+B. Cheap and simple
+C. Requires no calibration
+D. Suitable only for liquids
+
+Ans: A
+
+🔹 Moisture, Humidity & pH Measurement (10 MCQs)
+
+1. Moisture content of a material is determined by thermal drying through
+A. Cooling and weighing
+B. Heating and measuring weight loss
+C. Compressing and weighing
+D. Chemical reaction
+
+Ans: B
+
+1. Thermal drying method determines moisture content by
+A. Volume reduction
+B. Density change
+C. Loss in mass due to evaporation of moisture
+D. Pressure difference
+
+Ans: C
+
+1. Moisture content is usually expressed as
+A. Weight of dry material / total weight
+B. Weight of moisture / weight of dry material
+C. Volume of moisture / volume of solid
+D. Pressure of moisture / pressure of air
+
+Ans: B
+
+1. 1. Humidity is defined as the measure of
+A. Water content in solids
+B. Moisture present in air
+C. Density of air
+D. Pressure of air
+
+Ans: B
+
+1. Hygrometer is an instrument used to measure
+A. Temperature
+B. Pressure
+C. Humidity
+D. Moisture content of solids
+
+Ans: C
+
+1. Psychrometer consists of
+A. One thermometer
+B. Wet bulb and dry bulb thermometers
+C. Pressure gauge
+D. Flow meter
+
+Ans: B
+
+1. Relative humidity is calculated using
+A. Wet bulb temperature only
+B. Dry bulb temperature only
+C. Difference between wet and dry bulb temperatures
+D. Atmospheric pressure
+
+Ans: C
+
+1. Dew point apparatus measures
+A. Absolute humidity
+B. Relative humidity directly
+C. Dew point temperature
+D. Moisture content of solids
+
+Ans: C
+
+1. In pH measurement, calomel electrode acts as
+A. Indicator electrode
+B. Measuring electrode
+C. Reference electrode
+D. Glass electrode
+
+Ans: C
+
+1. Calomel electrode is preferred as a reference electrode because it provides
+A. Variable potential
+B. High resistance
+C. Stable and reproducible potential
+D. High sensitivity to pH
+
+Ans: C
+
+🔹 Spectroscopic & X-Ray Analysis (10 MCQs)
+
+1. Spectroscopic analysis is based on interaction of matter with
+A. Heat
+B. Radiation
+C. Pressure
+D. Electric field
+
+Ans: B
+
+1. Absorption spectroscopy works on the principle of
+A. Emission of radiation by excited atoms
+B. Absorption of specific wavelengths by atoms or molecules
+C. Scattering of light
+D. Reflection of radiation
+
+Ans: B
+
+1. In absorption spectroscopy, concentration of analyte is related to absorbance by
+A. Beer–Lambert law
+B. Boyle’s law
+C. Charles’ law
+D. Raoult’s law
+
+Ans: A
+
+1. Emission spectroscopy involves measurement of
+A. Absorbed radiation
+B. Reflected radiation
+C. Radiation emitted by excited atoms
+D. Scattered radiation
+
+Ans: C
+
+1. Emission spectroscopy is particularly useful for analysis of
+A. Organic compounds
+B. Metals and alloys
+C. Polymers
+D. Gases only
+
+Ans: B
+
+1. Mass spectrometer separates ions based on their
+A. Density
+B. Velocity
+C. Charge-to-mass ratio
+D. Energy
+
+Ans: C
+
+1. Major components of a mass spectrometer include
+A. Ion source, mass analyzer, detector
+B. Heater, condenser, pump
+C. Prism, lens, screen
+D. Electrode, electrolyte, salt bridge
+
+Ans: A
+
+1. Mass spectrometry is mainly used for
+A. Crystal structure determination
+B. Molecular weight determination
+C. Flow measurement
+D. Humidity measurement
+
+Ans: B
+
+1. X-ray diffraction analysis is used to study
+A. Liquid composition
+B. Gas composition
+C. Crystal structure of solids
+D. pH of solutions
+
+Ans: C
+
+1. X-ray diffraction is based on
+A. Reflection of light
+B. Absorption of radiation
+C. Bragg’s law
+D. Beer–Lambert law
+
+Ans: C
+
+
+## 🔹 Gas Analysis, Polarography & Chromatography (10 MCQs)
+
+1. Thermal conductivity gas analyzer works based on the principle that
+A. All gases have same thermal conductivity
+B. Thermal conductivity of gas changes with temperature only
+C. Different gases have different thermal conductivities
+D. Thermal conductivity depends only on pressure
+
+Ans: C
+
+
+
+2. In thermal conductivity gas analysis, the reference gas commonly used is
+A. Oxygen
+B. Nitrogen
+C. Air
+D. Hydrogen
+
+Ans: C
+
+
+
+3. Change in thermal conductivity of gas is detected by change in
+A. Voltage
+B. Pressure
+C. Temperature of heated element
+D. Flow velocity
+
+Ans: C
+
+
+
+4. Thermal conductivity gas analyzers are most suitable for
+A. Trace analysis at very low concentration
+B. Continuous monitoring of gas composition
+C. Solid analysis
+D. Liquid phase reactions
+
+Ans: B
+
+
+
+5. Polarography is an analytical technique based on measurement of
+A. Absorbance
+B. Conductance
+C. Current as a function of applied voltage
+D. Thermal conductivity
+
+Ans: C
+
+
+
+6. The working electrode used in polarography is
+A. Platinum electrode
+B. Glass electrode
+C. Dropping mercury electrode
+D. Calomel electrode
+
+Ans: C
+
+
+
+7. Polarography is mainly used for analysis of
+A. Non-electrolytes
+B. Electroactive species
+C. Gases only
+D. Solids only
+
+Ans: B
+
+
+
+8. Chromatography separates components based on difference in
+A. Density
+B. Molecular weight
+C. Distribution between stationary and mobile phases
+D. Color
+
+Ans: C
+
+
+
+9. In gas chromatography, the mobile phase is
+A. Liquid
+B. Solid
+C. Gas
+D. Gel
+
+Ans: C
+
+
+
+10. Chromatography is widely used for
+ A. Separation only
+ B. Qualitative analysis only
+ C. Quantitative analysis only
+ D. Separation, identification, and quantification
+
+Ans: D
+

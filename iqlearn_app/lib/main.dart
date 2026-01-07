@@ -4,12 +4,9 @@ import 'screens/auth/login_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
-  // Firebase removed - using local authentication only
-  // await Firebase.initializeApp();
-  
   runApp(const MyApp());
 }
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -27,6 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         appBarTheme: const AppBarTheme(
           centerTitle: true,
+          backgroundColor: Colors.white,
           elevation: 2,
         ),
         cardTheme: CardThemeData(

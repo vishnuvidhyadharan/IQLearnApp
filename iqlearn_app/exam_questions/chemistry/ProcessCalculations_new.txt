@@ -1,0 +1,3211 @@
+Process Calculations, Units and dimensions, conversion of units. dimensicnal analysis, conversion of empirical equations, mole concep and mole fraction, weight fraction and volume fraction, concentration cf liquid solutions , molarity, molality, normality, ppm, density and specific gravity, specific gravity scales, use of mole concept in chemical reactior stoichiometry, ideal gases and gas mixtures, various gas laws, average molecular weight and density of gases, critical properties and compressibility of gases. Material balances with and without chemica reactions, material balance in unit operations such as evaporation crystallization, drying, absorption, distillation etc. Energy balances:Heat capacity, specific heat and enthalpy, heat capacities of gases and gaseous mixtures,estimation of heat capacity ,relevant rules and laws calculation of enthalpy changes, Estimation of latent heat o vaporization, heat balance calculations in processes without chemica reaction, heat of reaction, standard heats of formation, combustion and reaction, heat of solutiun and heat of mixing, adiabatic and non,adiabatic reactions, theoretical and actual flame temperatures. Vapour Pressure vapour pressure of pure liquids and immiscible liquids, ideal solutions and Raoult's law, non,volatile solutes, humidity: Humidity and saturation various term associated with humidity and saturation. Material and energy balance problems involving vaporization and condensation, fuels and combustion, heating value of fuels, proximate and ultimate analysis Orsat analysis of flue gases.
+
+
+
+
+## 🔹 Process Calculations, Units & Dimensions (10 MCQs)
+
+1. Process calculations mainly deal with
+A. Reaction mechanisms
+B. Quantitative analysis of chemical processes
+C. Instrument calibration
+D. Heat transfer equipment
+
+Ans: B
+
+
+
+2. The SI unit of mass is
+A. Gram
+B. Kilogram
+C. Newton
+D. Tonne
+
+Ans: B
+
+
+
+3. Dimensions of force are
+A. MLT⁻¹
+B. ML²T⁻²
+C. MLT⁻²
+D. ML⁻¹T²
+
+Ans: C
+
+
+
+4. Dimensional analysis is mainly used to
+A. Measure physical quantities
+B. Convert units
+C. Check correctness of equations
+D. Increase accuracy
+
+Ans: C
+
+
+
+5. Which of the following is a derived unit?
+A. Meter
+B. Second
+C. Kelvin
+D. Newton
+
+Ans: D
+
+
+
+6. One Pascal (Pa. is equal to
+A. 1 N/m
+B. 1 N/m²
+C. 1 kg/m²
+D. 1 kg·m/s²
+
+Ans: B
+
+
+
+7. The SI unit of energy is
+A. Calorie
+B. Erg
+C. Joule
+D. Watt
+
+Ans: C
+
+
+
+8. Conversion of units is necessary in process calculations to
+A. Increase speed of calculation
+B. Avoid dimensional inconsistency
+C. Change numerical values only
+D. Reduce accuracy
+
+Ans: B
+
+
+
+9. Which of the following quantities is dimensionless?
+A. Velocity
+B. Strain
+C. Force
+D. Pressure
+
+Ans: B
+
+
+
+10. If a physical equation is dimensionally incorrect, then it is
+A. Always experimentally correct
+B. Possibly correct
+C. Always incorrect
+D. Applicable only in SI units
+
+Ans: C
+
+
+
+## 🔹 Dimensional Analysis, Mole Concept & Mole Fraction (10 MCQs)
+
+11. Dimensional analysis is mainly used to
+A. Measure physical quantities
+B. Derive empirical equations
+C. Check dimensional consistency of equations
+D. Increase numerical accuracy
+
+Ans: C
+
+
+
+12. If a physical equation is dimensionally homogeneous, it is
+A. Always experimentally correct
+B. Always incorrect
+C. Possibly correct
+D. Valid only in SI units
+
+Ans: C
+
+
+
+13. Dimensional formula of viscosity is
+A. ML⁻¹T⁻¹
+B. ML⁻¹T⁻²
+C. MLT⁻¹
+D. ML²T⁻¹
+
+Ans: A
+
+
+
+14. Conversion of an empirical equation from one unit system to another is done by
+A. Changing numerical constants only
+B. Changing dimensional constants
+C. Using dimensional analysis
+D. Changing variables
+
+Ans: C
+
+
+
+15. In an empirical equation, the numerical constant depends on
+A. Physical law only
+B. Unit system used
+C. Dimensional homogeneity
+D. Independent variables
+
+Ans: B
+
+
+
+16. One mole of a substance is defined as the amount containing
+A. 1 gram of substance
+B. Molecular weight in grams
+C. Avogadro number of particles
+D. 22.4 litres always
+
+Ans: C
+
+
+
+17. Avogadro number is approximately
+A. 6.023 × 10²²
+B. 6.023 × 10²³
+C. 6.023 × 10²⁴
+D. 6.023 × 10²¹
+
+Ans: B
+
+
+
+18. Mole fraction of a component in a mixture is defined as
+A. Mass of component / total mass
+B. Volume of component / total volume
+C. Moles of component / total moles
+D. Density of component / mixture density
+
+Ans: C
+
+
+
+19. Sum of mole fractions of all components in a mixture is always
+A. Less than 1
+B. Greater than 1
+C. Equal to 1
+D. Zero
+
+Ans: C
+
+
+
+20. Mole fraction is a
+A. Dimensional quantity
+B. Pressure-dependent quantity
+C. Temperature-dependent quantity
+D. Dimensionless quantity
+
+Ans: D
+
+
+## 🔹 Weight Fraction, Volume Fraction & Concentration (10 MCQs)
+
+21. Weight fraction of a component in a mixture is defined as
+A. Weight of component / total volume
+B. Weight of component / total weight of mixture
+C. Volume of component / total volume
+D. Moles of component / total moles
+
+Ans: B
+
+
+
+22. Sum of weight fractions of all components in a mixture is always
+A. Less than 1
+B. Greater than 1
+C. Equal to 1
+D. Zero
+
+Ans: C
+
+
+
+23. Volume fraction of a component is defined as
+A. Volume of component / total volume of mixture
+B. Weight of component / total weight
+C. Moles of component / total moles
+D. Density of component / density of mixture
+
+Ans: A
+
+
+
+24. Volume fraction is most conveniently used when
+A. Components have similar densities
+B. Components react chemically
+C. Temperature changes rapidly
+D. Mass transfer is involved
+
+Ans: A
+
+
+
+25. Concentration of a liquid solution is commonly expressed as
+A. Mole fraction
+B. Weight fraction
+C. Volume fraction
+D. All of the above
+
+Ans: D
+
+
+
+26. Weight percent concentration is calculated as
+A. (Weight of solute / weight of solution. × 100
+B. (Weight of solute / volume of solution. × 100
+C. (Volume of solute / volume of solution. × 100
+D. (Moles of solute / total moles. × 100
+
+Ans: A
+
+
+
+27. Volume percent concentration is given by
+A. (Weight of solute / weight of solution. × 100
+B. (Volume of solute / volume of solution. × 100
+C. (Moles of solute / total moles. × 100
+D. (Density of solute / density of solution. × 100
+
+Ans: B
+
+
+
+28. For dilute liquid solutions, which concentration unit is approximately equal to mole fraction?
+A. Weight fraction
+B. Volume fraction
+C. Molality
+D. Molarity
+
+Ans: A
+
+
+
+29. Concentration expressed as molarity depends on
+A. Mass of solution
+B. Volume of solution
+C. Weight fraction
+D. Mole fraction
+
+Ans: B
+
+
+
+30. Concentration units involving volume are affected by
+A. Pressure only
+B. Temperature only
+C. Both temperature and pressure
+D. Density only
+
+Ans: B
+
+## 🔹 Molarity, Molality & Normality (10 MCQs)
+
+31. Molarity (M. is defined as
+A. Moles of solute per kg of solvent
+B. Moles of solute per litre of solution
+C. Gram equivalents per litre of solution
+D. Moles of solute per kg of solution
+
+Ans: B
+
+
+
+32. The SI unit of molarity is
+A. mol/kg
+B. mol/m³
+C. mol/L
+D. g/L
+
+Ans: B
+*(Note: mol/L is commonly used, but SI unit is mol/m³)*
+
+
+
+33. Molality (m. is defined as
+A. Moles of solute per litre of solution
+B. Moles of solute per kg of solvent
+C. Gram equivalents per litre
+D. Mass of solute per kg of solution
+
+Ans: B
+
+
+
+34. Molality is preferred over molarity because it is independent of
+A. Pressure
+B. Volume
+C. Temperature
+D. Density
+
+Ans: C
+
+
+
+35. Normality (N. is defined as
+A. Moles of solute per litre
+B. Gram equivalents of solute per litre of solution
+C. Moles of solute per kg of solvent
+D. Weight fraction of solute
+
+Ans: B
+
+
+
+36. Normality depends on
+A. Temperature only
+B. Nature of reaction
+C. Pressure only
+D. Density of solvent
+
+Ans: B
+
+
+
+37. For acid–base reactions, equivalent weight of an acid is
+A. Molecular weight × basicity
+B. Molecular weight ÷ basicity
+C. Molecular weight × acidity
+D. Molecular weight ÷ acidity
+
+Ans: B
+
+
+
+38. Which of the following concentration units changes with temperature?
+A. Molality
+B. Mole fraction
+C. Molarity
+D. Weight fraction
+
+Ans: C
+
+
+
+39. Relationship between molarity and normality is
+A. N = M
+B. N = M × equivalent factor
+C. N = M ÷ equivalent factor
+D. N = M + equivalent factor
+
+Ans: B
+
+
+
+40. Which concentration unit is most suitable for titration calculations?
+A. Molality
+B. Molarity
+C. Normality
+D. Mole fraction
+
+Ans: C
+
+
+
+
+
+## 🔹 Molarity, Molality & Normality — HIGH-YIELD MCQs (18)
+
+
+41. Molarity (M. is defined as
+A. Moles of solute per kg of solvent
+B. Moles of solute per litre of solution
+C. Gram equivalents per litre of solution
+D. Moles of solute per kg of solution
+
+Ans: B
+
+
+
+42. The SI unit of molarity is
+A. mol/L
+B. mol/kg
+C. mol/m³
+D. g/L
+
+Ans: C
+
+
+
+43. Molality (m. is defined as
+A. Moles of solute per litre of solution
+B. Moles of solute per kg of solvent
+C. Gram equivalents per litre
+D. Weight of solute per kg of solution
+
+Ans: B
+
+
+
+44. Molality is preferred in thermodynamic calculations because it is independent of
+A. Pressure
+B. Volume
+C. Temperature
+D. Nature of solute
+
+Ans: C
+
+
+
+45. Normality (N. is defined as
+A. Moles of solute per litre
+B. Gram equivalents per litre of solution
+C. Moles of solute per kg of solvent
+D. Weight fraction of solute
+
+Ans: B
+
+
+
+### 🔸 Temperature Dependence & Comparison
+
+46. Which concentration unit does NOT change with temperature?
+A. Molarity
+B. Normality
+C. Molality
+D. Volume percent
+
+Ans: C
+
+
+
+47. Which of the following concentration units is dimensionless?
+A. Molarity
+B. Molality
+C. Normality
+D. None of the above
+
+Ans: D
+
+
+
+48. Which concentration unit is most suitable for titration calculations?
+A. Molality
+B. Molarity
+C. Normality
+D. Mole fraction
+
+Ans: C
+
+
+
+### 🔸 Equivalent Weight & Reaction Dependence
+
+49. Normality depends on
+A. Molecular weight only
+B. Temperature only
+C. Nature of chemical reaction
+D. Density of solution
+
+Ans: C
+
+
+
+50. Equivalent weight of an acid is
+A. Molecular weight × basicity
+B. Molecular weight ÷ basicity
+C. Molecular weight × acidity
+D. Molecular weight ÷ acidity
+
+Ans: B
+
+
+
+51. Equivalent weight of a base is
+A. Molecular weight ÷ acidity
+B. Molecular weight × acidity
+C. Molecular weight ÷ basicity
+D. Molecular weight × basicity
+
+Ans: C
+
+
+
+52. Equivalent weight of an oxidizing agent is
+A. Molecular weight ÷ number of electrons lost
+B. Molecular weight ÷ number of electrons gained
+C. Molecular weight × number of electrons
+D. Molecular weight ÷ valency
+
+Ans: B
+
+
+
+### 🔸 Relationships & Conversions (VERY IMPORTANT)
+
+53. Relationship between normality (N. and molarity (M. is
+A. N = M
+B. N = M × equivalent factor
+C. N = M ÷ equivalent factor
+D. N = M + equivalent factor
+
+Ans: B
+
+
+
+54. For H₂SO₄ in acid–base reaction, relation between N and M is
+A. N = M
+B. N = 2M
+C. N = M/2
+D. N = 4M
+
+Ans: B
+
+
+
+55. A 1 M NaOH solution has a normality of
+A. 0.5 N
+B. 1 N
+C. 2 N
+D. 4 N
+
+Ans: B
+
+
+
+56. A 0.5 M H₂SO₄ solution has normality
+A. 0.5 N
+B. 1 N
+C. 2 N
+D. 4 N
+
+Ans: B
+
+
+
+### 🔸 Trick / Conceptual Questions (PSC Favorites)
+
+57. Which concentration unit depends on volume of solution?
+A. Molality
+B. Mole fraction
+C. Weight fraction
+D. Molarity
+
+Ans: D
+
+
+
+58. Which of the following statements is correct?
+A. Molality and molarity are always equal
+B. Normality is fixed for a substance
+C. Molality is temperature dependent
+D. Normality changes with type of reaction
+
+Ans: D
+
+
+
+## 🔸 Part A: ppm (Parts per Million)
+
+59. ppm stands for
+A. Parts per mole
+B. Parts per mass
+C. Parts per million
+D. Parts per millilitre
+
+Ans: C
+
+
+
+60. ppm is commonly used to express concentration of
+A. Highly concentrated solutions
+B. Trace quantities of solute
+C. Gases only
+D. Solids only
+
+Ans: B
+
+
+
+61. 1 ppm is equal to
+A. 1 mg/kg
+B. 1 g/kg
+C. 1 mg/g
+D. 1 g/m³
+
+Ans: A
+
+
+
+62. For dilute aqueous solutions, 1 ppm is approximately equal to
+A. 1 g/L
+B. 1 mg/L
+C. 1 µg/L
+D. 1 kg/m³
+
+Ans: B
+
+
+
+63. ppm is a
+A. Dimensional quantity
+B. Temperature-dependent quantity
+C. Dimensionless quantity
+D. Pressure-dependent quantity
+
+Ans: C
+
+
+
+64. ppm is most commonly used in
+A. Acid–base titrations
+B. Environmental and water analysis
+C. Thermodynamic calculations
+D. Reaction kinetics
+
+Ans: B
+
+
+
+## 🔸 Part B: Density
+
+65. Density is defined as
+A. Volume per unit mass
+B. Mass per unit volume
+C. Weight per unit area
+D. Force per unit volume
+
+Ans: B
+
+
+
+66. SI unit of density is
+A. g/cm³
+B. kg/L
+C. kg/m³
+D. g/mL
+
+Ans: C
+
+
+
+67. Density of a substance generally
+A. Increases with increase in temperature
+B. Decreases with increase in temperature
+C. Remains constant
+D. Is independent of temperature
+
+Ans: B
+
+
+
+68. Density depends on
+A. Mass only
+B. Volume only
+C. Temperature and pressure
+D. Shape of container
+
+Ans: C
+
+
+
+69. Density measurement is commonly used to
+A. Identify substances
+B. Measure flow
+C. Control pH
+D. Measure humidity
+
+Ans: A
+
+
+
+## 🔸 Part C: Specific Gravity
+
+70. Specific gravity is defined as
+A. Density of substance
+B. Density of substance × density of water
+C. Ratio of density of substance to density of water
+D. Ratio of mass to volume
+
+Ans: C
+
+
+
+71. Specific gravity is
+A. Dimensional
+B. Has unit kg/m³
+C. Dimensionless
+D. Temperature dependent unit
+
+Ans: C
+
+
+
+72. Reference substance for specific gravity of liquids and solids is
+A. Mercury
+B. Air
+C. Water at 4°C
+D. Water at 0°C
+
+Ans: C
+
+
+
+73. Reference substance for specific gravity of gases is
+A. Water
+B. Mercury
+C. Nitrogen
+D. Air
+
+Ans: D
+
+
+
+## 🔸 Part D: Specific Gravity Scales (VERY IMPORTANT)
+
+74. Baumé scale is used to measure
+A. Temperature
+B. Pressure
+C. Specific gravity of liquids
+D. Gas density
+
+Ans: C
+
+
+
+75. API gravity scale is mainly used in
+A. Chemical laboratories
+B. Petroleum industry
+C. Metallurgy
+D. Environmental studies
+
+Ans: B
+
+
+
+76. Higher API gravity indicates
+A. Heavier oil
+B. Lighter oil
+C. Higher viscosity
+D. Lower temperature
+
+Ans: B
+
+
+### 🔸 Basics of Mole Concept in Reactions
+
+77. The mole concept is used in stoichiometry to
+A. Identify reaction mechanism
+B. Establish quantitative relationships between reactants and products
+C. Measure reaction rate
+D. Determine equilibrium constant
+
+Ans: B
+
+
+
+78. Stoichiometric calculations are based on
+A. Molecular weights
+B. Atomic numbers
+C. Balanced chemical equations
+D. Reaction kinetics
+
+Ans: C
+
+
+
+79. The coefficients in a balanced chemical equation represent
+A. Mass ratio
+B. Volume ratio only
+C. Mole ratio
+D. Density ratio
+
+Ans: C
+
+
+
+80. One mole of any substance contains
+A. 1 gram
+B. Molecular weight in kg
+C. Avogadro number of particles
+D. 22.4 litres always
+
+Ans: C
+
+
+
+### 🔸 Limiting & Excess Reactants (VERY IMPORTANT)
+
+81. The limiting reactant is the one which
+A. Is present in excess
+B. Reacts completely first
+C. Has maximum molecular weight
+D. Controls temperature
+
+Ans: B
+
+
+
+82. In a reaction, the amount of product formed depends on
+A. Excess reactant
+B. Catalyst
+C. Limiting reactant
+D. Reaction time
+
+Ans: C
+
+
+
+83. Excess reactant is the reactant that
+A. Is fully consumed
+B. Determines product yield
+C. Remains unreacted after completion
+D. Has smallest mole value
+
+Ans: C
+
+
+
+84. To identify the limiting reactant, one must compare
+A. Masses of reactants
+B. Volumes of reactants
+C. Mole ratio required with mole ratio available
+D. Densities of reactants
+
+Ans: C
+
+
+
+### 🔸 Mole Concept in Yield Calculations
+
+85. Theoretical yield is defined as
+A. Actual amount of product obtained
+B. Maximum possible amount of product formed
+C. Minimum yield possible
+D. Average yield
+
+Ans: B
+
+
+
+86. Percent yield is calculated as
+A. (Theoretical yield / actual yield. × 100
+B. (Actual yield / theoretical yield. × 100
+C. (Product formed / reactant used. × 100
+D. (Limiting reactant / excess reactant. × 100
+
+Ans: B
+
+
+
+87. If the percent yield is 80%, it indicates that
+A. Reaction is complete
+B. Excess reactant is absent
+C. Only 80% of theoretical yield is obtained
+D. Reaction is reversible
+
+Ans: C
+
+
+
+### 🔸 Mole Concept in Gas-Phase Stoichiometry
+
+88. At the same temperature and pressure, equal volumes of gases contain
+A. Equal masses
+B. Equal densities
+C. Equal number of moles
+D. Equal molecular weights
+
+Ans: C
+
+
+
+89. Stoichiometry of gaseous reactions at constant T and P can be done using
+A. Mass ratios
+B. Volume ratios
+C. Density ratios
+D. Energy ratios
+
+Ans: B
+
+
+
+90. One mole of an ideal gas occupies 22.4 L at
+A. 0°C and 1 bar
+B. 0°C and 1 atm
+C. 25°C and 1 atm
+D. 100°C and 1 atm
+
+Ans: B
+
+
+
+### 🔸 Mole Concept in Solution Stoichiometry
+
+91. In solution reactions, stoichiometric calculations are conveniently done using
+A. Weight fraction
+B. Volume fraction
+C. Moles of solute
+D. Density
+
+Ans: C
+
+
+
+92. Moles of solute in a solution are calculated using
+A. Molality × volume
+B. Normality × mass
+C. Molarity × volume
+D. Density × volume
+
+Ans: C
+
+
+
+### 🔸 PSC-Favourite Conceptual Traps
+
+93. Stoichiometric coefficients in a balanced equation do NOT represent
+A. Mole ratio
+B. Volume ratio of gases
+C. Mass ratio
+D. Ratio of reacting molecules
+
+Ans: C
+
+
+
+94. Which statement is correct?
+A. Mole ratios depend on temperature
+B. Limiting reactant depends on mole concept
+C. Excess reactant determines yield
+D. Percent yield is always 100
+
+Ans: B
+
+
+
+## 🔸 Ideal Gas & Gas Laws
+
+95. An ideal gas is one which
+A. Obeys Boyle’s law only
+B. Obeys Charles’ law only
+C. Obeys all gas laws under all conditions
+D. Exists only at low temperature
+
+Ans: C
+
+
+
+96. Ideal gas equation is
+A. PV = RT
+B. PV = nRT
+C. P = ρRT
+D. V = nRT
+
+Ans: B
+
+
+
+97. Boyle’s law states that at constant temperature
+A. P ∝ V
+B. P ∝ 1/V
+C. P ∝ T
+D. V ∝ T
+
+Ans: B
+
+
+
+98. Charles’ law states that at constant pressure
+A. V ∝ 1/T
+B. V ∝ T
+C. P ∝ T
+D. P ∝ 1/T
+
+Ans: B
+
+
+
+99. Gay-Lussac’s law relates
+A. Pressure and volume
+B. Volume and temperature
+C. Pressure and temperature
+D. Density and temperature
+
+Ans: C
+
+
+
+100. Universal gas constant R is equal to
+A. 8.314 J/mol·K
+B. 1.987 cal/mol·K
+C. 0.082 atm·L/mol·K
+D. All of the above
+
+Ans: D
+
+
+
+## 🔸 Ideal Gas Assumptions (PSC Favourite)
+
+101. Ideal gas assumes molecules have
+A. Significant volume
+B. No intermolecular forces
+C. High attraction
+D. Elastic collisions absent
+
+Ans: B
+
+
+
+102. Real gases behave like ideal gases at
+A. High pressure and low temperature
+B. Low pressure and high temperature
+C. High pressure and high temperature
+D. Low pressure and low temperature
+
+Ans: B
+
+
+
+## 🔸 Gas Mixtures & Dalton’s Law
+
+103. Dalton’s law of partial pressures states that
+A. Total pressure is average of partial pressures
+B. Total pressure equals sum of partial pressures
+C. Partial pressure equals total pressure
+D. Pressure depends on volume only
+
+Ans: B
+
+
+
+104. Partial pressure of a gas in a mixture is
+A. Total pressure × mole fraction
+B. Total pressure ÷ mole fraction
+C. Density × pressure
+D. Volume × pressure
+
+Ans: A
+
+
+
+105. Mole fraction of a gas in a mixture is defined as
+A. Mass fraction
+B. Volume fraction
+C. Moles of component / total moles
+D. Density ratio
+
+Ans: C
+
+
+
+106. Sum of mole fractions of all gases in a mixture is
+A. Less than 1
+B. Greater than 1
+C. Equal to 1
+D. Zero
+
+Ans: C
+
+
+
+## 🔸 Average Molecular Weight of Gas Mixtures
+
+107. Average molecular weight of a gas mixture is calculated using
+A. Mass fraction
+B. Mole fraction
+C. Volume fraction
+D. Density
+
+Ans: B
+
+
+
+108. Formula for average molecular weight of gas mixture is
+A. Σ(xᵢ Mᵢ)
+B. Σ(Mᵢ / xᵢ)
+C. Σ(Mᵢ xᵢ²)
+D. Σ(Mᵢ + xᵢ)
+
+Ans: A
+
+
+
+109. In gas mixtures, mole fraction is numerically equal to
+A. Mass fraction
+B. Volume fraction
+C. Density ratio
+D. Pressure ratio
+
+Ans: B
+
+
+
+## 🔸 Density of Gases (VERY IMPORTANT)
+
+110. Density of an ideal gas is given by
+A. ρ = PM / RT
+B. ρ = RT / PM
+C. ρ = PRT / M
+D. ρ = M / PRT
+
+Ans: A
+
+
+
+111. Density of a gas increases with
+A. Increase in temperature
+B. Decrease in pressure
+C. Increase in molecular weight
+D. Increase in volume
+
+Ans: C
+
+
+
+112. At constant pressure, density of a gas is inversely proportional to
+A. Molecular weight
+B. Temperature
+C. Volume
+D. Mass
+
+Ans: B
+
+
+
+## 🔸 Critical Properties & Compressibility
+
+113. Critical temperature is the temperature above which
+A. Gas becomes liquid easily
+B. Gas cannot be liquefied by pressure alone
+C. Density becomes zero
+D. Compressibility becomes zero
+
+Ans: B
+
+
+
+114. Critical pressure is defined as
+A. Pressure at boiling point
+B. Minimum pressure required to liquefy gas at critical temperature
+C. Pressure at STP
+D. Maximum operating pressure
+
+Ans: B
+
+
+
+115. Compressibility factor (Z. is defined as
+A. PV / nRT
+B. nRT / PV
+C. PRT / nV
+D. VRT / nP
+
+Ans: A
+
+
+
+116. For an ideal gas, compressibility factor Z equals
+A. 0
+B. 0.5
+C. 1
+D. ∞
+
+Ans: C
+
+
+
+## 🔸 A. Fundamentals of Material Balance
+
+117. A material balance is based on the principle of
+A. Energy conservation
+B. Mass conservation
+C. Momentum conservation
+D. Entropy balance
+
+Ans: B
+Explanation: Mass is conserved; it is neither created nor destroyed.
+
+
+
+118. General material balance equation is
+A. Input = Output
+B. Input − Output = Accumulation
+C. Input + Generation − Output − Consumption = Accumulation
+D. Generation − Consumption = Accumulation
+
+Ans: C
+
+
+
+119. For a steady-state process, the accumulation term is
+A. Maximum
+B. Zero
+C. Negative
+D. Equal to input
+
+Ans: B
+
+
+
+120. In a batch process, material balance is written mainly on the basis of
+A. Flow rates
+B. Time
+C. Volume
+D. Pressure
+
+Ans: B
+
+
+
+121. Material balance calculations always start with
+A. Energy balance
+B. Selection of basis
+C. Reaction kinetics
+D. Equipment sizing
+
+Ans: B
+
+
+
+## 🔸 B. Material Balance WITHOUT Chemical Reaction
+
+122. In a process with no chemical reaction, generation and consumption terms are
+A. Equal
+B. Maximum
+C. Zero
+D. Negligible
+
+Ans: C
+
+
+
+123. For steady-state, non-reacting systems, the material balance reduces to
+A. Input = Accumulation
+B. Output = Accumulation
+C. Input = Output
+D. Generation = Consumption
+
+Ans: C
+
+
+
+124. Separation processes such as distillation and absorption involve
+A. Chemical reaction
+B. No chemical reaction
+C. Nuclear reaction
+D. Electrochemical reaction
+
+Ans: B
+
+
+
+125. In mixing operations without reaction, the total mass of mixture equals
+A. Mass of largest stream
+B. Average mass of streams
+C. Sum of masses of individual streams
+D. Density × volume
+
+Ans: C
+
+
+
+126. Component material balance is written for
+A. Total mass only
+B. Each individual component
+C. Energy only
+D. Flow only
+
+Ans: B
+
+
+
+## 🔸 C. Material Balance WITH Chemical Reaction
+
+127. In reacting systems, which additional terms appear in material balance?
+A. Heat and work
+B. Pressure and volume
+C. Generation and consumption
+D. Density and temperature
+
+Ans: C
+
+
+
+128. In a chemical reaction, generation refers to
+A. Reactants entering the system
+B. Products formed by reaction
+C. Accumulation of material
+D. Flow out of system
+
+Ans: B
+
+
+
+129. In reacting systems, consumption refers to
+A. Products leaving system
+B. Reactants destroyed by reaction
+C. Material accumulation
+D. Inlet flow
+
+Ans: B
+
+
+
+130. Stoichiometric coefficients are required in material balance calculations to
+A. Determine reaction rate
+B. Relate moles of reactants and products
+C. Calculate equilibrium constant
+D. Find temperature change
+
+Ans: B
+
+
+
+131. In reacting systems, material balance calculations are most conveniently done on
+A. Mass basis
+B. Volume basis
+C. Mole basis
+D. Energy basis
+
+Ans: C
+
+
+
+## 🔸 D. Conversion, Yield & Selectivity (PSC Favourites)
+
+132. Conversion of a reactant is defined as
+A. Moles reacted / moles fed
+B. Moles formed / moles fed
+C. Moles unreacted / moles fed
+D. Products formed / reactants consumed
+
+Ans: A
+
+
+
+133. Conversion is usually defined for the
+A. Excess reactant
+B. Limiting reactant
+C. Product
+D. Catalyst
+
+Ans: B
+
+
+
+134. Yield of a product is defined as
+A. Product formed / reactant fed
+B. Desired product formed / reactant consumed
+C. Desired product formed / undesired product formed
+D. Reactant consumed / reactant fed
+
+Ans: B
+
+
+
+135. Selectivity is defined as
+A. Product formed / feed
+B. Desired product / undesired product
+C. Reactant consumed / time
+D. Conversion × yield
+
+Ans: B
+
+
+
+136. In multiple reactions, high selectivity means
+A. Maximum conversion
+B. Maximum temperature
+C. Preference for desired reaction
+D. No side reactions
+
+Ans: C
+
+
+
+## 🔸 A. Evaporation
+
+137. In an evaporator, the primary purpose is to
+A. Remove solute
+B. Increase solvent concentration
+C. Remove solvent by vaporization
+D. Separate volatile solutes
+
+Ans: C
+
+
+
+138. In evaporation, the solute is assumed to be
+A. Volatile
+B. Non-volatile
+C. Gaseous
+D. Reactive
+
+Ans: B
+
+
+
+139. Material balance in evaporation is usually written on
+A. Total mass only
+B. Solvent basis only
+C. Solute basis only
+D. Both total and solute basis
+
+Ans: D
+
+
+
+140. In steady-state evaporation, accumulation of mass is
+A. Maximum
+B. Zero
+C. Equal to feed
+D. Unknown
+
+Ans: B
+
+
+
+141. If feed rate increases in an evaporator (other conditions constant), the amount of vapor formed will
+A. Decrease
+B. Increase
+C. Remain same
+D. Become zero
+
+Ans: B
+
+
+
+## 🔸 B. Crystallization
+
+142. Crystallization is a unit operation used to
+A. Concentrate solution
+B. Separate solids from solution by crystal formation
+C. Dry solids
+D. Absorb gases
+
+Ans: B
+
+
+
+143. In crystallization, material balance is written mainly on
+A. Solvent
+B. Solute
+C. Vapor
+D. Energy
+
+Ans: B
+
+
+
+144. Mother liquor refers to
+A. Feed solution
+B. Saturated solution after crystallization
+C. Pure solvent
+D. Crystals formed
+
+Ans: B
+
+
+
+145. Loss of solute in crystallization mainly occurs due to
+A. Vaporization
+B. Solubility of solute in mother liquor
+C. Chemical reaction
+D. Decomposition
+
+Ans: B
+
+
+
+146. Crystallization calculations require data on
+A. Reaction kinetics
+B. Solubility vs temperature
+C. Heat capacity
+D. Density only
+
+Ans: B
+
+
+
+## 🔸 C. Drying
+
+147. Drying is a process of removing
+A. Solute from solution
+B. Liquid from liquid
+C. Moisture from solids
+D. Gas from gas
+
+Ans: C
+
+
+
+148. Moisture content in drying calculations is usually expressed on
+A. Wet basis only
+B. Dry basis only
+C. Both wet and dry basis
+D. Volume basis
+
+Ans: C
+
+
+
+149. In drying, the solid material is generally assumed to be
+A. Volatile
+B. Non-volatile
+C. Gaseous
+D. Reactive
+
+Ans: B
+
+
+
+150. Drying material balance is usually performed on
+A. Total mass only
+B. Dry solid basis
+C. Moist air basis
+D. Energy basis
+
+Ans: B
+
+
+
+151. Drying operation involves
+A. Chemical reaction
+B. Phase change of moisture
+C. Nuclear reaction
+D. Ion exchange
+
+Ans: B
+
+
+
+## 🔸 D. Absorption
+
+152. Absorption is the process of
+A. Gas dissolving in liquid
+B. Liquid dissolving in gas
+C. Solid dissolving in liquid
+D. Solid dissolving in gas
+
+Ans: A
+
+
+
+153. In absorption without chemical reaction, material balance is written for
+A. Solvent only
+B. Solute only
+C. Both gas and liquid phases
+D. Energy only
+
+Ans: C
+
+
+
+154. In absorption calculations, the absorbed component is
+A. Non-volatile
+B. Usually a gas
+C. Always a liquid
+D. Always reactive
+
+Ans: B
+
+
+
+## 🔸 E. Distillation
+
+155. Distillation is based on difference in
+A. Density
+B. Molecular weight
+C. Volatility (boiling point)
+D. Solubility
+
+Ans: C
+
+
+
+156. In binary distillation, material balance is written for
+A. Total mass only
+B. More volatile component only
+C. Less volatile component only
+D. Both total and component balances
+
+Ans: D
+
+
+
+157. In steady-state distillation column, accumulation of mass is
+A. Positive
+B. Negative
+C. Zero
+D. Variable
+
+Ans: C
+
+
+
+158. Overall material balance for a distillation column is
+A. Feed = Distillate
+B. Feed = Bottoms
+C. Feed = Distillate + Bottoms
+D. Distillate = Bottoms
+
+Ans: C
+
+
+
+## 🔸 A. Heat Capacity & Specific Heat
+
+159. Heat capacity of a substance is defined as the
+A. Heat required to raise temperature by 1°C per unit mass
+B. Heat required to raise temperature by 1 K of the whole system
+C. Heat released during cooling
+D. Heat required for phase change
+
+Ans: B
+
+
+
+160. Specific heat is defined as the
+A. Heat required to raise temperature of unit mass by 1 K
+B. Heat required to raise temperature of whole system by 1 K
+C. Heat released per unit mass
+D. Heat absorbed during reaction
+
+Ans: A
+
+
+
+161. SI unit of specific heat capacity is
+A. J/mol·K
+B. J/kg·K
+C. kJ/kg
+D. cal/g
+
+Ans: B
+
+
+
+162. Relationship between heat capacity (C. and specific heat (c. is
+A. C = c / m
+B. C = c × m
+C. C = c / T
+D. C = m / c
+
+Ans: B
+
+
+
+163. Specific heat is mainly a function of
+A. Pressure only
+B. Temperature only
+C. Nature of substance and temperature
+D. Volume only
+
+Ans: C
+
+
+
+## 🔸 B. Enthalpy & Energy Balance Concepts
+
+164. Enthalpy (H. is defined as
+A. U − PV
+B. U + PV
+C. Q − W
+D. Q + W
+
+Ans: B
+
+
+
+165. Change in enthalpy (ΔH. at constant pressure is equal to
+A. Work done
+B. Heat transferred
+C. Internal energy change
+D. Entropy change
+
+Ans: B
+
+
+
+166. In steady-flow energy balance, kinetic and potential energy terms are often neglected because they are
+A. Zero
+B. Constant
+C. Small compared to enthalpy change
+D. Difficult to calculate
+
+Ans: C
+
+
+
+167. Enthalpy is a
+A. Path function
+B. State function
+C. Process variable
+D. Control variable
+
+Ans: B
+
+
+
+## 🔸 C. Heat Capacities of Gases
+
+168. Heat capacity of a gas at constant pressure is denoted by
+A. Cv
+B. Cp
+C. Cg
+D. Ch
+
+Ans: B
+
+
+
+169. Heat capacity of a gas at constant volume is denoted by
+A. Cp
+B. Cv
+C. Cg
+D. Ch
+
+Ans: B
+
+
+
+170. For an ideal gas, the relationship between Cp and Cv is
+A. Cp = Cv
+B. Cp > Cv
+C. Cp < Cv
+D. Cp = 2Cv
+
+Ans: B
+
+
+
+171. Difference between Cp and Cv for an ideal gas is
+A. Zero
+B. R
+C. RT
+D. Cp/Cv
+
+Ans: B
+
+
+
+172. Cp and Cv of an ideal gas depend mainly on
+A. Pressure
+B. Volume
+C. Temperature
+D. Density
+
+Ans: C
+
+
+
+## 🔸 D. Heat Capacity of Gas Mixtures
+
+173. Heat capacity of an ideal gas mixture is calculated using
+A. Mass fractions
+B. Volume fractions
+C. Mole fractions
+D. Density ratios
+
+Ans: C
+
+
+
+174. Molar heat capacity of a gas mixture at constant pressure is
+A. Arithmetic mean of Cp values
+B. Σ(xᵢ Cpᵢ)
+C. Σ(Cpᵢ / xᵢ)
+D. Σ(xᵢ² Cpᵢ)
+
+Ans: B
+
+
+
+175. For ideal gas mixtures, Cp of mixture
+A. Depends on pressure
+B. Depends on composition and temperature
+C. Is constant
+D. Depends on volume
+
+Ans: B
+
+
+
+## 🔸 E. Estimation of Heat Capacity (IMPORTANT)
+
+176. Heat capacity of gases is often expressed as a function of temperature using
+A. Linear equation only
+B. Polynomial equation
+C. Logarithmic equation
+D. Exponential equation
+
+Ans: B
+
+
+
+177. A common empirical form for Cp is
+A. Cp = a + bT + cT² + dT³
+B. Cp = aT²
+C. Cp = a/T
+D. Cp = constant
+
+Ans: A
+
+
+
+178. Estimation of heat capacity is essential in energy balance calculations to determine
+A. Reaction rate
+B. Heat requirement for temperature change
+C. Equilibrium constant
+D. Conversion
+
+Ans: B
+
+
+
+## 🔸 A. Fundamentals of Enthalpy Change
+
+179. Enthalpy change of a reaction is defined as
+A. Difference in internal energy only
+B. Heat absorbed or evolved at constant volume
+C. Heat absorbed or evolved at constant pressure
+D. Work done during reaction
+
+Ans: C
+
+
+
+180. Enthalpy change (ΔH. is
+A. Path dependent
+B. Path independent
+C. Depends on reaction mechanism
+D. Depends on catalyst
+
+Ans: B
+
+
+
+181. Standard enthalpy change of reaction is measured under
+A. Any conditions
+B. Standard conditions only
+C. High pressure only
+D. Vacuum
+
+Ans: B
+
+
+
+## 🔸 B. Hess’s Law of Constant Heat Summation (VERY IMPORTANT)
+
+182. Hess’s law states that the enthalpy change of a reaction
+A. Depends on the path
+B. Depends on intermediate steps
+C. Is independent of the path
+D. Depends on catalyst
+
+Ans: C
+
+
+
+183. Hess’s law is a direct consequence of
+A. First law of thermodynamics
+B. Second law of thermodynamics
+C. Third law of thermodynamics
+D. Law of mass action
+
+Ans: A
+
+
+
+184. Hess’s law is particularly useful when
+A. Reaction occurs in a single step
+B. Direct measurement of ΔH is difficult
+C. Reaction is very fast
+D. Reaction is reversible
+
+Ans: B
+
+
+
+185. According to Hess’s law, if a chemical equation is reversed, the enthalpy change
+A. Remains same
+B. Becomes zero
+C. Changes sign
+D. Doubles
+
+Ans: C
+
+
+
+186. If all coefficients in a reaction equation are multiplied by a factor, the enthalpy change
+A. Remains unchanged
+B. Becomes zero
+C. Is multiplied by the same factor
+D. Is divided by the factor
+
+Ans: C
+
+
+
+## 🔸 C. Standard Enthalpies (Formation, Combustion, Reaction)
+
+187. Standard enthalpy of formation of a compound is the enthalpy change when
+A. One mole of compound is formed from its elements in any state
+B. One mole of compound is formed from its elements in their standard states
+C. Compound is burned completely
+D. Compound decomposes
+
+Ans: B
+
+
+
+188. Standard enthalpy of formation of an element in its standard state is
+A. Zero
+B. One
+C. Maximum
+D. Minimum
+
+Ans: A
+
+
+
+189. Standard enthalpy of combustion is always
+A. Positive
+B. Zero
+C. Negative
+D. Variable
+
+Ans: C
+
+
+
+190. Enthalpy change of reaction can be calculated from heats of formation using
+A. ΣΔHf(products. − ΣΔHf(reactants)
+B. ΣΔHf(reactants. − ΣΔHf(products)
+C. ΣΔHc(products. − ΣΔHc(reactants)
+D. ΣΔHc(reactants. − ΣΔHc(products)
+
+Ans: A
+
+
+
+## 🔸 D. Kirchhoff’s Law (Temperature Dependence of ΔH)
+
+191. Kirchhoff’s law relates the change in enthalpy of reaction with
+A. Pressure
+B. Volume
+C. Temperature
+D. Concentration
+
+Ans: C
+
+
+
+192. According to Kirchhoff’s law, the temperature dependence of ΔH depends on
+A. Change in entropy
+B. Difference in heat capacities of products and reactants
+C. Reaction rate
+D. Activation energy
+
+Ans: B
+
+
+
+193. Mathematical form of Kirchhoff’s law is
+A. d(ΔH)/dT = ΔCp
+B. d(ΔH)/dT = ΔCv
+C. ΔH = RT ln K
+D. ΔH = ΔU + PV
+
+Ans: A
+
+
+
+## 🔸 E. Additional High-Yield Laws & Concepts
+
+194. Enthalpy change for phase transformation (like melting, vaporization. is called
+A. Heat of reaction
+B. Heat of formation
+C. Latent heat
+D. Sensible heat
+
+Ans: C
+
+
+
+195. Enthalpy change during heating without phase change is called
+A. Latent heat
+B. Sensible heat
+C. Heat of reaction
+D. Heat of fusion
+
+Ans: B
+
+
+
+196. In energy balance calculations, reference state for enthalpy is
+A. Always absolute zero
+B. Arbitrary but consistent
+C. Fixed by law
+D. Always 298 K
+
+Ans: B
+
+
+
+197. Heat of neutralization for strong acid–strong base reactions is approximately
+A. −13.7 kJ/mol
+B. −28 kJ/mol
+C. −57.1 kJ/mol
+D. −100 kJ/mol
+
+Ans: C
+
+
+
+198. Hess’s law can be applied because enthalpy is a
+A. Path function
+B. State function
+C. Control variable
+D. Kinetic property
+
+Ans: B
+
+
+
+## 🔸 A. Latent Heat of Vaporization
+
+199. Latent heat of vaporization is defined as the heat required to
+A. Raise temperature of liquid by 1 K
+B. Convert unit mass of liquid into vapor at constant temperature
+C. Convert vapor into liquid
+D. Heat a solid to melting point
+
+Ans: B
+
+
+
+200. Latent heat of vaporization is associated with
+A. Sensible heat
+B. Chemical reaction
+C. Phase change
+D. Temperature change
+
+Ans: C
+
+
+
+201. During vaporization at constant pressure, the temperature of the system
+A. Increases
+B. Decreases
+C. Remains constant
+D. Becomes zero
+
+Ans: C
+
+
+
+202. Latent heat of vaporization generally
+A. Increases with temperature
+B. Decreases with temperature
+C. Remains constant
+D. Becomes infinite
+
+Ans: B
+
+
+
+203. At the critical temperature, latent heat of vaporization becomes
+A. Maximum
+B. Minimum
+C. Zero
+D. Infinite
+
+Ans: C
+
+
+
+204. Latent heat of vaporization can be estimated using
+A. Boyle’s law
+B. Clausius–Clapeyron equation
+C. Hess’s law
+D. Kirchhoff’s law
+
+Ans: B
+
+
+
+205. The Clausius–Clapeyron equation relates
+A. Pressure and volume
+B. Temperature and heat capacity
+C. Vapor pressure and temperature
+D. Enthalpy and entropy
+
+Ans: C
+
+
+
+## 🔸 B. Heat Balance Calculations (Without Chemical Reaction)
+
+206. Heat balance calculations without chemical reaction are based on
+A. Conservation of mass
+B. Conservation of momentum
+C. Conservation of energy
+D. Conservation of entropy
+
+Ans: C
+
+
+
+207. In heat balance calculations without reaction, internal energy change is mainly due to
+A. Chemical energy
+B. Phase change
+C. Temperature change
+D. Electrical energy
+
+Ans: C
+
+
+
+208. For a steady-state process without chemical reaction, the general heat balance is
+A. Heat in = Heat out
+B. Heat in − Heat out = Accumulation
+C. Heat in + Work = Heat out
+D. Heat transfer = Enthalpy change
+
+Ans: D
+
+
+
+209. Sensible heat change is calculated using
+A. Q = mλ
+B. Q = mCpΔT
+C. Q = ΔHreaction
+D. Q = RT ln K
+
+Ans: B
+
+
+
+210. Latent heat term appears in heat balance calculations when
+A. Temperature changes
+B. Pressure changes
+C. Phase change occurs
+D. Flow rate changes
+
+Ans: C
+
+
+
+211. In heating a liquid without vaporization, the heat added is classified as
+A. Latent heat
+B. Sensible heat
+C. Heat of reaction
+D. Work done
+
+Ans: B
+
+
+
+212. Reference temperature in heat balance calculations is
+A. Always 0°C
+B. Always 25°C
+C. Arbitrary but consistent
+D. Fixed by law
+
+Ans: C
+
+
+
+## 🔸 C. Heat of Reaction (VERY IMPORTANT)
+
+213. Heat of reaction is defined as
+A. Heat absorbed during phase change
+B. Enthalpy change accompanying a chemical reaction
+C. Heat required to raise temperature
+D. Heat released by condensation
+
+Ans: B
+
+
+
+214. Heat of reaction is calculated at
+A. Constant volume only
+B. Constant pressure only
+C. Both constant pressure and volume
+D. Variable pressure only
+
+Ans: B
+
+
+
+215. Heat of reaction at constant pressure is equal to
+A. Change in internal energy
+B. Change in enthalpy
+C. Work done
+D. Change in entropy
+
+Ans: B
+
+
+
+216. Exothermic reactions have heat of reaction that is
+A. Positive
+B. Zero
+C. Negative
+D. Infinite
+
+Ans: C
+
+
+
+217. Heat of reaction can be calculated from standard enthalpies of formation using
+A. ΣΔHf(reactants. − ΣΔHf(products)
+B. ΣΔHf(products. − ΣΔHf(reactants)
+C. ΣΔHc(products. − ΣΔHc(reactants)
+D. ΔCp × ΔT
+
+Ans: B
+
+
+
+218. Heat of reaction is independent of
+A. Reaction path
+B. Temperature
+C. Physical state of reactants
+D. Stoichiometry
+
+Ans: A
+
+
+
+219. Heat of reaction changes with temperature according to
+A. Hess’s law
+B. Kirchhoff’s law
+C. Boyle’s law
+D. Dalton’s law
+
+Ans: B
+
+
+
+220. In energy balance problems involving reaction, heat of reaction is usually accounted for on
+A. Mass basis
+B. Volume basis
+C. Mole basis
+D. Energy basis
+
+Ans: C
+
+
+
+## 🔸 A. Standard Heats of Formation, Combustion & Reaction
+
+221. Standard heat of formation (ΔH°f. of a compound is defined as the enthalpy change when
+A. One mole of compound is decomposed
+B. One mole of compound is formed from its elements in their standard states
+C. One mole of compound is burned completely
+D. One mole reacts with oxygen
+
+Ans: B
+
+
+
+222. The standard heat of formation of an element in its most stable form is
+A. One
+B. Maximum
+C. Zero
+D. Negative
+
+Ans: C
+
+
+
+223. Standard heat of combustion (ΔH°c. is the enthalpy change when
+A. One mole of substance reacts partially with oxygen
+B. One mole of substance is completely burned in excess oxygen
+C. One mole decomposes
+D. One mole dissolves in water
+
+Ans: B
+
+
+
+224. Standard heats of combustion are always
+A. Positive
+B. Zero
+C. Negative
+D. Temperature independent
+
+Ans: C
+
+
+
+225. Standard heat of reaction (ΔH°rxn. is calculated using
+A. ΣΔH°f(reactants. − ΣΔH°f(products)
+B. ΣΔH°f(products. − ΣΔH°f(reactants)
+C. ΣΔH°c(reactants. − ΣΔH°c(products)
+D. ΔCp × ΔT
+
+Ans: B
+
+
+
+226. Standard heat of reaction depends on
+A. Reaction path
+B. Reaction stoichiometry
+C. Catalyst
+D. Reaction mechanism
+
+Ans: B
+
+
+
+## 🔸 B. Heat of Solution & Heat of Mixing
+
+227. Heat of solution is the enthalpy change when
+A. A solute reacts chemically with solvent
+B. One mole of solute dissolves in a large amount of solvent
+C. Solvent evaporates
+D. Two liquids are mixed
+
+Ans: B
+
+
+
+228. Heat of solution may be
+A. Always positive
+B. Always negative
+C. Either positive or negative
+D. Always zero
+
+Ans: C
+
+
+
+229. Heat of solution at infinite dilution refers to
+A. Solution at high concentration
+B. Dissolution without temperature change
+C. Dissolution where solute–solute interactions are negligible
+D. Saturated solution
+
+Ans: C
+
+
+
+230. Heat of mixing is the enthalpy change when
+A. Solute dissolves in solvent
+B. Two or more substances are mixed
+C. A reaction occurs
+D. Phase change occurs
+
+Ans: B
+
+
+
+231. Heat of mixing is zero when
+A. Strong interactions exist
+B. Mixing is endothermic
+C. Solution behaves ideally
+D. Pressure is high
+
+Ans: C
+
+
+
+232. For ideal solutions, heat of mixing is
+A. Positive
+B. Negative
+C. Zero
+D. Maximum
+
+Ans: C
+
+
+
+## 🔸 C. Adiabatic & Non-Adiabatic Reactions
+
+233. An adiabatic reaction is one in which
+A. Temperature remains constant
+B. No heat is transferred to or from surroundings
+C. Pressure remains constant
+D. Reaction is slow
+
+Ans: B
+
+
+
+234. In an adiabatic reaction, temperature change occurs due to
+A. Heat loss
+B. Heat gain from surroundings
+C. Reaction enthalpy only
+D. External heating
+
+Ans: C
+
+
+
+235. A non-adiabatic reaction is one in which
+A. No reaction occurs
+B. Heat transfer with surroundings occurs
+C. Temperature is constant
+D. Reaction is always endothermic
+
+Ans: B
+
+
+
+236. For an exothermic reaction carried out adiabatically, the temperature of products will
+A. Decrease
+B. Remain constant
+C. Increase
+D. Become zero
+
+Ans: C
+
+
+
+237. For an endothermic reaction under adiabatic conditions, temperature of products will
+A. Increase
+B. Decrease
+C. Remain constant
+D. Become infinite
+
+Ans: B
+
+
+
+## 🔸 D. Theoretical & Actual Flame Temperatures (VERY IMPORTANT)
+
+238. Theoretical flame temperature is the maximum temperature attained when
+A. Excess air is supplied
+B. Combustion occurs with heat loss
+C. Combustion occurs adiabatically with stoichiometric mixture
+D. Fuel burns slowly
+
+Ans: C
+
+
+
+239. Theoretical flame temperature assumes
+A. No dissociation
+B. No heat losses
+C. Complete combustion
+D. All of the above
+
+Ans: D
+
+
+
+240. Actual flame temperature is always
+A. Higher than theoretical
+B. Equal to theoretical
+C. Lower than theoretical
+D. Independent of heat losses
+
+Ans: C
+
+
+
+241. Actual flame temperature is lower than theoretical mainly due to
+A. Measurement error
+B. Heat losses and dissociation
+C. Low pressure
+D. Incomplete mixing
+
+Ans: B
+
+
+
+242. Increasing excess air in combustion generally
+A. Increases flame temperature
+B. Decreases flame temperature
+C. Has no effect
+D. Makes reaction adiabatic
+
+Ans: B
+
+
+
+243. Flame temperature calculations are based on
+A. Mass balance only
+B. Energy balance only
+C. Material and energy balances
+D. Reaction kinetics
+
+Ans: C
+
+
+
+244. For adiabatic combustion, heat released by reaction is used for
+A. Heat loss
+B. Work done
+C. Raising temperature of products
+D. Evaporation only
+
+Ans: C
+
+
+
+## 🔸 A. Vapour Pressure – Pure Liquids
+
+245. Vapour pressure of a liquid is defined as the pressure exerted by
+A. Liquid molecules only
+B. Vapour molecules in equilibrium with the liquid
+C. Liquid at boiling point
+D. Vapour at critical point
+
+Ans: B
+
+
+
+246. Vapour pressure of a pure liquid depends mainly on
+A. Surface area
+B. Nature of liquid and temperature
+C. Volume of container
+D. Amount of liquid
+
+Ans: B
+
+
+
+247. Vapour pressure of a pure liquid
+A. Decreases with increase in temperature
+B. Increases with increase in temperature
+C. Is independent of temperature
+D. Is zero at room temperature
+
+Ans: B
+
+
+
+248. At the boiling point of a liquid, its vapour pressure equals
+A. Zero
+B. Vapour pressure of water
+C. Atmospheric pressure
+D. Critical pressure
+
+Ans: C
+
+
+
+249. Vapour pressure of a pure liquid at a given temperature is
+A. Proportional to surface area
+B. Independent of surface area
+C. Dependent on volume of liquid
+D. Dependent on container size
+
+Ans: B
+
+
+
+250. A liquid with higher vapour pressure at a given temperature is
+A. Less volatile
+B. More volatile
+C. Non-volatile
+D. Denser
+
+Ans: B
+
+
+
+## 🔸 B. Vapour Pressure of Immiscible Liquids
+
+251. Two liquids are said to be immiscible when they
+A. Mix in all proportions
+B. React chemically
+C. Do not dissolve in each other
+D. Have same vapour pressure
+
+Ans: C
+
+
+
+252. For immiscible liquids, the total vapour pressure is equal to
+A. Average of individual vapour pressures
+B. Difference of vapour pressures
+C. Sum of individual vapour pressures
+D. Product of vapour pressures
+
+Ans: C
+
+
+
+253. Vapour pressure of each immiscible liquid in a mixture is
+A. Reduced due to mixing
+B. Increased due to mixing
+C. Equal to its pure component vapour pressure
+D. Zero
+
+Ans: C
+
+
+
+254. Boiling point of a mixture of immiscible liquids occurs when
+A. Vapour pressure of one liquid equals atmospheric pressure
+B. Total vapour pressure equals atmospheric pressure
+C. Average vapour pressure equals atmospheric pressure
+D. Vapour pressure becomes zero
+
+Ans: B
+
+
+
+255. The boiling point of immiscible liquid mixtures is
+A. Higher than boiling point of both liquids
+B. Lower than boiling point of both liquids
+C. Equal to boiling point of higher boiling liquid
+D. Equal to boiling point of lower boiling liquid
+
+Ans: B
+
+
+
+256. Steam distillation is based on the principle of
+A. Vapour pressure lowering
+B. Vapour pressure of miscible liquids
+C. Vapour pressure of immiscible liquids
+D. Raoult’s law
+
+Ans: C
+
+
+
+257. In steam distillation, organic compounds are distilled at
+A. Very high temperatures
+B. Their critical temperature
+C. Temperatures lower than their normal boiling points
+D. Room temperature only
+
+Ans: C
+
+
+
+## 🔸 C. PSC-Favourite Conceptual Questions
+
+258. For immiscible liquids A and B, the ratio of masses distilled is proportional to
+A. Their vapour pressures
+B. Their molecular weights
+C. Vapour pressure × molecular weight
+D. Vapour pressure ÷ molecular weight
+
+Ans: C
+
+
+
+259. Vapour pressure concept is most useful in explaining
+A. Crystallization
+B. Distillation
+C. Absorption
+D. Drying
+
+Ans: B
+
+
+
+260. Vapour pressure of a liquid becomes zero at
+A. Boiling point
+B. Critical point
+C. Absolute zero temperature
+D. Room temperature
+
+Ans: C
+
+
+
+## 🔸 A. Ideal Solutions
+
+261. An ideal solution is one that
+A. Obeys Henry’s law
+B. Obeys Raoult’s law over the entire composition range
+C. Has maximum heat of mixing
+D. Shows volume change on mixing
+
+Ans: B
+
+
+
+262. In an ideal solution, the heat of mixing is
+A. Positive
+B. Negative
+C. Zero
+D. Maximum
+
+Ans: C
+
+
+
+263. In an ideal solution, the volume change on mixing is
+A. Positive
+B. Negative
+C. Zero
+D. Variable
+
+Ans: C
+
+
+
+264. Ideal solutions are formed when intermolecular forces between
+A. Like molecules only are strong
+B. Unlike molecules are much stronger
+C. Like and unlike molecules are similar
+D. Molecules react chemically
+
+Ans: C
+
+
+
+## 🔸 B. Raoult’s Law (VERY IMPORTANT)
+
+265. Raoult’s law states that the partial vapour pressure of a component is equal to
+A. Mole fraction × total pressure
+B. Mole fraction × vapour pressure of pure component
+C. Mass fraction × vapour pressure
+D. Vapour pressure of mixture
+
+Ans: B
+
+
+
+266. Mathematical form of Raoult’s law for component A is
+A. Pₐ = xₐP
+B. Pₐ = xₐPₐ°
+C. Pₐ = Pₐ° / xₐ
+D. Pₐ = xₐ²Pₐ°
+
+Ans: B
+
+
+
+267. Raoult’s law is strictly applicable to
+A. Dilute solutions only
+B. Ideal solutions
+C. Non-ideal solutions
+D. Electrolyte solutions
+
+Ans: B
+
+
+
+268. Total vapour pressure of an ideal binary liquid mixture is
+A. Sum of mole fractions
+B. Sum of partial vapour pressures
+C. Product of vapour pressures
+D. Average vapour pressure
+
+Ans: B
+
+
+
+## 🔸 C. Non-Volatile Solutes
+
+269. A non-volatile solute is one that
+A. Has high vapour pressure
+B. Has negligible vapour pressure
+C. Evaporates easily
+D. Reacts with solvent
+
+Ans: B
+
+
+
+270. Addition of a non-volatile solute to a solvent causes
+A. Increase in vapour pressure
+B. Decrease in vapour pressure
+C. No change in vapour pressure
+D. Vapour pressure to become zero
+
+Ans: B
+
+
+
+271. Vapour pressure lowering due to a non-volatile solute depends on
+A. Nature of solute
+B. Mass of solute
+C. Mole fraction of solute
+D. Density of solution
+
+Ans: C
+
+
+
+272. Relative lowering of vapour pressure is given by
+A. ΔP / P° = x_solvent
+B. ΔP / P° = x_solute
+C. ΔP = x_solute
+D. P / P° = x_solute
+
+Ans: B
+
+
+
+273. Vapour pressure lowering is an example of
+A. Chemical property
+B. Colligative property
+C. Intensive property
+D. Additive property
+
+Ans: B
+
+
+
+## 🔸 D. Humidity & Saturation (Psychrometry)
+
+274. Humidity is defined as the
+A. Moisture content of solids
+B. Amount of water vapour present in air
+C. Temperature of air
+D. Density of air
+
+Ans: B
+
+
+
+275. Absolute humidity is defined as
+A. Ratio of vapour pressures
+B. Mass of water vapour per unit volume of air
+C. Mass of vapour per kg of dry air
+D. Percentage of moisture
+
+Ans: B
+
+
+
+276. Specific humidity (humidity ratio. is
+A. Mass of vapour per unit volume
+B. Mass of vapour per mass of dry air
+C. Vapour pressure / total pressure
+D. Vapour pressure / saturation pressure
+
+Ans: B
+
+
+
+277. Relative humidity is defined as
+A. Mass of vapour / mass of air
+B. Actual vapour pressure / saturation vapour pressure
+C. Vapour pressure / total pressure
+D. Mass of vapour / volume of air
+
+Ans: B
+
+
+
+278. Relative humidity is usually expressed in
+A. kg/kg
+B. kg/m³
+C. Percentage
+D. ppm
+
+Ans: C
+
+
+
+## 🔸 E. Saturation & Dew Point (PSC Favourites)
+
+279. Air is said to be saturated when
+A. It contains no moisture
+B. It contains maximum possible moisture at that temperature
+C. Relative humidity is zero
+D. Dew point is zero
+
+Ans: B
+
+
+
+280. Dew point temperature is the temperature at which
+A. Air becomes dry
+B. Moisture begins to condense
+C. Vapour pressure becomes zero
+D. Relative humidity is minimum
+
+Ans: B
+
+
+
+281. At dew point temperature, the air is
+A. Unsaturated
+B. Superheated
+C. Saturated
+D. Dry
+
+Ans: C
+
+
+
+282. Relative humidity of saturated air is
+A. 0%
+B. 50%
+C. 100%
+D. >100%
+
+Ans: C
+
+
+
+## 🔸 A. Vaporization & Condensation (Material + Energy Balance)
+
+283. In vaporization, the energy supplied is mainly used for
+A. Raising temperature
+B. Breaking intermolecular forces
+C. Chemical reaction
+D. Increasing pressure
+
+Ans: B
+
+
+
+284. During condensation at constant pressure, the temperature of the system
+A. Increases
+B. Decreases
+C. Remains constant
+D. Becomes zero
+
+Ans: C
+
+
+
+285. Latent heat term must be included in energy balance when
+A. Only temperature changes
+B. Pressure changes
+C. Phase change occurs
+D. Flow rate changes
+
+Ans: C
+
+
+
+286. In steady-state vaporization without reaction, the material balance satisfies
+A. Input = Accumulation
+B. Output = Accumulation
+C. Input = Output
+D. Generation = Consumption
+
+Ans: C
+
+
+
+287. Condensation releases energy equal to
+A. Sensible heat
+B. Latent heat of fusion
+C. Latent heat of vaporization
+D. Heat of reaction
+
+Ans: C
+
+
+
+## 🔸 B. Fuels & Combustion Fundamentals
+
+288. A fuel is a substance that
+A. Evaporates easily
+B. Releases heat on combustion
+C. Reacts endothermically
+D. Absorbs oxygen
+
+Ans: B
+
+
+
+289. Combustion is a
+A. Physical process
+B. Nuclear process
+C. Chemical oxidation reaction
+D. Phase change
+
+Ans: C
+
+
+
+290. Complete combustion of a hydrocarbon produces
+A. CO and H₂O
+B. CO₂ and H₂O
+C. C and H₂
+D. CO₂ only
+
+Ans: B
+
+
+
+291. The theoretical air required for combustion is
+A. Excess air supplied
+B. Minimum air required for complete combustion
+C. Actual air supplied
+D. Air containing moisture
+
+Ans: B
+
+
+
+292. Excess air is supplied to combustion mainly to
+A. Increase flame temperature
+B. Ensure complete combustion
+C. Reduce oxygen content
+D. Reduce fuel consumption
+
+Ans: B
+
+
+
+## 🔸 C. Heating Value of Fuels (VERY IMPORTANT)
+
+293. Higher heating value (HHV. includes
+A. Latent heat of water vapour
+B. Sensible heat only
+C. Heat losses
+D. Heat of reaction only
+
+Ans: A
+
+
+
+294. Lower heating value (LHV. excludes
+A. Heat of combustion
+B. Sensible heat
+C. Latent heat of water vapour
+D. Heat of formation
+
+Ans: C
+
+
+
+295. HHV is always
+A. Less than LHV
+B. Equal to LHV
+C. Greater than LHV
+D. Independent of moisture
+
+Ans: C
+
+
+
+296. Difference between HHV and LHV depends mainly on
+A. Carbon content
+B. Hydrogen content
+C. Ash content
+D. Nitrogen content
+
+Ans: B
+
+
+
+297. For gaseous fuels, heating value is commonly expressed as
+A. kJ/kg
+B. kJ/mol
+C. kJ/m³
+D. kJ/K
+
+Ans: C
+
+
+
+## 🔸 D. Proximate & Ultimate Analysis
+
+298. Proximate analysis of fuel determines
+A. C, H, O, N
+B. Moisture, volatile matter, ash, fixed carbon
+C. Heating value
+D. Flue gas composition
+
+Ans: B
+
+
+
+299. Ultimate analysis of fuel determines
+A. Moisture content only
+B. Volatile matter only
+C. Elemental composition (C, H, O, N, S)
+D. Ash content only
+
+Ans: C
+
+
+
+300. Fixed carbon in proximate analysis represents
+A. Carbon in gaseous form
+B. Carbon available for combustion after volatile matter removal
+C. Total carbon content
+D. Ash residue
+
+Ans: B
+
+
+
+301. Ultimate analysis is essential for calculating
+A. Boiler efficiency
+B. Theoretical air requirement
+C. Moisture content
+D. Fixed carbon
+
+Ans: B
+
+
+
+## 🔸 E. Orsat Analysis of Flue Gases (PSC Favourite)
+
+302. Orsat apparatus is used to analyze
+A. Fuel composition
+B. Liquid fuels
+C. Dry flue gas composition
+D. Moist air
+
+Ans: C
+
+
+
+303. Orsat analysis commonly measures
+A. O₂, CO₂, CO
+B. N₂, H₂O, SO₂
+C. H₂, CH₄, CO₂
+D. NOₓ only
+
+Ans: A
+
+
+
+304. In Orsat analysis, CO₂ is absorbed by
+A. Alkaline pyrogallol
+B. Potassium hydroxide
+C. Ammoniacal cuprous chloride
+D. Sulfuric acid
+
+Ans: B
+
+
+
+305. Oxygen in flue gas is absorbed by
+A. KOH
+B. Cuprous chloride
+C. Alkaline pyrogallol
+D. Water
+
+Ans: C
+
+
+
+306. Carbon monoxide in Orsat analysis is absorbed by
+A. Potassium hydroxide
+B. Alkaline pyrogallol
+C. Ammoniacal cuprous chloride
+D. Sulfuric acid
+
+Ans: C
+
+
+
+307. Nitrogen content in flue gas is obtained by
+A. Direct absorption
+B. Chemical reaction
+C. Difference calculation
+D. Condensation
+
+Ans: C
+
+
+
+308. Orsat analysis is carried out on
+A. Wet flue gas
+B. Dry flue gas
+C. Liquid fuel
+D. Solid fuel
+
+Ans: B

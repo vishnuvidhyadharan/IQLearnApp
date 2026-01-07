@@ -1,0 +1,1471 @@
+Chemical Reaction Engineering: Overview of chemical reaction engineering, classification of chemical reactions, variables affecting the rate of reaction, definition of reaction rate, kinetics of homogeneous reaction, pseudo steady state hypothesis (PSSH), searching for a mechanism, General considerations, hydrogen bromide reaction polymerisation ,steps in free radical polymerisation, evaluation of rate equation by integral and differential analysis for co.nstant volume and variable volume system. Introduction to reactor design, classification of reactors, design of single and multiple reactions , size comparison of single and multiple reactors, auto catalytic reactions, design of evaluation of laboratory reactors, Integral (fixed bed. reactor, stirred batch reactor, stirred contained solid reactor (SCSR), differentia reactors: continuous stirred tank reactor (CSTR), Laminar flow reactor, stirred through transport reactor, re,calculating transport reactor
+
+
+## 🔸 A. Overview of Chemical Reaction Engineering
+
+1. Chemical Reaction Engineering mainly deals with
+A. Fluid flow behavior
+B. Design and analysis of chemical reactors
+C. Separation processes
+D. Heat exchanger design
+
+Ans: B
+
+
+
+2. The primary objective of Chemical Reaction Engineering is to
+A. Increase reaction temperature
+B. Maximize conversion and selectivity economically
+C. Reduce reaction time only
+D. Increase pressure
+
+Ans: B
+
+
+
+3. Chemical Reaction Engineering combines principles of
+A. Thermodynamics only
+B. Fluid mechanics only
+C. Kinetics, thermodynamics, and mass transfer
+D. Solid mechanics
+
+Ans: C
+
+
+
+4. CRE is mainly concerned with reactions occurring in
+A. Laboratory flasks only
+B. Industrial reactors
+C. Solid materials only
+D. Biological systems only
+
+Ans: B
+
+
+
+## 🔸 B. Classification of Chemical Reactions
+
+5. Based on phase, chemical reactions are classified as
+A. Exothermic and endothermic
+B. Reversible and irreversible
+C. Homogeneous and heterogeneous
+D. Elementary and non-elementary
+
+Ans: C
+
+
+
+6. A homogeneous reaction is one in which
+A. Reactants are in different phases
+B. Catalyst is present
+C. Reactants and products are in the same phase
+D. Reaction occurs at solid surface
+
+Ans: C
+
+
+
+7. A heterogeneous reaction involves
+A. Only gaseous reactants
+B. Only liquid reactants
+C. More than one phase
+D. No catalyst
+
+Ans: C
+
+
+
+8. Based on reversibility, reactions are classified as
+A. Elementary and complex
+B. Homogeneous and heterogeneous
+C. Reversible and irreversible
+D. Fast and slow
+
+Ans: C
+
+
+
+9. A reaction that proceeds only in one direction is called
+A. Reversible reaction
+B. Elementary reaction
+C. Irreversible reaction
+D. Chain reaction
+
+Ans: C
+
+
+
+10. An elementary reaction is one that
+A. Occurs in steps
+B. Has complex mechanism
+C. Occurs in a single step
+D. Is always slow
+
+Ans: C
+
+
+
+## 🔸 C. Definition of Reaction Rate (VERY IMPORTANT)
+
+11. Rate of reaction is defined as
+A. Amount of reactant consumed per unit volume
+B. Change in concentration of a reactant or product per unit time
+C. Conversion per unit time
+D. Reaction temperature per unit time
+
+Ans: B
+
+
+
+12. Reaction rate is usually expressed in units of
+A. mol
+B. mol/L
+C. mol/(L·s)
+D. mol/s
+
+Ans: C
+
+
+
+13. Reaction rate is considered positive when it is based on
+A. Disappearance of products
+B. Formation of reactants
+C. Disappearance of reactants or formation of products
+D. Temperature rise
+
+Ans: C
+
+
+
+14. For a reaction
+[
+aA \rightarrow bB
+]
+the rate of reaction is given by
+A. −d[A]/dt
+B. d[B]/dt
+C. −(1/a)d[A]/dt = (1/b)d[B]/dt
+D. d[A]/dt
+
+Ans: C
+
+
+
+## 🔸 D. Variables Affecting Rate of Reaction
+
+15. Which of the following does NOT affect the rate of reaction?
+A. Temperature
+B. Concentration
+C. Catalyst
+D. Colour of reactants
+
+Ans: D
+
+
+
+16. Increase in temperature generally
+A. Decreases reaction rate
+B. Has no effect on reaction rate
+C. Increases reaction rate
+D. Stops reaction
+
+Ans: C
+
+
+
+17. Effect of temperature on reaction rate is explained by
+A. Raoult’s law
+B. Arrhenius equation
+C. Henry’s law
+D. Dalton’s law
+
+Ans: B
+
+
+
+18. A catalyst increases reaction rate by
+A. Increasing activation energy
+B. Changing reaction equilibrium
+C. Providing an alternate lower-energy path
+D. Increasing concentration
+
+Ans: C
+
+
+
+19. Increasing concentration of reactants generally
+A. Decreases reaction rate
+B. Increases reaction rate
+C. Has no effect
+D. Stops reaction
+
+Ans: B
+
+
+
+20. Pressure mainly affects reaction rate when reactants are
+A. Solids
+B. Liquids
+C. Gases
+D. Catalysts
+
+Ans: C
+
+
+## 🔸 A. Kinetics of Homogeneous Reactions
+
+1. A homogeneous reaction is one in which
+A. Catalyst is solid
+B. Reaction occurs at interface
+C. All reactants are in the same phase
+D. Reaction occurs only in gas phase
+
+Ans: C
+
+
+
+2. In homogeneous reaction kinetics, the rate depends mainly on
+A. Surface area
+B. Diffusion resistance
+C. Concentration and temperature
+D. Particle size
+
+Ans: C
+
+
+
+3. For homogeneous gas-phase reactions, reaction rate is usually expressed in terms of
+A. Partial pressure
+B. Concentration
+C. Mole fraction
+D. Volume
+
+Ans: B
+
+
+
+4. A rate law that cannot be derived directly from stoichiometry is called
+A. Elementary rate law
+B. Empirical rate law
+C. Theoretical rate law
+D. Ideal rate law
+
+Ans: B
+
+
+
+## 🔸 B. Pseudo Steady State Hypothesis (PSSH. – VERY IMPORTANT
+
+5. The Pseudo Steady State Hypothesis (PSSH. assumes that
+A. Reactant concentration is constant
+B. Intermediate concentration remains approximately constant
+C. Product concentration is zero
+D. Reaction is at equilibrium
+
+Ans: B
+
+
+
+6. PSSH is mainly applicable to
+A. Stable reactants
+B. Final products
+C. Reactive intermediates
+D. Catalysts only
+
+Ans: C
+
+
+
+7. According to PSSH, for an intermediate species
+A. Rate of formation ≫ rate of disappearance
+B. Rate of formation ≪ rate of disappearance
+C. Rate of formation ≈ rate of disappearance
+D. Rate of formation = 0
+
+Ans: C
+
+
+
+8. PSSH is most valid when
+A. Intermediates accumulate
+B. Intermediates are highly reactive and short-lived
+C. Reaction is very slow
+D. Products are unstable
+
+Ans: B
+
+
+
+9. PSSH simplifies kinetic analysis by
+A. Eliminating rate equations
+B. Reducing number of unknowns
+C. Increasing number of reactions
+D. Ignoring temperature effects
+
+Ans: B
+
+
+
+## 🔸 C. Searching for a Reaction Mechanism – General Considerations
+
+10. A reaction mechanism is a
+A. Overall balanced equation
+B. Set of elementary steps explaining overall reaction
+C. Thermodynamic pathway
+D. Energy balance equation
+
+Ans: B
+
+
+
+11. While proposing a reaction mechanism, it must
+A. Match overall stoichiometry
+B. Predict observed rate law
+C. Involve elementary steps
+D. Satisfy all of the above
+
+Ans: D
+
+
+
+12. An elementary step cannot have molecularity
+A. One
+B. Two
+C. Three (rare)
+D. Four
+
+Ans: D
+
+
+
+13. Molecularity refers to
+A. Number of moles reacted
+B. Number of species in rate law
+C. Number of molecules participating in an elementary step
+D. Order of reaction
+
+Ans: C
+
+
+
+14. Reaction order and molecularity are
+A. Always equal
+B. Always different
+C. Equal only for elementary reactions
+D. Unrelated
+
+Ans: C
+
+
+
+## 🔸 D. Hydrogen–Bromide Reaction (CLASSIC PSC QUESTION)
+
+15. The reaction between hydrogen and bromine to form HBr proceeds via
+A. Single-step reaction
+B. Ionic mechanism
+C. Free-radical chain mechanism
+D. Catalytic mechanism
+
+Ans: C
+
+
+
+16. The overall reaction for HBr formation is
+A. H₂ + Br₂ → 2HBr
+B. H₂ + Br → HBr
+C. H + Br₂ → HBr + Br
+D. Br + HBr → H₂ + Br₂
+
+Ans: A
+
+
+
+17. The H₂–Br₂ reaction exhibits non-integer reaction order mainly due to
+A. Equilibrium limitation
+B. Chain branching and inhibition
+C. Diffusion control
+D. Phase change
+
+Ans: B
+
+
+
+18. The HBr reaction is unusual because the rate is
+A. Directly proportional to [Br₂]
+B. Inversely proportional to [Br₂]¹ᐟ²
+C. Independent of temperature
+D. Zero order
+
+Ans: B
+
+
+
+19. The inhibitor in the H₂–Br₂ reaction is
+A. H₂
+B. Br₂
+C. HBr
+D. Br
+
+Ans: C
+
+
+
+## 🔸 E. Polymerisation Reactions (Basics)
+
+20. Polymerisation is a reaction in which
+A. Small molecules break down
+B. Large molecules split
+C. Small monomers combine to form large molecules
+D. Only gases react
+
+Ans: C
+
+
+
+21. Free-radical polymerisation consists of
+A. Initiation only
+B. Initiation and termination
+C. Initiation, propagation, termination
+D. Propagation only
+
+Ans: C
+
+
+
+22. In free-radical polymerisation, the rate-determining step is usually
+A. Initiation
+B. Propagation
+C. Termination
+D. Chain transfer
+
+Ans: B
+
+
+
+23. PSSH is commonly applied in polymerisation kinetics to
+A. Monomers
+B. Solvents
+C. Free radicals
+D. Polymers
+
+Ans: C
+
+
+
+24. Increase in initiator concentration in free-radical polymerisation generally
+A. Decreases rate
+B. Increases rate
+C. Has no effect
+D. Stops reaction
+
+Ans: B
+
+
+
+
+## 🔸 A. Steps in Free-Radical Polymerisation (VERY IMPORTANT)
+
+1. Free-radical polymerisation proceeds through
+A. Two steps
+B. Three steps
+C. Four steps
+D. Five steps
+
+Ans: B
+
+
+
+2. The three basic steps in free-radical polymerisation are
+A. Initiation, diffusion, termination
+B. Initiation, propagation, termination
+C. Adsorption, reaction, desorption
+D. Mixing, reaction, separation
+
+Ans: B
+
+
+
+3. Initiation in free-radical polymerisation involves
+A. Growth of polymer chain
+B. Formation of free radicals
+C. Combination of polymer chains
+D. Breaking of polymer
+
+Ans: B
+
+
+
+4. In thermal initiation, free radicals are generated by
+A. Oxidation
+B. Reduction
+C. Decomposition of initiator
+D. Diffusion
+
+Ans: C
+
+
+
+5. Propagation step involves
+A. Termination of radicals
+B. Addition of monomer to active radical
+C. Formation of initiator radicals
+D. Chain transfer
+
+Ans: B
+
+
+
+6. Termination of free-radical polymerisation may occur by
+A. Combination
+B. Disproportionation
+C. Both A and B
+D. Initiation
+
+Ans: C
+
+
+
+7. The rate-determining step in free-radical polymerisation is generally
+A. Initiation
+B. Propagation
+C. Termination
+D. Chain transfer
+
+Ans: B
+
+
+
+8. Pseudo-steady-state hypothesis in polymerisation is applied to
+A. Monomer concentration
+B. Polymer concentration
+C. Free-radical concentration
+D. Initiator concentration
+
+Ans: C
+
+
+
+## 🔸 B. Rate of Free-Radical Polymerisation
+
+9. The rate of polymerisation is proportional to
+A. Initiator concentration
+B. Monomer concentration
+C. Square root of initiator concentration
+D. Both B and C
+
+Ans: D
+
+
+
+10. Rate expression for free-radical polymerisation is commonly written as
+A. Rₚ ∝ [M]
+B. Rₚ ∝ [I]
+C. Rₚ ∝ [M][I]
+D. Rₚ ∝ [M]√[I]
+
+Ans: D
+
+
+
+11. Increase in initiator concentration generally
+A. Decreases polymerisation rate
+B. Increases polymerisation rate
+C. Has no effect
+D. Stops polymerisation
+
+Ans: B
+
+
+
+## 🔸 C. Evaluation of Rate Equation – Differential Method
+
+12. Differential method of analysis determines reaction order by
+A. Integrating rate equation
+B. Plotting concentration vs time
+C. Plotting log(rate. vs log(concentration)
+D. Measuring final conversion only
+
+Ans: C
+
+
+
+13. Differential method requires
+A. Accurate concentration–time data
+B. Only initial concentration
+C. Final conversion only
+D. Equilibrium data
+
+Ans: A
+
+
+
+14. Major drawback of differential method is
+A. Low accuracy
+B. Sensitivity to experimental errors
+C. Difficulty in plotting
+D. Limited applicability
+
+Ans: B
+
+
+
+## 🔸 D. Evaluation of Rate Equation – Integral Method
+
+15. Integral method of analysis involves
+A. Differentiating experimental data
+B. Using integrated form of rate law
+C. Measuring instantaneous rate
+D. Using equilibrium constants
+
+Ans: B
+
+
+
+16. Integral method is preferred when
+A. Data has large experimental noise
+B. Concentration changes rapidly
+C. Only initial rate is known
+D. Reaction is heterogeneous
+
+Ans: A
+
+
+
+17. In integral analysis, a straight-line plot confirms
+A. Reaction mechanism
+B. Reaction order
+C. Activation energy
+D. Heat of reaction
+
+Ans: B
+
+
+
+## 🔸 E. Constant-Volume Systems
+
+18. In a constant-volume batch reactor, concentration change is directly related to
+A. Volume change
+B. Pressure change
+C. Moles reacted
+D. Temperature only
+
+Ans: C
+
+
+
+19. For gas-phase reactions at constant volume, concentration is proportional to
+A. Pressure
+B. Mole fraction
+C. Number of moles
+D. Temperature
+
+Ans: C
+
+
+
+20. Integral rate expressions derived assuming constant volume are valid when
+A. Volume change is negligible
+B. Pressure changes significantly
+C. Reaction is reversible
+D. Reaction is catalysed
+
+Ans: A
+
+
+
+## 🔸 F. Variable-Volume Systems (VERY IMPORTANT)
+
+21. Variable-volume systems are common in
+A. Liquid-phase reactions
+B. Gas-phase reactions with change in moles
+C. Solid-phase reactions
+D. Polymer melts only
+
+Ans: B
+
+
+
+22. In gas-phase reactions with variable volume, concentration depends on
+A. Temperature only
+B. Pressure only
+C. Conversion and stoichiometry
+D. Catalyst amount
+
+Ans: C
+
+
+
+23. For variable-volume systems, rate equations are often written in terms of
+A. Concentration
+B. Pressure
+C. Conversion
+D. Volume
+
+Ans: C
+
+
+
+24. Volume change in gas-phase reactions mainly occurs due to
+A. Temperature variation
+B. Change in number of moles during reaction
+C. Catalyst deactivation
+D. Heat transfer
+
+Ans: B
+
+
+
+25. Integral analysis for variable-volume systems is more complex because
+A. Reaction is slow
+B. Concentration–conversion relation is nonlinear
+C. Temperature changes
+D. Reaction is reversible
+
+Ans: B
+
+
+
+26. In CRE problems, variable-volume systems are simplified by assuming
+A. Constant pressure
+B. Constant temperature
+C. Ideal gas behavior
+D. All of the above
+
+Ans: D
+
+
+
+## 🔸 A. Introduction to Reactor Design
+
+1. Reactor design primarily deals with
+A. Selection of catalysts
+B. Determination of reactor size and operating conditions
+C. Heat exchanger design
+D. Separation processes
+
+Ans: B
+
+
+
+2. The basic objective of reactor design is to achieve
+A. Maximum temperature
+B. Desired conversion with minimum cost
+C. Maximum pressure
+D. Zero residence time
+
+Ans: B
+
+
+
+3. Reactor design is based mainly on
+A. Energy balance only
+B. Material balance only
+C. Kinetics and material balance
+D. Thermodynamics only
+
+Ans: C
+
+
+
+4. The design equation of a reactor relates
+A. Heat and work
+B. Conversion and reactor volume
+C. Pressure and temperature
+D. Time and temperature
+
+Ans: B
+
+
+
+## 🔸 B. Classification of Reactors (VERY IMPORTANT)
+
+5. Based on mode of operation, reactors are classified as
+A. Ideal and non-ideal
+B. Homogeneous and heterogeneous
+C. Batch, semi-batch, and continuous
+D. Tubular and stirred
+
+Ans: C
+
+
+
+6. A batch reactor is one in which
+A. Reactants are continuously fed
+B. Products are continuously withdrawn
+C. No mass enters or leaves during reaction
+D. Temperature is constant
+
+Ans: C
+
+
+
+7. A continuous stirred tank reactor (CSTR. is characterized by
+A. Plug flow
+B. Perfect mixing
+C. No mixing
+D. Batch operation
+
+Ans: B
+
+
+
+8. A plug flow reactor (PFR. assumes
+A. Perfect mixing in all directions
+B. No axial mixing
+C. Complete back-mixing
+D. Uniform composition throughout
+
+Ans: B
+
+
+
+9. Which reactor gives highest conversion per unit volume for an irreversible reaction of order > 0?
+A. Batch reactor
+B. CSTR
+C. PFR
+D. Semi-batch reactor
+
+Ans: C
+
+
+
+## 🔸 C. Design of Single Reactions
+
+10. In reactor design for a single reaction, the rate expression is written as
+A. −rA = k
+B. −rA = f(concentration, temperature)
+C. −rA = equilibrium constant
+D. −rA = conversion only
+
+Ans: B
+
+
+
+11. The design equation for a batch reactor is derived from
+A. Steady-state material balance
+B. Energy balance
+C. Unsteady-state material balance
+D. Momentum balance
+
+Ans: C
+
+
+
+12. Space time (τ. is defined as
+A. Reactor volume / volumetric flow rate
+B. Flow rate / reactor volume
+C. Conversion / rate
+D. Rate × volume
+
+Ans: A
+
+
+
+13. Space velocity is the reciprocal of
+A. Reaction rate
+B. Conversion
+C. Space time
+D. Residence time
+
+Ans: C
+
+
+
+## 🔸 D. Multiple Reactions (Selectivity & Yield)
+
+14. Multiple reactions occur when
+A. Only one reactant is present
+B. More than one reaction occurs simultaneously
+C. Reaction is reversible
+D. Reaction is elementary
+
+Ans: B
+
+
+
+15. Selectivity in multiple reactions is defined as
+A. Desired product formed per reactant fed
+B. Desired product formed per undesired product
+C. Total conversion
+D. Reaction rate
+
+Ans: B
+
+
+
+16. To maximize selectivity toward desired product in parallel reactions, it is preferred to
+A. Increase temperature
+B. Decrease temperature
+C. Increase residence time
+D. Increase concentration always
+
+Ans: B
+*(assuming higher activation energy for undesired reaction)*
+
+
+
+17. For series reactions
+A → B → C,
+to maximize B, the reactor should be
+A. Large volume
+B. Very small volume
+C. Operated at very high conversion
+D. Designed for intermediate conversion
+
+Ans: D
+
+
+
+## 🔸 E. Size Comparison of Single & Multiple Reactors (PSC FAVOURITE)
+
+18. For a given conversion and irreversible reaction of order > 0, the largest reactor volume is required for
+A. PFR
+B. Batch reactor
+C. CSTR
+D. PFR in series
+
+Ans: C
+
+
+
+19. For first-order irreversible reactions, a PFR and batch reactor
+A. Have same volume for same conversion
+B. Have different volumes
+C. Cannot be compared
+D. Require infinite volume
+
+Ans: A
+
+
+
+20. For the same conversion, multiple CSTRs in series compared to a single CSTR require
+A. More volume
+B. Same volume
+C. Less volume
+D. Infinite volume
+
+Ans: C
+
+
+
+21. As the number of CSTRs in series increases, the system approaches the behavior of
+A. Batch reactor
+B. PFR
+C. Semi-batch reactor
+D. Fixed bed reactor
+
+Ans: B
+
+
+
+22. For reactions with strong concentration dependence, the most efficient reactor is
+A. CSTR
+B. Batch reactor
+C. PFR
+D. Semi-batch reactor
+
+Ans: C
+
+
+
+23. Multiple reactors in series are preferred over a single reactor mainly to
+A. Increase pressure
+B. Improve conversion efficiency
+C. Reduce catalyst cost
+D. Reduce temperature
+
+Ans: B
+
+
+
+24. Reactor size comparison is based on
+A. Thermodynamics only
+B. Energy balance only
+C. Rate–conversion relationship
+D. Catalyst activity
+
+Ans: C
+
+
+
+## 🔸 A. Autocatalytic Reactions (VERY IMPORTANT)
+
+1. An autocatalytic reaction is one in which
+A. Catalyst is added externally
+B. Product of reaction acts as a catalyst
+C. Reaction rate is constant
+D. Reaction occurs without activation energy
+
+Ans: B
+
+
+
+2. A typical autocatalytic reaction can be represented as
+A. A → B
+B. A + B → 2B
+C. A → B + C
+D. A + C → D
+
+Ans: B
+
+
+
+3. In autocatalytic reactions, the reaction rate is initially
+A. Maximum
+B. Zero or very small
+C. Constant
+D. Independent of concentration
+
+Ans: B
+
+
+
+4. The rate of an autocatalytic reaction increases because
+A. Reactant concentration increases
+B. Temperature increases
+C. Product concentration increases
+D. Pressure increases
+
+Ans: C
+
+
+
+5. The concentration–time curve for an autocatalytic reaction is generally
+A. Linear
+B. Exponential decay
+C. Sigmoidal (S-shaped)
+D. Horizontal
+
+Ans: C
+
+
+
+6. Autocatalytic reactions are commonly observed in
+A. Nuclear reactions
+B. Polymerisation and biochemical systems
+C. Combustion only
+D. Electrochemical cells
+
+Ans: B
+
+
+
+## 🔸 B. Design & Evaluation of Laboratory Reactors
+
+7. Laboratory reactors are mainly used to
+A. Produce chemicals commercially
+B. Determine kinetic parameters
+C. Separate products
+D. Recover heat
+
+Ans: B
+
+
+
+8. While evaluating laboratory reactor data, it is essential to ensure
+A. Large pressure drop
+B. Uniform temperature and composition
+C. High conversion
+D. Long residence time
+
+Ans: B
+
+
+
+9. Laboratory reactors are generally designed to operate under
+A. Non-ideal flow conditions
+B. Controlled and well-defined conditions
+C. High turbulence only
+D. Adiabatic conditions only
+
+Ans: B
+
+
+
+## 🔸 C. Integral (Fixed-Bed. Reactor
+
+10. An integral reactor is one in which
+A. Conversion is infinitesimally small
+B. Reaction rate is measured at a single point
+C. Rate data is obtained over entire conversion range
+D. Only outlet concentration is measured
+
+Ans: C
+
+
+
+11. A fixed-bed reactor is commonly used for
+A. Homogeneous reactions
+B. Gas–solid catalytic reactions
+C. Liquid–liquid reactions
+D. Batch reactions
+
+Ans: B
+
+
+
+12. In a fixed-bed reactor, the catalyst is
+A. Suspended in liquid
+B. Contained in a basket
+C. Packed and stationary
+D. Continuously removed
+
+Ans: C
+
+
+
+13. Fixed-bed reactors are analysed using
+A. Batch reactor design equation
+B. CSTR design equation
+C. PFR design equation
+D. Energy balance only
+
+Ans: C
+
+
+
+14. Pressure drop is an important consideration in fixed-bed reactors because
+A. It affects conversion
+B. It affects flow rate and energy consumption
+C. It changes stoichiometry
+D. It changes catalyst activity directly
+
+Ans: B
+
+
+
+## 🔸 D. Stirred Batch Reactor
+
+15. A stirred batch reactor is characterized by
+A. Continuous feed and withdrawal
+B. Perfect mixing and unsteady-state operation
+C. Plug flow behaviour
+D. Presence of catalyst bed
+
+Ans: B
+
+
+
+16. Kinetic data from stirred batch reactors are obtained by measuring
+A. Conversion at steady state
+B. Concentration as a function of time
+C. Pressure drop
+D. Flow rate
+
+Ans: B
+
+
+
+17. Stirred batch reactors are especially suitable for
+A. Fast gas-phase reactions
+B. Slow reactions and kinetic studies
+C. High-pressure flow systems
+D. Continuous operation
+
+Ans: B
+
+
+
+## 🔸 E. Stirred Contained Solid Reactor (SCSR)
+
+18. A stirred contained solid reactor (SCSR. is mainly used for
+A. Homogeneous gas-phase reactions
+B. Liquid–solid reactions
+C. Gas–gas reactions
+D. Polymer melt reactions
+
+Ans: B
+
+
+
+19. In an SCSR, the solid catalyst is
+A. Free-flowing in liquid
+B. Dissolved in liquid
+C. Contained in a basket or cage
+D. Fixed as a packed bed
+
+Ans: C
+
+
+
+20. Major advantage of SCSR is
+A. Easy separation of solid catalyst
+B. High pressure operation
+C. Plug flow behaviour
+D. Continuous catalyst regeneration
+
+Ans: A
+
+
+
+21. Reaction rate in SCSR is evaluated by
+A. Measuring pressure drop
+B. Measuring change in concentration of liquid with time
+C. Measuring catalyst weight loss
+D. Measuring gas flow rate
+
+Ans: B
+
+
+
+22. SCSR is preferred when
+A. Catalyst particles are fragile
+B. Mass transfer resistance is dominant
+C. Catalyst separation is difficult
+D. Reaction is homogeneous
+
+Ans: C
+
+
+
+## 🔸 F. Comparative & Conceptual Questions (PSC-Type)
+
+23. Compared to differential reactors, integral reactors
+A. Give local rate data
+B. Give average rate data over conversion range
+C. Cannot be used for kinetics
+D. Require negligible conversion
+
+Ans: B
+
+
+
+24. Autocatalytic reactions are difficult to study in laboratory reactors mainly because
+A. Rate is independent of concentration
+B. Catalyst deactivates instantly
+C. Reaction rate changes significantly with conversion
+D. Temperature remains constant
+
+Ans: C
+
+
+## 🔸 A. Differential Reactors – Fundamentals
+
+1. A differential reactor is operated such that
+A. Conversion is very high
+B. Conversion is very low
+C. Reaction reaches equilibrium
+D. Residence time is infinite
+
+Ans: B
+
+
+
+2. The main purpose of using a differential reactor is to
+A. Maximize conversion
+B. Minimize reactor volume
+C. Measure intrinsic reaction rate
+D. Improve selectivity
+
+Ans: C
+
+
+
+3. In a differential reactor, the rate of reaction is assumed to be
+A. Constant throughout
+B. Measured at outlet only
+C. Same as inlet rate
+D. Essentially uniform within reactor
+
+Ans: D
+
+
+
+4. Differential reactors are preferred when
+A. Conversion is high
+B. Reaction is fast
+C. Kinetic data is required
+D. Heat effects are dominant
+
+Ans: C
+
+
+
+## 🔸 B. CSTR as a Differential Reactor
+
+5. A CSTR behaves as a differential reactor when
+A. Conversion is high
+B. Reactor volume is very large
+C. Residence time is very small
+D. Mixing is incomplete
+
+Ans: C
+
+
+
+6. In a differential CSTR, the rate of reaction is evaluated using
+A. Inlet concentration
+B. Outlet concentration
+C. Average concentration
+D. Equilibrium concentration
+
+Ans: B
+
+
+
+7. Material balance for a differential CSTR reduces to
+A. F_A0 − F_A + r_AV = 0
+B. −r_A = (F_A0 − F_A)/V
+C. −r_A = (F_A − F_A0)/V
+D. −r_A = F_A/V
+
+Ans: B
+
+
+
+8. Advantage of using a CSTR as a differential reactor is
+A. Simple rate expression
+B. Uniform composition
+C. High conversion
+D. Plug flow behavior
+
+Ans: B
+
+
+
+## 🔸 C. Laminar Flow Reactor (LFR)
+
+9. A laminar flow reactor operates under
+A. Turbulent flow conditions
+B. Plug flow conditions
+C. Laminar flow with parabolic velocity profile
+D. Perfect mixing
+
+Ans: C
+
+
+
+10. In a laminar flow reactor, fluid elements have
+A. Same residence time
+B. Different residence times
+C. Zero residence time
+D. Infinite residence time
+
+Ans: B
+
+
+
+11. Conversion in a laminar flow reactor is generally
+A. Higher than PFR
+B. Same as PFR
+C. Lower than PFR
+D. Independent of flow pattern
+
+Ans: C
+
+
+
+12. Laminar flow reactors are analysed by
+A. Batch reactor equation
+B. CSTR equation
+C. Plug flow with residence time distribution
+D. Energy balance only
+
+Ans: C
+
+
+
+## 🔸 D. Stirred-Through Transport Reactor (STTR)
+
+13. A stirred-through transport reactor is one in which
+A. Reaction occurs in packed bed
+B. Fluid passes through a well-mixed reaction zone
+C. Reaction occurs in batch mode
+D. Catalyst is fixed
+
+Ans: B
+
+
+
+14. STTR combines features of
+A. Batch reactor and PFR
+B. CSTR and PFR
+C. PFR and LFR
+D. Batch reactor and CSTR
+
+Ans: B
+
+
+
+15. In a stirred-through transport reactor, the concentration profile along the reactor is
+A. Uniform everywhere
+B. Same as PFR
+C. Same as CSTR
+D. Intermediate between CSTR and PFR
+
+Ans: D
+
+
+
+## 🔸 E. Recirculating Transport Reactor
+
+16. A recirculating transport reactor operates by
+A. Single-pass flow
+B. Partial recycle of reactor effluent
+C. Complete back-mixing
+D. No mixing
+
+Ans: B
+
+
+
+17. Purpose of recirculation in transport reactors is to
+A. Increase pressure
+B. Increase temperature
+C. Control conversion and mixing
+D. Stop reaction
+
+Ans: C
+
+
+
+18. As recycle ratio increases, a transport reactor approaches behavior of
+A. Batch reactor
+B. Plug flow reactor
+C. CSTR
+D. Differential reactor
+
+Ans: C
+
+
+
+19. For very high recycle ratios, concentration in recirculating reactor becomes
+A. Same as inlet
+B. Same as outlet
+C. Uniform throughout
+D. Zero
+
+Ans: C
+
+
+
+## 🔸 F. PSC-Focused Conceptual Questions
+
+20. Differential reactors are designed primarily to eliminate effects of
+A. Kinetics
+B. Mass transfer
+C. Concentration change with conversion
+D. Temperature
+
+Ans: C
+
+
+
+21. Laminar flow reactors are less efficient than PFR mainly because of
+A. Heat loss
+B. Pressure drop
+C. Non-uniform residence time
+D. Catalyst deactivation
+
+Ans: C
+
+
+
+22. A recirculating transport reactor behaves most like a PFR when
+A. Recycle ratio is zero
+B. Recycle ratio is very high
+C. Flow is laminar
+D. Mixing is perfect
+
+Ans: A
+

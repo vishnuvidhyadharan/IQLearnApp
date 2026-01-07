@@ -1,9 +1,7 @@
 [
-    "exam_questions/history/test1.txt",
-    "exam_questions/history/test2.txt",
-    "exam_questions/history/test3.txt",
-    "exam_questions/geography/test7.txt",
-    "exam_questions/chemistry/test.txt",
-    "exam_questions/chemistry/test2.txt",
-    "exam_questions/chemistry/test3.txt"
-]
+    "exam_questions/chemistry/definitionofinstrumentation_new.txt",
+    "exam_questions/chemistry/Thermodynamics_new.txt",
+    "exam_questions/chemistry/Chemicalreactionequilibria_new.txt",
+    "exam_questions/chemistry/HeterogeneousReactions_new.txt",
+    "exam_questions/chemistry/ProcessCalculations_new.txt",
+    "exam_questions/chemistry/ChemicalReactionEngineering_new.txt"]
