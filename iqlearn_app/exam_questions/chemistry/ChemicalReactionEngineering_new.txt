@@ -1,8 +1,6 @@
 Topic: Chemical Reaction Engineering
 
 
-## 🔸 A. Overview of Chemical Reaction Engineering
-
 1. Chemical Reaction Engineering mainly deals with
 A. Fluid flow behavior
 B. Design and analysis of chemical reactors
