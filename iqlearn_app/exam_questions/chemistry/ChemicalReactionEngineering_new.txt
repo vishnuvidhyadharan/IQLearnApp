@@ -1,35 +1,25 @@
 Topic: Chemical Reaction Engineering
 
-
 1. Chemical Reaction Engineering mainly deals with
 A. Fluid flow behavior
 B. Design and analysis of chemical reactors
 C. Separation processes
 D. Heat exchanger design
-
 Ans: B
-
-
 
 2. The primary objective of Chemical Reaction Engineering is to
 A. Increase reaction temperature
 B. Maximize conversion and selectivity economically
 C. Reduce reaction time only
 D. Increase pressure
-
 Ans: B
-
-
 
 3. Chemical Reaction Engineering combines principles of
 A. Thermodynamics only
 B. Fluid mechanics only
 C. Kinetics, thermodynamics, and mass transfer
 D. Solid mechanics
-
 Ans: C
-
-
 
 4. CRE is mainly concerned with reactions occurring in
 A. Laboratory flasks only
