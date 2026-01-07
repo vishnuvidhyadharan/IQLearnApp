@@ -1,9 +1,4 @@
-Process Calculations, Units and dimensions, conversion of units. dimensicnal analysis, conversion of empirical equations, mole concep and mole fraction, weight fraction and volume fraction, concentration cf liquid solutions , molarity, molality, normality, ppm, density and specific gravity, specific gravity scales, use of mole concept in chemical reactior stoichiometry, ideal gases and gas mixtures, various gas laws, average molecular weight and density of gases, critical properties and compressibility of gases. Material balances with and without chemica reactions, material balance in unit operations such as evaporation crystallization, drying, absorption, distillation etc. Energy balances:Heat capacity, specific heat and enthalpy, heat capacities of gases and gaseous mixtures,estimation of heat capacity ,relevant rules and laws calculation of enthalpy changes, Estimation of latent heat o vaporization, heat balance calculations in processes without chemica reaction, heat of reaction, standard heats of formation, combustion and reaction, heat of solutiun and heat of mixing, adiabatic and non,adiabatic reactions, theoretical and actual flame temperatures. Vapour Pressure vapour pressure of pure liquids and immiscible liquids, ideal solutions and Raoult's law, non,volatile solutes, humidity: Humidity and saturation various term associated with humidity and saturation. Material and energy balance problems involving vaporization and condensation, fuels and combustion, heating value of fuels, proximate and ultimate analysis Orsat analysis of flue gases.
-
-
-
-
-## 🔹 Process Calculations, Units & Dimensions (10 MCQs)
+Topic: Process Calculations
 
 1. Process calculations mainly deal with
 A. Reaction mechanisms
@@ -105,7 +100,7 @@ Ans: C
 
 
 
-## 🔹 Dimensional Analysis, Mole Concept & Mole Fraction (10 MCQs)
+
 
 11. Dimensional analysis is mainly used to
 A. Measure physical quantities
@@ -206,7 +201,7 @@ D. Dimensionless quantity
 Ans: D
 
 
-## 🔹 Weight Fraction, Volume Fraction & Concentration (10 MCQs)
+
 
 21. Weight fraction of a component in a mixture is defined as
 A. Weight of component / total volume
@@ -306,7 +301,7 @@ D. Density only
 
 Ans: B
 
-## 🔹 Molarity, Molality & Normality (10 MCQs)
+
 
 31. Molarity (M. is defined as
 A. Moles of solute per kg of solvent
@@ -409,11 +404,6 @@ Ans: C
 
 
 
-
-
-## 🔹 Molarity, Molality & Normality — HIGH-YIELD MCQs (18)
-
-
 41. Molarity (M. is defined as
 A. Moles of solute per kg of solvent
 B. Moles of solute per litre of solution
@@ -464,7 +454,6 @@ Ans: B
 
 
 
-### 🔸 Temperature Dependence & Comparison
 
 46. Which concentration unit does NOT change with temperature?
 A. Molarity
@@ -496,7 +485,6 @@ Ans: C
 
 
 
-### 🔸 Equivalent Weight & Reaction Dependence
 
 49. Normality depends on
 A. Molecular weight only
@@ -538,7 +526,7 @@ Ans: B
 
 
 
-### 🔸 Relationships & Conversions (VERY IMPORTANT)
+
 
 53. Relationship between normality (N. and molarity (M. is
 A. N = M
@@ -580,7 +568,7 @@ Ans: B
 
 
 
-### 🔸 Trick / Conceptual Questions (PSC Favorites)
+
 
 57. Which concentration unit depends on volume of solution?
 A. Molality
@@ -602,7 +590,7 @@ Ans: D
 
 
 
-## 🔸 Part A: ppm (Parts per Million)
+
 
 59. ppm stands for
 A. Parts per mole
@@ -664,7 +652,7 @@ Ans: B
 
 
 
-## 🔸 Part B: Density
+
 
 65. Density is defined as
 A. Volume per unit mass
@@ -716,7 +704,7 @@ Ans: A
 
 
 
-## 🔸 Part C: Specific Gravity
+
 
 70. Specific gravity is defined as
 A. Density of substance
@@ -758,7 +746,7 @@ Ans: D
 
 
 
-## 🔸 Part D: Specific Gravity Scales (VERY IMPORTANT)
+
 
 74. Baumé scale is used to measure
 A. Temperature
@@ -789,7 +777,7 @@ D. Lower temperature
 Ans: B
 
 
-### 🔸 Basics of Mole Concept in Reactions
+
 
 77. The mole concept is used in stoichiometry to
 A. Identify reaction mechanism
@@ -831,7 +819,7 @@ Ans: C
 
 
 
-### 🔸 Limiting & Excess Reactants (VERY IMPORTANT)
+
 
 81. The limiting reactant is the one which
 A. Is present in excess
@@ -873,7 +861,7 @@ Ans: C
 
 
 
-### 🔸 Mole Concept in Yield Calculations
+
 
 85. Theoretical yield is defined as
 A. Actual amount of product obtained
@@ -905,7 +893,7 @@ Ans: C
 
 
 
-### 🔸 Mole Concept in Gas-Phase Stoichiometry
+
 
 88. At the same temperature and pressure, equal volumes of gases contain
 A. Equal masses
@@ -937,7 +925,7 @@ Ans: B
 
 
 
-### 🔸 Mole Concept in Solution Stoichiometry
+
 
 91. In solution reactions, stoichiometric calculations are conveniently done using
 A. Weight fraction
@@ -959,7 +947,7 @@ Ans: C
 
 
 
-### 🔸 PSC-Favourite Conceptual Traps
+
 
 93. Stoichiometric coefficients in a balanced equation do NOT represent
 A. Mole ratio
@@ -981,7 +969,7 @@ Ans: B
 
 
 
-## 🔸 Ideal Gas & Gas Laws
+
 
 95. An ideal gas is one which
 A. Obeys Boyle’s law only
@@ -1043,7 +1031,7 @@ Ans: D
 
 
 
-## 🔸 Ideal Gas Assumptions (PSC Favourite)
+
 
 101. Ideal gas assumes molecules have
 A. Significant volume
@@ -1065,7 +1053,7 @@ Ans: B
 
 
 
-## 🔸 Gas Mixtures & Dalton’s Law
+
 
 103. Dalton’s law of partial pressures states that
 A. Total pressure is average of partial pressures
@@ -1107,7 +1095,7 @@ Ans: C
 
 
 
-## 🔸 Average Molecular Weight of Gas Mixtures
+
 
 107. Average molecular weight of a gas mixture is calculated using
 A. Mass fraction
@@ -1139,7 +1127,7 @@ Ans: B
 
 
 
-## 🔸 Density of Gases (VERY IMPORTANT)
+
 
 110. Density of an ideal gas is given by
 A. ρ = PM / RT
@@ -1171,7 +1159,7 @@ Ans: B
 
 
 
-## 🔸 Critical Properties & Compressibility
+
 
 113. Critical temperature is the temperature above which
 A. Gas becomes liquid easily
@@ -1213,7 +1201,7 @@ Ans: C
 
 
 
-## 🔸 A. Fundamentals of Material Balance
+
 
 117. A material balance is based on the principle of
 A. Energy conservation
@@ -1266,7 +1254,7 @@ Ans: B
 
 
 
-## 🔸 B. Material Balance WITHOUT Chemical Reaction
+
 
 122. In a process with no chemical reaction, generation and consumption terms are
 A. Equal
@@ -1318,7 +1306,7 @@ Ans: B
 
 
 
-## 🔸 C. Material Balance WITH Chemical Reaction
+
 
 127. In reacting systems, which additional terms appear in material balance?
 A. Heat and work
@@ -1370,7 +1358,7 @@ Ans: C
 
 
 
-## 🔸 D. Conversion, Yield & Selectivity (PSC Favourites)
+
 
 132. Conversion of a reactant is defined as
 A. Moles reacted / moles fed
@@ -1422,7 +1410,7 @@ Ans: C
 
 
 
-## 🔸 A. Evaporation
+
 
 137. In an evaporator, the primary purpose is to
 A. Remove solute
@@ -1474,7 +1462,7 @@ Ans: B
 
 
 
-## 🔸 B. Crystallization
+
 
 142. Crystallization is a unit operation used to
 A. Concentrate solution
@@ -1526,7 +1514,7 @@ Ans: B
 
 
 
-## 🔸 C. Drying
+
 
 147. Drying is a process of removing
 A. Solute from solution
@@ -1578,7 +1566,7 @@ Ans: B
 
 
 
-## 🔸 D. Absorption
+
 
 152. Absorption is the process of
 A. Gas dissolving in liquid
@@ -1610,7 +1598,7 @@ Ans: B
 
 
 
-## 🔸 E. Distillation
+
 
 155. Distillation is based on difference in
 A. Density
@@ -1652,7 +1640,7 @@ Ans: C
 
 
 
-## 🔸 A. Heat Capacity & Specific Heat
+
 
 159. Heat capacity of a substance is defined as the
 A. Heat required to raise temperature by 1°C per unit mass
@@ -1704,7 +1692,7 @@ Ans: C
 
 
 
-## 🔸 B. Enthalpy & Energy Balance Concepts
+
 
 164. Enthalpy (H. is defined as
 A. U − PV
@@ -1746,7 +1734,7 @@ Ans: B
 
 
 
-## 🔸 C. Heat Capacities of Gases
+
 
 168. Heat capacity of a gas at constant pressure is denoted by
 A. Cv
@@ -1798,7 +1786,7 @@ Ans: C
 
 
 
-## 🔸 D. Heat Capacity of Gas Mixtures
+
 
 173. Heat capacity of an ideal gas mixture is calculated using
 A. Mass fractions
@@ -1830,7 +1818,7 @@ Ans: B
 
 
 
-## 🔸 E. Estimation of Heat Capacity (IMPORTANT)
+
 
 176. Heat capacity of gases is often expressed as a function of temperature using
 A. Linear equation only
@@ -1862,7 +1850,7 @@ Ans: B
 
 
 
-## 🔸 A. Fundamentals of Enthalpy Change
+
 
 179. Enthalpy change of a reaction is defined as
 A. Difference in internal energy only
@@ -1894,7 +1882,7 @@ Ans: B
 
 
 
-## 🔸 B. Hess’s Law of Constant Heat Summation (VERY IMPORTANT)
+
 
 182. Hess’s law states that the enthalpy change of a reaction
 A. Depends on the path
@@ -1946,7 +1934,7 @@ Ans: C
 
 
 
-## 🔸 C. Standard Enthalpies (Formation, Combustion, Reaction)
+
 
 187. Standard enthalpy of formation of a compound is the enthalpy change when
 A. One mole of compound is formed from its elements in any state
@@ -1988,7 +1976,7 @@ Ans: A
 
 
 
-## 🔸 D. Kirchhoff’s Law (Temperature Dependence of ΔH)
+
 
 191. Kirchhoff’s law relates the change in enthalpy of reaction with
 A. Pressure
@@ -2020,7 +2008,7 @@ Ans: A
 
 
 
-## 🔸 E. Additional High-Yield Laws & Concepts
+
 
 194. Enthalpy change for phase transformation (like melting, vaporization. is called
 A. Heat of reaction
@@ -2072,7 +2060,7 @@ Ans: B
 
 
 
-## 🔸 A. Latent Heat of Vaporization
+
 
 199. Latent heat of vaporization is defined as the heat required to
 A. Raise temperature of liquid by 1 K
@@ -2144,7 +2132,7 @@ Ans: C
 
 
 
-## 🔸 B. Heat Balance Calculations (Without Chemical Reaction)
+
 
 206. Heat balance calculations without chemical reaction are based on
 A. Conservation of mass
@@ -2216,7 +2204,7 @@ Ans: C
 
 
 
-## 🔸 C. Heat of Reaction (VERY IMPORTANT)
+
 
 213. Heat of reaction is defined as
 A. Heat absorbed during phase change
@@ -2298,7 +2286,7 @@ Ans: C
 
 
 
-## 🔸 A. Standard Heats of Formation, Combustion & Reaction
+
 
 221. Standard heat of formation (ΔH°f. of a compound is defined as the enthalpy change when
 A. One mole of compound is decomposed
@@ -2360,7 +2348,7 @@ Ans: B
 
 
 
-## 🔸 B. Heat of Solution & Heat of Mixing
+
 
 227. Heat of solution is the enthalpy change when
 A. A solute reacts chemically with solvent
@@ -2422,7 +2410,7 @@ Ans: C
 
 
 
-## 🔸 C. Adiabatic & Non-Adiabatic Reactions
+
 
 233. An adiabatic reaction is one in which
 A. Temperature remains constant
@@ -2474,7 +2462,7 @@ Ans: B
 
 
 
-## 🔸 D. Theoretical & Actual Flame Temperatures (VERY IMPORTANT)
+
 
 238. Theoretical flame temperature is the maximum temperature attained when
 A. Excess air is supplied
@@ -2546,7 +2534,7 @@ Ans: C
 
 
 
-## 🔸 A. Vapour Pressure – Pure Liquids
+
 
 245. Vapour pressure of a liquid is defined as the pressure exerted by
 A. Liquid molecules only
@@ -2608,7 +2596,7 @@ Ans: B
 
 
 
-## 🔸 B. Vapour Pressure of Immiscible Liquids
+
 
 251. Two liquids are said to be immiscible when they
 A. Mix in all proportions
@@ -2680,7 +2668,7 @@ Ans: C
 
 
 
-## 🔸 C. PSC-Favourite Conceptual Questions
+
 
 258. For immiscible liquids A and B, the ratio of masses distilled is proportional to
 A. Their vapour pressures
@@ -2712,7 +2700,7 @@ Ans: C
 
 
 
-## 🔸 A. Ideal Solutions
+
 
 261. An ideal solution is one that
 A. Obeys Henry’s law
@@ -2754,7 +2742,7 @@ Ans: C
 
 
 
-## 🔸 B. Raoult’s Law (VERY IMPORTANT)
+
 
 265. Raoult’s law states that the partial vapour pressure of a component is equal to
 A. Mole fraction × total pressure
@@ -2796,7 +2784,7 @@ Ans: B
 
 
 
-## 🔸 C. Non-Volatile Solutes
+
 
 269. A non-volatile solute is one that
 A. Has high vapour pressure
@@ -2848,7 +2836,7 @@ Ans: B
 
 
 
-## 🔸 D. Humidity & Saturation (Psychrometry)
+
 
 274. Humidity is defined as the
 A. Moisture content of solids
@@ -2900,7 +2888,7 @@ Ans: C
 
 
 
-## 🔸 E. Saturation & Dew Point (PSC Favourites)
+
 
 279. Air is said to be saturated when
 A. It contains no moisture
@@ -2942,7 +2930,7 @@ Ans: C
 
 
 
-## 🔸 A. Vaporization & Condensation (Material + Energy Balance)
+
 
 283. In vaporization, the energy supplied is mainly used for
 A. Raising temperature
@@ -2994,7 +2982,7 @@ Ans: C
 
 
 
-## 🔸 B. Fuels & Combustion Fundamentals
+
 
 288. A fuel is a substance that
 A. Evaporates easily
@@ -3046,7 +3034,7 @@ Ans: B
 
 
 
-## 🔸 C. Heating Value of Fuels (VERY IMPORTANT)
+
 
 293. Higher heating value (HHV. includes
 A. Latent heat of water vapour
@@ -3098,7 +3086,7 @@ Ans: C
 
 
 
-## 🔸 D. Proximate & Ultimate Analysis
+
 
 298. Proximate analysis of fuel determines
 A. C, H, O, N
@@ -3140,7 +3128,7 @@ Ans: B
 
 
 
-## 🔸 E. Orsat Analysis of Flue Gases (PSC Favourite)
+
 
 302. Orsat apparatus is used to analyze
 A. Fuel composition

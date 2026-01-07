@@ -1,8 +1,4 @@
-Introduction , definition of instrumentation,concept of an instrument,functional elements and functions of an instrument , classification of instruments, performance characteristics of an instrument like static and dynamic type, temperature measurement , electrical, non,electrical, contact and non,contact methods. Pressure measurement ,manometers of U,tube type, well type and inclined type, Prandtl and air type micro,manometers, Barometer method for atmospheric pressure measurement, low pressure measurement by Pirani gauge, McLeod gauge. thermal conductivity gauge, Transducers of electrical mechanical type, density measurement using constant volume hydrometer and, air pressure balance method, gas density detector and gas specific gravity measuring system. Flow measurements , Liquid and gas flow measurements, ways of measurirg liquids and gas flow, direct volume measurements, open channel flow measurements, turbine type flow meters strain gauge flow meters mass flow meter, measuring flow of dry materials, Thermal analysis , differential thermal analysis, thermo gravimetric, conductimetric analysis Chromatography and application, PH control temp control, heat exchangers, distillation column, reaction system etc. Moisture content and humidity definition, moisture content determination by thermal drying, Instruments for measuring humidity like hygrometer, psychrometer, dew point apparatus, pH measurement using calomel electrode, composition analysis using spectroscopic methods like absorption, emission and mass spectrometers, analysis of solids by X,ray diffraction, Gas analysis by thermal conductivity, polarography & chromatography
-
-
-
-# 🔹 1. Introduction & Definition of Instrumentation (10 MCQs)
+Topic: Introduction & Definition of Instrumentation
 
 1. Instrumentation mainly deals with
 A. Design of machines
@@ -86,8 +82,6 @@ Ans: B
 
 
 
-# 🔹 2. Concept of an Instrument & Functional Elements (10 MCQs)
-
 11. Functional elements of an instrument include
 A. Sensor, processor, output
 B. Pump, valve, tank
@@ -169,8 +163,6 @@ Ans: B
 Ans: D
 
 
-
-# 🔹 3. Classification of Instruments (10 MCQs)
 
 21. Instruments are classified based on
 A. Shape
@@ -254,8 +246,6 @@ Ans: B
 
 
 
-# 🔹 4. Performance Characteristics – Static & Dynamic (10 MCQs)
-
 31. Static characteristics relate to
 A. Time-varying input
 B. Steady input
@@ -337,7 +327,6 @@ Ans: B
 Ans: A
 
 
-# 🔹 5. Temperature Measurement – Electrical & Non-Electrical, Contact & Non-Contact (10 MCQs)
 
 41. Temperature is a measure of
 A. Heat content
@@ -421,8 +410,6 @@ Ans: C
 
 
 
-# 🔹 6. Pressure Measurement – Manometers (10 MCQs)
-
 51. Pressure is defined as
 A. Force × area
 B. Force / area
@@ -504,8 +491,6 @@ Ans: B
 Ans: B
 
 
-
-# 🔹 7. Atmospheric & Low-Pressure Measurement (10 MCQs)
 
 61. Barometer measures
 A. Gauge pressure
@@ -589,8 +574,6 @@ Ans: A
 
 
 
-# 🔹 8. Electrical–Mechanical Transducers (10 MCQs)
-
 71. Transducer converts
 A. Mechanical energy to heat
 B. Physical quantity to electrical signal
@@ -672,7 +655,6 @@ Ans: B
 Ans: B
 
 
-# 🔹 9. Density Measurement Methods (10 MCQs)
 
 81. Density is defined as
 A. Mass × volume
@@ -756,8 +738,6 @@ Ans: B
 
 
 
-# 🔹 10. Flow Measurement – Basics (Liquid & Gas). (10 MCQs)
-
 91. Flow rate is defined as
 A. Mass per unit time
 B. Volume per unit time
@@ -839,8 +819,6 @@ Ans: A
 Ans: B
 
 
-
-# 🔹 11. Liquid & Gas Flow Measurement Methods (10 MCQs)
 
 101. Orifice meter measures flow by
 A. Area reduction
@@ -924,8 +902,6 @@ Ans: C
 
 
 
-# 🔹 12. Measurement of Flow of Dry Materials (10 MCQs)
-
 111. Dry material flow includes
 A. Liquids
 B. Gases
@@ -1006,8 +982,6 @@ Ans: D
 
 Ans: C
 
-
-# 🔹 13. Thermal Analysis – DTA & TGA (10 MCQs)
 
 121. Thermal analysis involves study of
 A. Electrical properties
@@ -1091,8 +1065,6 @@ Ans: C
 
 
 
-# 🔹 14. Conductometric Analysis (10 MCQs)
-
 131. Conductometric analysis is based on measurement of
 A. Voltage
 B. Resistance
@@ -1175,8 +1147,6 @@ Ans: C
 
 
 
-# 🔹 15. Chromatography & Applications (10 MCQs)
-
 141. Chromatography separates components based on
 A. Density
 B. Molecular weight
@@ -1258,7 +1228,6 @@ Ans: C
 Ans: B
 
 
-## 🔹 16. pH Measurement & Control (10 MCQs)
 
 151. pH is defined as
 A. −log[H⁺]
@@ -1342,8 +1311,6 @@ Ans: B
 
 
 
-## 🔹 17. Temperature Control Systems (10 MCQs)
-
 161. Temperature control system maintains
 A. Pressure
 B. Flow
@@ -1425,8 +1392,6 @@ Ans: C
 Ans: D
 
 
-
-## 🔹 18. Heat Exchangers, Distillation Columns & Reaction Systems (10 MCQs)
 
 171. Heat exchanger is used to
 A. Generate heat
@@ -1510,8 +1475,6 @@ Ans: D
 
 
 
-## 🔹 19. Moisture Content & Humidity Measurement (10 MCQs)
-
 181. Moisture content refers to
 A. Dryness of air
 B. Amount of water present
@@ -1594,7 +1557,6 @@ Ans: D
 
 
 
-## 🔹 20. Spectroscopic, X-ray & Gas Analysis Techniques (10 MCQs)
 
 191. Spectroscopic analysis is based on interaction of matter with
 A. Heat
@@ -1676,7 +1638,6 @@ Ans: D
 
 Ans: D
 
-🔹 Pressure Measurement – Manometers (10 MCQs)
 
 201. Pressure is defined as
 A. Force × area
@@ -1758,7 +1719,6 @@ D. No calibration required
 
 Ans: C
 
-🔹 Atmospheric & Low-Pressure Measurement (10 MCQs)
 
 211. Barometer is used to measure
 A. Gauge pressure
@@ -1840,7 +1800,6 @@ D. Measurement principle
 
 Ans: C
 
-🔹 Electrical–Mechanical Transducers & Density Measurement (10 MCQs)
 
 221. An electrical–mechanical transducer converts
 A. Electrical energy into heat
@@ -1922,7 +1881,6 @@ D. Transportation engineering
 
 Ans: B
 
-🔹 Flow Measurement Methods (10 MCQs)
 
 231. Direct volume measurement of flow involves measuring
 A. Velocity of fluid
@@ -2004,7 +1962,6 @@ D. Suitable only for liquids
 
 Ans: A
 
-🔹 Moisture, Humidity & pH Measurement (10 MCQs)
 
 241. Moisture content of a material is determined by thermal drying through
 A. Cooling and weighing
@@ -2086,7 +2043,6 @@ D. High sensitivity to pH
 
 Ans: C
 
-🔹 Spectroscopic & X-Ray Analysis (10 MCQs)
 
 251. Spectroscopic analysis is based on interaction of matter with
 A. Heat
@@ -2169,7 +2125,6 @@ D. Beer–Lambert law
 Ans: C
 
 
-## 🔹 Gas Analysis, Polarography & Chromatography (10 MCQs)
 
 261. Thermal conductivity gas analyzer works based on the principle that
 A. All gases have same thermal conductivity

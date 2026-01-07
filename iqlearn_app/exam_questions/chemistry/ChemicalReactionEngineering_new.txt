@@ -1,7 +1,5 @@
-Chemical Reaction Engineering: Overview of chemical reaction engineering, classification of chemical reactions, variables affecting the rate of reaction, definition of reaction rate, kinetics of homogeneous reaction, pseudo steady state hypothesis (PSSH), searching for a mechanism, General considerations, hydrogen bromide reaction polymerisation ,steps in free radical polymerisation, evaluation of rate equation by integral and differential analysis for co.nstant volume and variable volume system. Introduction to reactor design, classification of reactors, design of single and multiple reactions , size comparison of single and multiple reactors, auto catalytic reactions, design of evaluation of laboratory reactors, Integral (fixed bed. reactor, stirred batch reactor, stirred contained solid reactor (SCSR), differentia reactors: continuous stirred tank reactor (CSTR), Laminar flow reactor, stirred through transport reactor, re,calculating transport reactor
+Topic: Chemical Reaction Engineering
 
-
-## 🔸 A. Overview of Chemical Reaction Engineering
 
 1. Chemical Reaction Engineering mainly deals with
 A. Fluid flow behavior
@@ -43,7 +41,7 @@ Ans: B
 
 
 
-## 🔸 B. Classification of Chemical Reactions
+
 
 5. Based on phase, chemical reactions are classified as
 A. Exothermic and endothermic
@@ -105,7 +103,7 @@ Ans: C
 
 
 
-## 🔸 C. Definition of Reaction Rate (VERY IMPORTANT)
+
 
 11. Rate of reaction is defined as
 A. Amount of reactant consumed per unit volume
@@ -151,7 +149,7 @@ Ans: C
 
 
 
-## 🔸 D. Variables Affecting Rate of Reaction
+
 
 15. Which of the following does NOT affect the rate of reaction?
 A. Temperature
@@ -212,7 +210,7 @@ D. Catalysts
 Ans: C
 
 
-## 🔸 A. Kinetics of Homogeneous Reactions
+
 
 21. A homogeneous reaction is one in which
 A. Catalyst is solid
@@ -254,7 +252,7 @@ Ans: B
 
 
 
-## 🔸 B. Pseudo Steady State Hypothesis (PSSH. – VERY IMPORTANT
+
 
 25. The Pseudo Steady State Hypothesis (PSSH. assumes that
 A. Reactant concentration is constant
@@ -306,7 +304,7 @@ Ans: B
 
 
 
-## 🔸 C. Searching for a Reaction Mechanism – General Considerations
+
 
 30. A reaction mechanism is a
 A. Overall balanced equation
@@ -358,7 +356,7 @@ Ans: C
 
 
 
-## 🔸 D. Hydrogen–Bromide Reaction (CLASSIC PSC QUESTION)
+
 
 35. The reaction between hydrogen and bromine to form HBr proceeds via
 A. Single-step reaction
@@ -410,7 +408,7 @@ Ans: C
 
 
 
-## 🔸 E. Polymerisation Reactions (Basics)
+
 
 40. Polymerisation is a reaction in which
 A. Small molecules break down
@@ -463,7 +461,7 @@ Ans: B
 
 
 
-## 🔸 A. Steps in Free-Radical Polymerisation (VERY IMPORTANT)
+
 
 45. Free-radical polymerisation proceeds through
 A. Two steps
@@ -545,7 +543,7 @@ Ans: C
 
 
 
-## 🔸 B. Rate of Free-Radical Polymerisation
+
 
 53. The rate of polymerisation is proportional to
 A. Initiator concentration
@@ -577,7 +575,7 @@ Ans: B
 
 
 
-## 🔸 C. Evaluation of Rate Equation – Differential Method
+
 
 56. Differential method of analysis determines reaction order by
 A. Integrating rate equation
@@ -609,7 +607,7 @@ Ans: B
 
 
 
-## 🔸 D. Evaluation of Rate Equation – Integral Method
+
 
 59. Integral method of analysis involves
 A. Differentiating experimental data
@@ -641,7 +639,7 @@ Ans: B
 
 
 
-## 🔸 E. Constant-Volume Systems
+
 
 62. In a constant-volume batch reactor, concentration change is directly related to
 A. Volume change
@@ -673,7 +671,7 @@ Ans: A
 
 
 
-## 🔸 F. Variable-Volume Systems (VERY IMPORTANT)
+
 
 65. Variable-volume systems are common in
 A. Liquid-phase reactions
@@ -735,7 +733,7 @@ Ans: D
 
 
 
-## 🔸 A. Introduction to Reactor Design
+
 
 71. Reactor design primarily deals with
 A. Selection of catalysts
@@ -777,7 +775,7 @@ Ans: B
 
 
 
-## 🔸 B. Classification of Reactors (VERY IMPORTANT)
+
 
 75. Based on mode of operation, reactors are classified as
 A. Ideal and non-ideal
@@ -829,7 +827,7 @@ Ans: C
 
 
 
-## 🔸 C. Design of Single Reactions
+
 
 80. In reactor design for a single reaction, the rate expression is written as
 A. −rA = k
@@ -871,7 +869,7 @@ Ans: C
 
 
 
-## 🔸 D. Multiple Reactions (Selectivity & Yield)
+
 
 84. Multiple reactions occur when
 A. Only one reactant is present
@@ -916,7 +914,7 @@ Ans: D
 
 
 
-## 🔸 E. Size Comparison of Single & Multiple Reactors (PSC FAVOURITE)
+
 
 88. For a given conversion and irreversible reaction of order > 0, the largest reactor volume is required for
 A. PFR
@@ -988,7 +986,7 @@ Ans: C
 
 
 
-## 🔸 A. Autocatalytic Reactions (VERY IMPORTANT)
+
 
 95. An autocatalytic reaction is one in which
 A. Catalyst is added externally
@@ -1050,7 +1048,7 @@ Ans: B
 
 
 
-## 🔸 B. Design & Evaluation of Laboratory Reactors
+
 
 101. Laboratory reactors are mainly used to
 A. Produce chemicals commercially
@@ -1082,7 +1080,7 @@ Ans: B
 
 
 
-## 🔸 C. Integral (Fixed-Bed. Reactor
+
 
 104. An integral reactor is one in which
 A. Conversion is infinitesimally small
@@ -1134,7 +1132,7 @@ Ans: B
 
 
 
-## 🔸 D. Stirred Batch Reactor
+
 
 109. A stirred batch reactor is characterized by
 A. Continuous feed and withdrawal
@@ -1166,7 +1164,7 @@ Ans: B
 
 
 
-## 🔸 E. Stirred Contained Solid Reactor (SCSR)
+
 
 112. A stirred contained solid reactor (SCSR. is mainly used for
 A. Homogeneous gas-phase reactions
@@ -1218,7 +1216,7 @@ Ans: C
 
 
 
-## 🔸 F. Comparative & Conceptual Questions (PSC-Type)
+
 
 117. Compared to differential reactors, integral reactors
 A. Give local rate data
@@ -1239,7 +1237,7 @@ D. Temperature remains constant
 Ans: C
 
 
-## 🔸 A. Differential Reactors – Fundamentals
+
 
 119. A differential reactor is operated such that
 A. Conversion is very high
@@ -1281,7 +1279,7 @@ Ans: C
 
 
 
-## 🔸 B. CSTR as a Differential Reactor
+
 
 123. A CSTR behaves as a differential reactor when
 A. Conversion is high
@@ -1323,7 +1321,7 @@ Ans: B
 
 
 
-## 🔸 C. Laminar Flow Reactor (LFR)
+
 
 127. A laminar flow reactor operates under
 A. Turbulent flow conditions
@@ -1365,7 +1363,7 @@ Ans: C
 
 
 
-## 🔸 D. Stirred-Through Transport Reactor (STTR)
+
 
 131. A stirred-through transport reactor is one in which
 A. Reaction occurs in packed bed
@@ -1397,7 +1395,7 @@ Ans: D
 
 
 
-## 🔸 E. Recirculating Transport Reactor
+
 
 134. A recirculating transport reactor operates by
 A. Single-pass flow
@@ -1439,7 +1437,7 @@ Ans: C
 
 
 
-## 🔸 F. PSC-Focused Conceptual Questions
+
 
 138. Differential reactors are designed primarily to eliminate effects of
 A. Kinetics

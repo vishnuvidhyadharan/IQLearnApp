@@ -1,8 +1,4 @@
-Heterogeneous Reactions: Catalysis and catalytic reactors: Catalysts, types of catalysts, catalyst properties, steps in a catalytic reaction, Heterogeneous data analysis for reactor design, catalyst deactivation, deactivation mechanisms, diffusion and reaction in porous catalysts, Thiele Modulus, internal effectiveness factor, overall effectiveness factor estimation of diffusion and reaction limited regimes , Weisz , Prater criterion for internal diffusion, Mears criterion for external diffusion. Fluid,Fluid reactions: Rate equations, kinetic regimes for mass transfer and reactions, rate equation for instantaneous and fast and slow reactions, two film theory, film conversion parameters, pressure drop in reactors, accounting the pressure drop in the rate law, flow through a packed bed, pressure drop in pipes, simultaneous reactions and separations.
-
-
-
-## 🔸 A. Catalysis – Fundamentals
+Topic: Heterogeneous Reactions
 
 1. Catalysis is the phenomenon in which
 A. Reaction equilibrium is shifted
@@ -44,7 +40,7 @@ Ans: B
 
 
 
-## 🔸 B. Types of Catalysts (VERY IMPORTANT)
+
 
 5. Based on phase, catalysis is classified into
 A. Positive and negative
@@ -106,7 +102,7 @@ Ans: C
 
 
 
-## 🔸 C. Catalyst Properties (PSC Favourite)
+
 
 11. Activity of a catalyst refers to
 A. Catalyst lifetime
@@ -158,7 +154,7 @@ Ans: B
 
 
 
-## 🔸 D. Steps in a Catalytic Reaction (VERY IMPORTANT)
+
 
 16. A heterogeneous catalytic reaction generally involves
 A. One step
@@ -220,7 +216,7 @@ Ans: C
 
 
 
-## 🔸 E. Conceptual PSC-Type Question
+
 
 22. In an ideal catalytic cycle, the catalyst
 A. Appears in rate law only
@@ -232,7 +228,7 @@ Ans: C
 
 
 
-## 🔸 A. Heterogeneous Data Analysis for Reactor Design
+
 
 23. Heterogeneous reaction data analysis is mainly required to
 A. Determine equilibrium constant
@@ -294,7 +290,7 @@ Ans: B
 
 
 
-## 🔸 B. Catalyst Deactivation (VERY IMPORTANT)
+
 
 29. Catalyst deactivation refers to
 A. Increase in catalyst activity
@@ -336,7 +332,7 @@ Ans: D
 
 
 
-## 🔸 C. Mechanisms of Catalyst Deactivation
+
 
 33. Poisoning occurs due to
 A. Sintering of catalyst
@@ -388,7 +384,7 @@ Ans: B
 
 
 
-## 🔸 D. Diffusion & Reaction in Porous Catalysts (VERY IMPORTANT)
+
 
 38. In porous catalysts, reaction may be controlled by
 A. External mass transfer
@@ -460,7 +456,7 @@ Ans: C
 
 
 
-## 🔸 E. PSC-Focused Conceptual Questions
+
 
 45. Diffusion limitations in porous catalysts generally lead to
 A. Increase in observed reaction rate
@@ -503,7 +499,7 @@ Ans: B
 
 
 
-## 🔸 A. Thiele Modulus (φ. – Fundamentals
+
 
 49. Thiele modulus (φ. represents the ratio of
 A. External mass transfer rate to reaction rate
@@ -565,7 +561,7 @@ Ans: B
 
 
 
-## 🔸 B. Internal Effectiveness Factor (ηᵢ)
+
 
 55. Internal effectiveness factor (ηᵢ. is defined as
 A. Intrinsic rate / observed rate
@@ -627,7 +623,7 @@ Ans: C
 
 
 
-## 🔸 C. Diffusion-Controlled vs Reaction-Controlled Regimes
+
 
 61. In a reaction-controlled regime, the observed rate is
 A. Limited by diffusion
@@ -669,7 +665,7 @@ Ans: B
 
 
 
-## 🔸 D. Overall Effectiveness Factor (ηₒ)
+
 
 65. Overall effectiveness factor (ηₒ. accounts for
 A. Internal diffusion only
@@ -712,7 +708,7 @@ Ans: C
 
 
 
-## 🔸 E. Estimation & Design-Related Questions (PSC Favourite)
+
 
 69. To increase effectiveness factor, one should
 A. Increase catalyst particle size
@@ -755,7 +751,7 @@ Ans: B
 
 
 
-## 🔸 A. Weisz–Prater Criterion (Internal Diffusion)
+
 
 73. The Weisz–Prater criterion is used to check
 A. External mass transfer resistance
@@ -845,7 +841,7 @@ Ans: C
 
 
 
-## 🔸 B. Mears Criterion (External Diffusion)
+
 
 81. The Mears criterion is used to test for
 A. Internal pore diffusion
@@ -911,7 +907,7 @@ Ans: C
 
 
 
-## 🔸 C. Comparison & PSC-Type Conceptual Questions
+
 
 87. Weisz–Prater criterion deals with diffusion
 A. Outside the particle
@@ -953,7 +949,7 @@ Ans: C
 
 
 
-## 🔸 A. Fluid–Fluid Reactions: Fundamentals
+
 
 91. A fluid–fluid reaction is one in which
 A. Both reactants are solids
@@ -985,7 +981,7 @@ Ans: C
 
 
 
-## 🔸 B. Rate Equations for Fluid–Fluid Reactions
+
 
 94. For a slow reaction, the overall rate is controlled by
 A. Mass transfer
@@ -1027,7 +1023,7 @@ Ans: C
 
 
 
-## 🔸 C. Kinetic Regimes: Reaction vs Mass Transfer
+
 
 98. A reaction-controlled regime exists when
 A. Reaction rate ≫ mass transfer rate
@@ -1069,7 +1065,7 @@ Ans: C
 
 
 
-## 🔸 D. Two-Film Theory (VERY IMPORTANT)
+
 
 102. Two-film theory assumes
 A. Perfect mixing everywhere
@@ -1111,7 +1107,7 @@ Ans: C
 
 
 
-## 🔸 E. Film Conversion Parameters
+
 
 106. Film conversion refers to
 A. Conversion in bulk phase
@@ -1163,7 +1159,7 @@ Ans: C
 
 
 
-## 🔸 F. Comparative PSC-Type Questions
+
 
 111. For slow reactions, reaction mainly occurs
 A. At interface
@@ -1227,7 +1223,7 @@ Ans: C
 
 
 
-## 🔸 A. Pressure Drop in Reactors
+
 
 117. Pressure drop in reactors is mainly important in
 A. Liquid-phase batch reactors
@@ -1269,7 +1265,7 @@ Ans: C
 
 
 
-## 🔸 B. Accounting for Pressure Drop in Rate Law
+
 
 121. For gas-phase reactions, rate expressions are often written in terms of
 A. Mole fraction only
@@ -1311,7 +1307,7 @@ Ans: B
 
 
 
-## 🔸 C. Flow Through a Packed Bed (VERY IMPORTANT)
+
 
 125. Flow through a packed bed is characterized by
 A. Free molecular flow
@@ -1373,7 +1369,7 @@ Ans: B
 
 
 
-## 🔸 D. Pressure Drop in Pipes
+
 
 131. Pressure drop in straight pipes is calculated using
 A. Bernoulli equation
@@ -1415,7 +1411,7 @@ Ans: B
 
 
 
-## 🔸 E. Simultaneous Reactions and Separations
+
 
 135. Simultaneous reaction and separation refers to
 A. Reaction followed by separation
@@ -1477,7 +1473,7 @@ Ans: C
 
 
 
-## 🔸 F. PSC-Focused Conceptual Questions
+
 
 141. In packed bed reactors, pressure drop affects rate primarily through
 A. Catalyst poisoning

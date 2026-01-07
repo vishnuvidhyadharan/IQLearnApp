@@ -1,7 +1,5 @@
-Thermodynamics: Fundamental concepts and definitions , various systems , intensive and extensive properties , Zeroth law of thermodynamics First law of thermodynamics , applications ,limitations. Second law of Ithermodynamics , general statements of second law,concept of entropy,calculation of entropy changes , Carnot's principle,Clausius inequality ,entropy and irreversibility, statistical explanation of entropy,Third law of thermodynamics. Thermodynamic properties of pure fluids , Gibbs free energy, work function, Joule, Thomson coefficient, Gibbs,Helmholtz equation ,method of Jacobians , thermodynamic diagrams ,fugacity and actiity of pure fluids Compressors, single,stage and multistage compression, refrigeration and liquefaction ,COP,various refrigeration cycles , general properties of refrigerant, Joule,Thomson expansion and liquefaction processes , power cycles , steam,power plant cycles , internal combustion engine cycles , gas,turbine power plant cycle. Properties of solutions , partial molar properties and methods of determination ,Lewis,Randall rule ,Raoult's law, Henry's law ,activity and activity coefficients in solutions, effect of temperature and pressure on activity coefficients , Gibbs,Duhem equations, property changes on mixing , heat effects of mixing processes.
+Topic: Thermodynamics
 
-
-## 🔸 A. Fundamental Concepts of Thermodynamics
 
 1. Thermodynamics is the science that deals with
 A. Motion of fluids
@@ -53,7 +51,7 @@ Ans: B
 
 
 
-## 🔸 B. Types of Thermodynamic Systems
+
 
 6. An open system is one in which
 A. Neither mass nor energy crosses boundary
@@ -105,7 +103,7 @@ Ans: C
 
 
 
-## 🔸 C. Thermodynamic Properties
+
 
 11. A thermodynamic property is a
 A. Path-dependent quantity
@@ -137,7 +135,7 @@ Ans: B
 
 
 
-## 🔸 D. Intensive & Extensive Properties (VERY IMPORTANT)
+
 
 14. Which of the following is an intensive property?
 A. Mass
@@ -189,7 +187,7 @@ Ans: B
 
 
 
-## 🔸 A. Zeroth Law of Thermodynamics
+
 
 19. The zeroth law of thermodynamics deals with
 A. Energy conservation
@@ -240,7 +238,7 @@ Ans: C
 
 
 
-## 🔸 B. First Law of Thermodynamics (VERY IMPORTANT)
+
 
 24. The first law of thermodynamics is a statement of
 A. Entropy increase
@@ -292,7 +290,7 @@ Ans: C
 
 
 
-## 🔸 C. Applications of the First Law
+
 
 29. First law is applied to analyze
 A. Heat engines
@@ -324,7 +322,7 @@ Ans: C
 
 
 
-## 🔸 D. Limitations of the First Law (PSC Favourite)
+
 
 32. First law does NOT indicate
 A. Amount of energy
@@ -356,7 +354,7 @@ Ans: A
 
 
 
-## 🔸 E. Second Law of Thermodynamics – General Statements
+
 
 35. The second law of thermodynamics introduces the concept of
 A. Energy
@@ -418,7 +416,7 @@ Ans: C
 
 
 
-## 🔸 F. Conceptual PSC-Trap Questions
+
 
 41. First law alone cannot determine
 A. Energy balance
@@ -459,7 +457,7 @@ D. Becomes zero
 Ans: C
 
 
-## 🔸 A. Concept of Entropy
+
 
 45. Entropy is a thermodynamic property that measures
 A. Energy content
@@ -501,7 +499,7 @@ Ans: C
 
 
 
-## 🔸 B. Calculation of Entropy Change
+
 
 49. Entropy change for a reversible process is calculated using
 A. Actual heat transfer
@@ -553,7 +551,7 @@ Ans: C
 
 
 
-## 🔸 C. Carnot’s Principle (VERY IMPORTANT)
+
 
 54. Carnot cycle is composed entirely of
 A. Irreversible processes
@@ -596,7 +594,7 @@ Ans: B
 
 
 
-## 🔸 D. Clausius Inequality
+
 
 58. Clausius inequality is written as
 A. ∮ δQ/T = 0
@@ -628,7 +626,7 @@ Ans: C
 
 
 
-## 🔸 E. Entropy & Irreversibility
+
 
 61. Entropy generation is zero for
 A. All real processes
@@ -670,7 +668,7 @@ Ans: B
 
 
 
-## 🔸 F. Statistical Explanation of Entropy
+
 
 65. According to statistical thermodynamics, entropy is related to
 A. Energy levels
@@ -732,7 +730,7 @@ D. Work equals heat
 Ans: B
 
 
-## 🔸 A. Third Law of Thermodynamics
+
 
 71. The third law of thermodynamics states that the entropy of a perfect crystal at
 A. Room temperature is zero
@@ -774,7 +772,7 @@ Ans: B
 
 
 
-## 🔸 B. Thermodynamic Properties of Pure Fluids
+
 
 75. A pure substance is one that
 A. Contains only one chemical species
@@ -806,7 +804,7 @@ Ans: C
 
 
 
-## 🔸 C. Gibbs Free Energy & Work Function
+
 
 78. Gibbs free energy (G). is defined as
 A. U + TS
@@ -858,7 +856,7 @@ Ans: B
 
 
 
-## 🔸 D. Joule–Thomson Coefficient
+
 
 83. Joule–Thomson coefficient (μJT). is defined as
 A. (∂T/∂P)ₛ
@@ -890,7 +888,7 @@ Ans: B
 
 
 
-## 🔸 E. Gibbs–Helmholtz Equation
+
 
 86. Gibbs–Helmholtz equation relates
 A. Enthalpy and entropy
@@ -922,7 +920,7 @@ Ans: B
 
 
 
-## 🔸 F. Method of Jacobians
+
 
 89. Jacobians are used in thermodynamics to
 A. Solve numerical equations
@@ -944,7 +942,7 @@ Ans: B
 
 
 
-## 🔸 G. Thermodynamic Diagrams
+
 
 91. T–S diagram is useful to analyze
 A. Compressor work
@@ -976,7 +974,7 @@ Ans: B
 
 
 
-## 🔸 H. Fugacity & Activity of Pure Fluids
+
 
 94. Fugacity is a corrected pressure used to
 A. Represent real gas behavior
@@ -1018,7 +1016,7 @@ Ans: B
 
 
 
-## 🔸 I. Compressors (Thermodynamic View)
+
 
 98. A compressor is a device used to
 A. Decrease pressure of gas
@@ -1049,7 +1047,7 @@ D. Becomes zero
 Ans: C
 
 
-## 🔸 A. Single-Stage & Multistage Compression
+
 
 101. Single-stage compression is preferred when
 A. Pressure ratio is very high
@@ -1111,7 +1109,7 @@ Ans: C
 
 
 
-## 🔸 B. Refrigeration & Liquefaction
+
 
 107. Refrigeration is the process of
 A. Removing heat from a system at higher temperature
@@ -1153,7 +1151,7 @@ Ans: C
 
 
 
-## 🔸 C. Coefficient of Performance (COP)
+
 
 111. COP of a refrigerator is defined as
 A. Work input / refrigeration effect
@@ -1195,7 +1193,7 @@ Ans: B
 
 
 
-## 🔸 D. Refrigeration Cycles (VERY IMPORTANT)
+
 
 115. The most commonly used refrigeration cycle is
 A. Gas refrigeration cycle
@@ -1247,7 +1245,7 @@ Ans: A
 
 
 
-## 🔸 E. General Properties of Refrigerants
+
 
 120. An ideal refrigerant should have
 A. High boiling point
@@ -1318,7 +1316,7 @@ D. Weight of refrigerant
 Ans: C
 
 
-## 🔸 A. Joule–Thomson Expansion & Liquefaction
+
 
 127. Joule–Thomson expansion is a process of
 A. Constant temperature
@@ -1380,7 +1378,7 @@ Ans: B
 
 
 
-## 🔸 B. Power Cycles – General Concepts
+
 
 133. A power cycle is a thermodynamic cycle that
 A. Converts heat into work
@@ -1412,7 +1410,7 @@ Ans: C
 
 
 
-## 🔸 C. Steam Power Plant Cycles (VERY IMPORTANT)
+
 
 136. The ideal cycle for steam power plants is
 A. Otto cycle
@@ -1474,7 +1472,7 @@ Ans: B
 
 
 
-## 🔸 D. Internal Combustion Engine Cycles
+
 
 142. The Otto cycle is the ideal cycle for
 A. Diesel engines
@@ -1526,7 +1524,7 @@ Ans: C
 
 
 
-## 🔸 E. Gas Turbine Power Plant Cycle
+
 
 147. The ideal cycle for gas turbine power plants is
 A. Rankine cycle
@@ -1588,7 +1586,7 @@ Ans: B
 
 
 
-## 🔸 F. Comparative & Conceptual PSC Questions
+
 
 153. Among the following cycles, which uses external combustion?
 A. Otto cycle
@@ -1610,7 +1608,7 @@ Ans: B
 
 
 
-## 🔸 A. Properties of Solutions – Basics
+
 
 155. A solution is defined as
 A. A heterogeneous mixture
@@ -1632,7 +1630,7 @@ Ans: C
 
 
 
-## 🔸 B. Partial Molar Properties (VERY IMPORTANT)
+
 
 157. A partial molar property of a component is defined as
 A. Property per unit mass
@@ -1674,7 +1672,7 @@ Ans: C
 
 
 
-## 🔸 C. Methods of Determination of Partial Molar Properties
+
 
 161. Partial molar properties can be determined experimentally by
 A. Calorimetry only
@@ -1706,7 +1704,7 @@ Ans: B
 
 
 
-## 🔸 D. Lewis–Randall Rule
+
 
 164. Lewis–Randall rule states that for an ideal solution
 A. Fugacity equals pressure
@@ -1738,7 +1736,7 @@ Ans: A
 
 
 
-## 🔸 E. Raoult’s Law
+
 
 167. Raoult’s law states that partial vapour pressure of a component equals
 A. Mole fraction × total pressure
@@ -1770,7 +1768,7 @@ Ans: C
 
 
 
-## 🔸 F. Henry’s Law
+
 
 170. Henry’s law states that at low concentrations, the partial pressure of a solute gas is proportional to
 A. Mass fraction
@@ -1802,7 +1800,7 @@ Ans: B
 
 
 
-## 🔸 G. Activity & Activity Coefficients
+
 
 173. Activity (aᵢ). of a component is defined as
 A. Effective concentration in non-ideal systems
@@ -1864,7 +1862,7 @@ Ans: B
 
 
 
-## 🔸 A. Effect of Temperature & Pressure on Activity Coefficients
+
 
 179. Activity coefficient (γ). of a component mainly accounts for
 A. Temperature change
@@ -1926,7 +1924,7 @@ Ans: B
 
 
 
-## 🔸 B. Gibbs–Duhem Equation (VERY IMPORTANT)
+
 
 185. The Gibbs–Duhem equation expresses a relationship between
 A. Temperature and pressure
@@ -1978,7 +1976,7 @@ Ans: C
 
 
 
-## 🔸 C. Property Changes on Mixing
+
 
 190. Property change on mixing is defined as
 A. Final property of mixture
@@ -2030,7 +2028,7 @@ Ans: B
 
 
 
-## 🔸 D. Heat Effects of Mixing Processes
+
 
 195. Heat of mixing is defined as
 A. Heat required to form solution

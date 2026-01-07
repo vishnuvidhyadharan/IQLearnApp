@@ -1,7 +1,4 @@
-Chemical reaction equilibria ,reaction stoichiometry , equilibrium constant,standard free energy change , standard state ,feasibility of reaction,effect of temperature on equilibrium constant , presentation of free energy data , evaluation of K, equilibrium conversion in gas,phase reactions , effect of pressure and other parameters on conversion liquid,phase and heterogeneous reaction , reactions in solutions pressures of decomposition in gas,solid reaction , simultaneous reactions, phase,rule for reacting systems.
-
-
-# 🔹  Chemical Reaction Equilibria (10 MCQs)
+Topic: Chemical reaction equilibria 
 
 1. A system is said to be in chemical equilibrium when
 A. Forward reaction stops
@@ -85,8 +82,6 @@ Ans: D
 
 
 
-# 🔹  Reaction Stoichiometry (10 MCQs)
-
 11. Stoichiometry is concerned with
 A. Reaction rate
 B. Heat transfer
@@ -168,8 +163,6 @@ D. Raoult’s law
 Ans: A
 
 
-
-# 🔹  Equilibrium Constant (10 MCQs)
 
 21. Equilibrium constant K is defined using
 A. Initial concentrations
@@ -254,8 +247,6 @@ Ans: A
 
 
 
-# 🔹  Standard Free Energy Change (10 MCQs)
-
 31. Standard free energy change is denoted by
 A. ΔH°
 B. ΔS°
@@ -336,8 +327,6 @@ D. Low temperature
 
 Ans: B
 
-
-## 🔹  Standard State (10 MCQs)
 
 41. Standard state of a gas refers to
 A. 1 atm pressure at any temperature
@@ -421,8 +410,6 @@ Ans: B
 
 
 
-## 🔹 Feasibility of Reaction (10 MCQs)
-
 51. Feasibility of a reaction is determined by
 A. ΔH only
 B. ΔS only
@@ -504,8 +491,6 @@ D. Collision frequency
 Ans: B
 
 
-
-## 🔹  Effect of Temperature on Equilibrium Constant (10 MCQs)
 
 61. Effect of temperature on K is given by
 A. Boyle’s law
@@ -589,8 +574,6 @@ Ans: C
 
 
 
-## 🔹  Presentation of Free Energy Data (10 MCQs)
-
 71. Free energy data is commonly presented as
 A. ΔH vs T
 B. ΔG vs T
@@ -672,8 +655,6 @@ D. Pressure varies
 Ans: B
 
 
-🔹  Evaluation of Equilibrium Constant (K. (10 MCQs)
-
 81. Equilibrium constant can be evaluated using
 A. Initial concentrations
 B. Equilibrium concentrations
@@ -754,7 +735,7 @@ D. Collision frequency
 
 Ans: C
 
-🔹  Equilibrium Conversion in Gas-Phase Reactions (10 MCQs)
+
 
 91. Equilibrium conversion refers to
 A. Reaction rate
@@ -836,7 +817,7 @@ D. Reaction is irreversible
 
 Ans: B
 
-🔹 1 Effect of Pressure and Other Parameters on Conversion (10 MCQs)
+
 
 101. Increase in pressure shifts equilibrium towards
 A. Higher moles
@@ -918,7 +899,7 @@ D. Composition
 
 Ans: A
 
-🔹 1 Liquid-Phase and Heterogeneous Reactions (10 MCQs)
+
 
 111. Liquid-phase reactions are generally
 A. Pressure dependent
@@ -1082,7 +1063,7 @@ D. Temperature change
 
 Ans: B
 
-🔹 1 Pressure of Decomposition in Gas–Solid Reactions (10 MCQs)
+
 
 131. Decomposition pressure is defined as
 A. Maximum pressure of gas
@@ -1164,7 +1145,7 @@ D. Solubility product
 
 Ans: B
 
-🔹 1 Simultaneous Reactions (10 MCQs)
+
 
 141. Simultaneous reactions are those where
 A. Only one reaction occurs
@@ -1246,7 +1227,7 @@ D. Combustion only
 
 Ans: B
 
-🔹 1Phase Rule for Reacting Systems (10 MCQs)
+
 
 151. Gibbs phase rule is
 A. F = C − P
