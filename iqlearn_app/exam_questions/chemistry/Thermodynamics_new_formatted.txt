@@ -1,0 +1,1403 @@
+Topic: Thermodynamics
+
+1. Thermodynamics is the science that deals with
+A. Motion of fluids
+B. Energy, heat, work, and their interconversion
+C. Chemical reactions only
+D. Properties of solids only
+Ans: B
+
+2. The term system in thermodynamics refers to
+A. Surroundings only
+B. Universe
+C. Part of the universe selected for study
+D. Only reacting substances
+Ans: C
+
+3. Everything other than the system is called
+A. Boundary
+B. Phase
+C. Surroundings
+D. Control volume
+Ans: C
+
+4. The boundary of a system is
+A. Always rigid
+B. Always imaginary
+C. The real or imaginary surface separating system and surroundings
+D. Always movable
+Ans: C
+
+5. The combination of system and surroundings is called
+A. Phase
+B. Universe
+C. Control mass
+D. State
+Ans: B
+
+6. An open system is one in which
+A. Neither mass nor energy crosses boundary
+B. Only energy crosses boundary
+C. Both mass and energy cross boundary
+D. Only mass crosses boundary
+Ans: C
+
+7. A closed system is one in which
+A. Only mass crosses boundary
+B. Only energy crosses boundary
+C. Both mass and energy cross boundary
+D. Neither mass nor energy crosses boundary
+Ans: B
+
+8. An isolated system is one in which
+A. Only mass crosses boundary
+B. Only energy crosses boundary
+C. Both mass and energy cross boundary
+D. Neither mass nor energy crosses boundary
+Ans: D
+
+9. Which of the following is an example of a closed system?
+A. Steam turbine
+B. Compressor
+C. Sealed piston–cylinder device
+D. Boiler
+Ans: C
+
+10. Which of the following is an example of an open system?
+A. Thermos flask
+B. Sealed gas cylinder
+C. Steam turbine
+D. Insulated rigid tank
+Ans: C
+
+11. A thermodynamic property is a
+A. Path-dependent quantity
+B. Measurable characteristic of a system
+C. Quantity dependent on surroundings
+D. Rate of change of energy
+Ans: B
+
+12. Which of the following is a state property?
+A. Work
+B. Heat
+C. Internal energy
+D. Path length
+Ans: C
+
+13. A property that does NOT depend on the mass of the system is called
+A. Extensive property
+B. Intensive property
+C. Dependent property
+D. Path function
+Ans: B
+
+14. Which of the following is an intensive property?
+A. Mass
+B. Volume
+C. Density
+D. Total energy
+Ans: C
+
+15. Which of the following is an extensive property?
+A. Temperature
+B. Pressure
+C. Volume
+D. Density
+Ans: C
+
+16. An extensive property divided by mass becomes
+A. Extensive property
+B. Intensive property
+C. Path function
+D. Control variable
+Ans: B
+
+17. Specific volume is
+A. Extensive property
+B. Intensive property
+C. Path dependent
+D. Not a thermodynamic property
+Ans: B
+
+18. Which of the following pairs contains both intensive properties?
+A. Pressure and volume
+B. Temperature and density
+C. Mass and energy
+D. Volume and internal energy
+Ans: B
+
+19. The zeroth law of thermodynamics deals with
+A. Energy conservation
+B. Entropy
+C. Thermal equilibrium
+D. Work interaction
+Ans: C
+
+20. Zeroth law states that if two systems are each in thermal equilibrium with a third system, then
+A. All three have equal pressure
+B. All three have equal volume
+C. They are in thermal equilibrium with each other
+D. Heat flows between them
+Ans: C
+
+21. The zeroth law provides the basis for
+A. Heat engines
+B. Entropy concept
+C. Temperature measurement
+D. Energy balance
+Ans: C
+
+22. Which property becomes meaningful due to the zeroth law?
+A. Energy
+B. Enthalpy
+C. Temperature
+D. Entropy
+Ans: C
+
+23. Thermal equilibrium implies equality of
+A. Pressure
+B. Volume
+C. Temperature
+D. Internal energy
+Ans: C
+
+24. The first law of thermodynamics is a statement of
+A. Entropy increase
+B. Energy conservation
+C. Heat transfer direction
+D. Thermal equilibrium
+Ans: B
+
+25. For a closed system, the first law is written as
+A. δQ = δW
+B. δQ − δW = dU
+C. dU = δW
+D. δQ = dU
+Ans: B
+
+26. Internal energy is a
+A. Path function
+B. State function
+C. Process variable
+D. Control parameter
+Ans: B
+
+27. For a cyclic process, the first law reduces to
+A. Q = 0
+B. W = 0
+C. Net heat = net work
+D. ΔU ≠ 0
+Ans: C
+
+28. Which of the following is NOT a form of energy?
+A. Heat
+B. Work
+C. Mass
+D. Kinetic energy
+Ans: C
+
+29. First law is applied to analyze
+A. Heat engines
+B. Refrigerators
+C. Power cycles
+D. All of the above
+Ans: D
+
+30. In steady-flow devices like turbines, the first law is applied using
+A. Closed-system analysis
+B. Steady-flow energy equation
+C. Entropy balance
+D. Momentum balance
+Ans: B
+
+31. First law helps in calculating
+A. Maximum efficiency
+B. Direction of heat flow
+C. Heat and work interactions
+D. Entropy generation
+Ans: C
+
+32. First law does NOT indicate
+A. Amount of energy
+B. Energy conservation
+C. Direction of a process
+D. Energy conversion
+Ans: C
+
+33. First law does NOT forbid
+A. Energy destruction
+B. Perpetual motion machine of first kind
+C. Conversion of heat completely into work
+D. Energy conservation
+Ans: C
+
+34. A machine that violates the first law is called
+A. PMM-I
+B. PMM-II
+C. Heat engine
+D. Refrigerator
+Ans: A
+
+35. The second law of thermodynamics introduces the concept of
+A. Energy
+B. Work
+C. Entropy
+D. Enthalpy
+Ans: C
+
+36. The Kelvin–Planck statement of the second law says that
+A. Heat cannot flow from cold to hot without work
+B. No cyclic device can convert all heat into work
+C. Entropy of universe is constant
+D. Energy is conserved
+Ans: B
+
+37. The Clausius statement of the second law says that
+A. Heat engines are impossible
+B. Heat cannot spontaneously flow from cold to hot
+C. Work cannot be converted to heat
+D. Entropy always increases
+Ans: B
+
+38. Which of the following devices violates the second law?
+A. Heat engine
+B. Refrigerator
+C. Perpetual motion machine of second kind
+D. Steam turbine
+Ans: C
+
+39. Second law explains the
+A. Conservation of energy
+B. Quality of energy
+C. Quantity of energy
+D. Measurement of temperature
+Ans: B
+
+40. A machine that converts heat completely into work in a cycle is
+A. Heat pump
+B. PMM-I
+C. PMM-II
+D. Refrigerator
+Ans: C
+
+41. First law alone cannot determine
+A. Energy balance
+B. Heat transfer
+C. Feasibility of a process
+D. Work done
+Ans: C
+
+42. Second law restricts the
+A. Amount of energy
+B. Direction of energy conversion
+C. Conservation of energy
+D. Existence of energy
+Ans: B
+
+43. Which law explains why efficiency of heat engines is always less than 100%?
+A. Zeroth law
+B. First law
+C. Second law
+D. Third law
+Ans: C
+
+44. The entropy of the universe for a spontaneous process
+A. Decreases
+B. Remains constant
+C. Increases
+D. Becomes zero
+Ans: C
+
+45. Entropy is a thermodynamic property that measures
+A. Energy content
+B. Disorder or randomness
+C. Heat content
+D. Work potential
+Ans: B
+
+46. Entropy is a
+A. Path function
+B. State function
+C. Control variable
+D. Process variable
+Ans: B
+
+47. The SI unit of entropy is
+A. J
+B. J/K
+C. kJ/mol
+D. J/kg
+Ans: B
+
+48. Entropy change is defined by the relation
+A. dS = δQ
+B. dS = δW/T
+C. dS = δQ_rev / T
+D. dS = dU + PdV
+Ans: C
+
+49. Entropy change for a reversible process is calculated using
+A. Actual heat transfer
+B. Work done
+C. Reversible heat transfer
+D. Internal energy
+Ans: C
+
+50. Entropy change of an isolated system during an irreversible process is
+A. Negative
+B. Zero
+C. Positive
+D. Undefined
+Ans: C
+
+51. For an isothermal reversible process, entropy change is
+A. ΔS = Q/T
+B. ΔS = 0
+C. ΔS = W/T
+D. ΔS = mCp ln(T₂/T₁)
+Ans: A
+
+52. For an isentropic process, the entropy change is
+A. Maximum
+B. Minimum
+C. Zero
+D. Infinite
+Ans: C
+
+53. Entropy change of a substance during phase change at constant temperature is
+A. Zero
+B. ΔS = mCpΔT
+C. ΔS = Q_latent / T
+D. ΔS = RT ln(V₂/V₁)
+Ans: C
+
+54. Carnot cycle is composed entirely of
+A. Irreversible processes
+B. Reversible processes
+C. Adiabatic processes only
+D. Isothermal processes only
+Ans: B
+
+55. Carnot’s principle states that
+A. No engine is more efficient than a Carnot engine operating between same temperatures
+B. All engines have same efficiency
+C. Efficiency depends only on working substance
+D. Efficiency depends on pressure
+Ans: A
+
+56. Efficiency of a Carnot engine depends only on
+A. Working substance
+B. Pressure
+C. Temperatures of heat reservoirs
+D. Size of engine
+Ans: C
+
+57. Efficiency of a Carnot engine operating between T₁ and T₂ is given by
+A. 1 − T₁/T₂
+B. 1 − T₂/T₁
+C. T₂/T₁
+D. T₁/T₂
+Ans: B
+*(T₁ = sink, T₂ = source in Kelvin)*
+
+58. Clausius inequality is written as
+A. ∮ δQ/T = 0
+B. ∮ δQ/T ≥ 0
+C. ∮ δQ/T ≤ 0
+D. ∮ δW/T = 0
+Ans: C
+
+59. For a reversible cyclic process, Clausius inequality becomes
+A. ∮ δQ/T < 0
+B. ∮ δQ/T > 0
+C. ∮ δQ/T = 0
+D. ∮ δQ/T = ∞
+Ans: C
+
+60. Clausius inequality is a mathematical expression of
+A. First law
+B. Zeroth law
+C. Second law
+D. Third law
+Ans: C
+
+61. Entropy generation is zero for
+A. All real processes
+B. Irreversible processes
+C. Reversible processes
+D. Cyclic processes
+Ans: C
+
+62. Irreversibility in a process is associated with
+A. Heat transfer at finite temperature difference
+B. Friction
+C. Unrestrained expansion
+D. All of the above
+Ans: D
+
+63. Increase in entropy of the universe indicates that the process is
+A. Impossible
+B. Reversible
+C. Irreversible
+D. Cyclic
+Ans: C
+
+64. Entropy generation is a measure of
+A. Energy loss
+B. Irreversibility
+C. Heat transfer
+D. Work done
+Ans: B
+
+65. According to statistical thermodynamics, entropy is related to
+A. Energy levels
+B. Molecular weight
+C. Number of microscopic states
+D. Pressure
+Ans: C
+
+66. Boltzmann’s equation for entropy is
+A. S = Q/T
+B. S = k ln W
+C. S = Cp ln T
+D. S = RT ln V
+Ans: B
+
+67. In Boltzmann’s equation, W represents
+A. Work done
+B. Weight
+C. Thermodynamic probability
+D. Heat supplied
+Ans: C
+
+68. As disorder of a system increases, entropy
+A. Decreases
+B. Remains constant
+C. Increases
+D. Becomes zero
+Ans: C
+
+69. A perfectly ordered crystalline substance at absolute zero has entropy
+A. Maximum
+B. Minimum
+C. Infinite
+D. Zero
+Ans: D
+*(Third law consistency)*
+
+70. Statistical entropy explains why
+A. Energy is conserved
+B. Processes are irreversible
+C. Heat flows from cold to hot
+D. Work equals heat
+Ans: B
+
+71. The third law of thermodynamics states that the entropy of a perfect crystal at
+A. Room temperature is zero
+B. Absolute zero temperature is zero
+C. Absolute zero temperature is constant
+D. Any temperature is zero
+Ans: B
+
+72. According to the third law, as temperature approaches absolute zero, entropy
+A. Increases indefinitely
+B. Remains constant
+C. Approaches a constant minimum value
+D. Becomes infinite
+Ans: C
+
+73. The third law is useful in determining
+A. Internal energy
+B. Absolute entropy
+C. Heat capacity
+D. Work done
+Ans: B
+
+74. A perfectly ordered crystalline solid at 0 K has entropy equal to
+A. Maximum
+B. Zero
+C. Infinity
+D. Undefined
+Ans: B
+
+75. A pure substance is one that
+A. Contains only one chemical species
+B. Has uniform chemical composition throughout
+C. Exists only in liquid phase
+D. Has no phase change
+Ans: B
+
+76. Water–steam system is considered a pure substance because
+A. It is always liquid
+B. It has uniform chemical composition
+C. It has same density
+D. It does not vaporize
+Ans: B
+
+77. Which of the following is an intensive property of a pure fluid?
+A. Mass
+B. Volume
+C. Temperature
+D. Total energy
+Ans: C
+
+78. Gibbs free energy (G). is defined as
+A. U + TS
+B. H − TS
+C. U − PV
+D. H + TS
+Ans: B
+
+79. Gibbs free energy is most useful for processes occurring at
+A. Constant volume
+B. Constant pressure and temperature
+C. Constant entropy
+D. Constant internal energy
+Ans: B
+
+80. A decrease in Gibbs free energy at constant T and P indicates that a process is
+A. Non-spontaneous
+B. At equilibrium
+C. Spontaneous
+D. Impossible
+Ans: C
+
+81. Work function (Helmholtz free energy). is defined as
+A. A = U − TS
+B. A = H − TS
+C. A = U + PV
+D. A = G + TS
+Ans: A
+
+82. Helmholtz free energy is useful for systems at
+A. Constant pressure
+B. Constant temperature and volume
+C. Constant entropy
+D. Constant enthalpy
+Ans: B
+
+83. Joule–Thomson coefficient (μJT). is defined as
+A. (∂T/∂P)ₛ
+B. (∂P/∂T)ₕ
+C. (∂T/∂P)ₕ
+D. (∂V/∂T)ₚ
+Ans: C
+
+84. Joule–Thomson coefficient is zero for
+A. Real gases
+B. Ideal gases
+C. Vapours
+D. Liquids
+Ans: B
+
+85. Joule–Thomson effect is used in
+A. Steam turbines
+B. Gas liquefaction
+C. Compressors
+D. Heat exchangers
+Ans: B
+
+86. Gibbs–Helmholtz equation relates
+A. Enthalpy and entropy
+B. Free energy and temperature
+C. Pressure and volume
+D. Heat and work
+Ans: B
+
+87. The Gibbs–Helmholtz equation is written as
+A. (∂(G/T)/∂T)ₚ = −H/T²
+B. (∂G/∂T)ₚ = −S
+C. (∂H/∂T)ₚ = Cp
+D. (∂U/∂V)ₜ = T(∂P/∂T)ᵥ − P
+Ans: A
+
+88. Gibbs–Helmholtz equation is mainly used to study
+A. Phase equilibrium
+B. Temperature dependence of free energy
+C. Pressure dependence of volume
+D. Heat capacity
+Ans: B
+
+89. Jacobians are used in thermodynamics to
+A. Solve numerical equations
+B. Transform partial derivatives
+C. Measure entropy
+D. Plot phase diagrams
+Ans: B
+
+90. Jacobian method is especially useful for
+A. Chemical kinetics
+B. Property relations
+C. Heat exchangers
+D. Compressors
+Ans: B
+
+91. T–S diagram is useful to analyze
+A. Compressor work
+B. Irreversibility and entropy changes
+C. Chemical reactions
+D. Heat capacity
+Ans: B
+
+92. P–V diagram mainly represents
+A. Heat transfer
+B. Work done
+C. Entropy change
+D. Free energy
+Ans: B
+
+93. Area under the curve in a P–V diagram represents
+A. Heat transferred
+B. Work done
+C. Internal energy
+D. Entropy
+Ans: B
+
+94. Fugacity is a corrected pressure used to
+A. Represent real gas behavior
+B. Measure density
+C. Calculate work
+D. Determine entropy
+Ans: A
+
+95. For an ideal gas, fugacity is equal to
+A. Zero
+B. Pressure
+C. Density
+D. Volume
+Ans: B
+
+96. Fugacity coefficient is defined as
+A. f/P
+B. P/f
+C. RT/f
+D. f/RT
+Ans: A
+
+97. Activity of a pure substance in its standard state is
+A. Zero
+B. One
+C. Less than one
+D. Infinite
+Ans: B
+
+98. A compressor is a device used to
+A. Decrease pressure of gas
+B. Increase pressure of gas
+C. Condense vapour
+D. Transfer heat
+Ans: B
+
+99. Compression process that requires minimum work is
+A. Isothermal
+B. Isobaric
+C. Isochoric
+D. Adiabatic
+Ans: A
+
+100. In an isentropic compression, entropy
+A. Increases
+B. Decreases
+C. Remains constant
+D. Becomes zero
+Ans: C
+
+101. Single-stage compression is preferred when
+A. Pressure ratio is very high
+B. Pressure ratio is small
+C. Intercooling is compulsory
+D. Gas is liquefied
+Ans: B
+
+102. Major disadvantage of single-stage compression at high pressure ratios is
+A. Low efficiency
+B. Excessive discharge temperature
+C. Low mass flow rate
+D. High suction pressure
+Ans: B
+
+103. Multistage compression is mainly used to
+A. Reduce compressor size
+B. Reduce work of compression
+C. Increase pressure drop
+D. Increase entropy
+Ans: B
+
+104. For a given pressure ratio, minimum compressor work in multistage compression occurs when
+A. Pressure ratios in all stages are equal
+B. Temperature is maximum
+C. Number of stages is one
+D. Compression is adiabatic
+Ans: A
+
+105. Intercooling in multistage compression results in
+A. Increased work requirement
+B. Decreased work requirement
+C. Increased entropy generation
+D. No change in work
+Ans: B
+
+106. Perfect intercooling ideally brings the gas temperature back to
+A. Exit temperature
+B. Ambient temperature
+C. Inlet temperature of each stage
+D. Critical temperature
+Ans: C
+
+107. Refrigeration is the process of
+A. Removing heat from a system at higher temperature
+B. Adding heat to a low-temperature system
+C. Removing heat from a low-temperature region and rejecting it to a higher-temperature region
+D. Converting heat into work
+Ans: C
+
+108. Liquefaction of gases requires cooling the gas below its
+A. Boiling point
+B. Freezing point
+C. Critical temperature
+D. Triple point
+Ans: C
+
+109. Joule–Thomson effect is used in gas liquefaction mainly for
+A. Ideal gases
+B. Real gases below inversion temperature
+C. Vapours only
+D. Liquids
+Ans: B
+
+110. Liquefaction of air is commonly achieved using
+A. Rankine cycle
+B. Brayton cycle
+C. Linde process
+D. Otto cycle
+Ans: C
+
+111. COP of a refrigerator is defined as
+A. Work input / refrigeration effect
+B. Refrigeration effect / work input
+C. Heat rejected / work input
+D. Work output / heat input
+Ans: B
+
+112. COP of a refrigerator is always
+A. Less than 1
+B. Equal to 1
+C. Greater than 1
+D. Zero
+Ans: C
+
+113. COP of a heat pump is defined as
+A. Heat absorbed / work input
+B. Heat rejected / work input
+C. Work input / heat absorbed
+D. Refrigeration effect / work output
+Ans: B
+
+114. Relationship between COP of heat pump (COPₕₚ). and refrigerator (COPᵣ). is
+A. COPₕₚ = COPᵣ − 1
+B. COPₕₚ = COPᵣ + 1
+C. COPₕₚ = 1 − COPᵣ
+D. COPₕₚ = COPᵣ
+Ans: B
+
+115. The most commonly used refrigeration cycle is
+A. Gas refrigeration cycle
+B. Vapour compression refrigeration cycle
+C. Vapour absorption refrigeration cycle
+D. Air refrigeration cycle
+Ans: B
+
+116. In a vapour compression cycle, the refrigerant leaves the evaporator as
+A. Subcooled liquid
+B. Saturated liquid
+C. Saturated or slightly superheated vapour
+D. Superheated liquid
+Ans: C
+
+117. Main components of vapour compression cycle are
+A. Boiler, turbine, condenser
+B. Compressor, condenser, expansion valve, evaporator
+C. Absorber, generator, pump
+D. Heat exchanger, turbine
+Ans: B
+
+118. Vapour absorption refrigeration system uses mainly
+A. Mechanical energy
+B. Electrical energy
+C. Thermal energy
+D. Nuclear energy
+Ans: C
+
+119. Common refrigerant–absorbent pair in absorption refrigeration is
+A. Ammonia–water
+B. Freon–air
+C. Water–air
+D. CO₂–water
+Ans: A
+
+120. An ideal refrigerant should have
+A. High boiling point
+B. Low latent heat
+C. High latent heat of vaporization
+D. High toxicity
+Ans: C
+
+121. A good refrigerant should have
+A. High viscosity
+B. Low thermal conductivity
+C. Low specific volume of vapour
+D. High molecular weight
+Ans: C
+
+122. Refrigerants should be
+A. Highly flammable
+B. Toxic
+C. Non-toxic and non-flammable
+D. Reactive
+Ans: C
+
+123. Ozone Depletion Potential (ODP). of an ideal refrigerant should be
+A. High
+B. Moderate
+C. Zero
+D. Infinite
+Ans: C
+
+124. Global Warming Potential (GWP). of refrigerants should be
+A. High
+B. Low
+C. Irrelevant
+D. Maximum
+Ans: B
+
+125. Refrigerant R-134a is commonly used as a replacement for
+A. Ammonia
+B. R-11
+C. R-12
+D. CO₂
+Ans: C
+
+126. The performance of a refrigeration system mainly depends on
+A. Colour of refrigerant
+B. Type of compressor only
+C. Operating temperature limits
+D. Weight of refrigerant
+Ans: C
+
+127. Joule–Thomson expansion is a process of
+A. Constant temperature
+B. Constant entropy
+C. Constant enthalpy
+D. Constant internal energy
+Ans: C
+
+128. Joule–Thomson coefficient (μJT). is defined as
+A. (∂T/∂P)ₛ
+B. (∂T/∂P)ₕ
+C. (∂P/∂T)ₛ
+D. (∂H/∂T)ₚ
+Ans: B
+
+129. For an ideal gas, Joule–Thomson coefficient is
+A. Positive
+B. Negative
+C. Zero
+D. Infinite
+Ans: C
+
+130. A real gas cools during Joule–Thomson expansion when its temperature is
+A. Above critical temperature
+B. Below inversion temperature
+C. At critical temperature
+D. Above inversion temperature
+Ans: B
+
+131. Joule–Thomson expansion is used in gas liquefaction mainly because it
+A. Produces work
+B. Increases pressure
+C. Produces cooling
+D. Increases entropy only
+Ans: C
+
+132. Linde process of liquefaction of gases is based on
+A. Isentropic expansion
+B. Joule–Thomson expansion
+C. Isothermal compression
+D. Brayton cycle
+Ans: B
+
+133. A power cycle is a thermodynamic cycle that
+A. Converts heat into work
+B. Converts work into heat
+C. Produces refrigeration
+D. Absorbs work only
+Ans: A
+
+134. Efficiency of a power cycle is defined as
+A. Heat supplied / work output
+B. Work output / heat supplied
+C. Heat rejected / work output
+D. Work input / heat rejected
+Ans: B
+
+135. No real power cycle can be more efficient than
+A. Rankine cycle
+B. Otto cycle
+C. Carnot cycle
+D. Diesel cycle
+Ans: C
+
+136. The ideal cycle for steam power plants is
+A. Otto cycle
+B. Diesel cycle
+C. Rankine cycle
+D. Brayton cycle
+Ans: C
+
+137. Basic components of a Rankine cycle are
+A. Compressor, turbine, condenser
+B. Boiler, turbine, condenser, pump
+C. Engine, boiler, turbine
+D. Evaporator, absorber, generator
+Ans: B
+
+138. In a Rankine cycle, the working fluid enters the turbine as
+A. Saturated liquid
+B. Subcooled liquid
+C. High-pressure steam
+D. Wet steam only
+Ans: C
+
+139. Superheating steam in a Rankine cycle
+A. Reduces efficiency
+B. Has no effect
+C. Increases turbine work and efficiency
+D. Increases condenser load only
+Ans: C
+
+140. Reheating in steam power plants helps to
+A. Increase moisture content
+B. Reduce turbine work
+C. Reduce turbine blade erosion
+D. Reduce boiler pressure
+Ans: C
+
+141. Regeneration in Rankine cycle improves efficiency by
+A. Increasing boiler pressure
+B. Reducing heat rejected
+C. Increasing heat input
+D. Increasing pump work
+Ans: B
+
+142. The Otto cycle is the ideal cycle for
+A. Diesel engines
+B. Petrol (spark-ignition). engines
+C. Gas turbines
+D. Steam turbines
+Ans: B
+
+143. Heat addition in the Otto cycle occurs at
+A. Constant pressure
+B. Constant volume
+C. Constant temperature
+D. Constant entropy
+Ans: B
+
+144. The Diesel cycle differs from Otto cycle mainly in
+A. Compression process
+B. Heat rejection process
+C. Heat addition process
+D. Expansion process
+Ans: C
+
+145. Heat addition in the Diesel cycle takes place at
+A. Constant volume
+B. Constant pressure
+C. Constant temperature
+D. Constant entropy
+Ans: B
+
+146. For the same compression ratio, Otto cycle efficiency is
+A. Less than Diesel
+B. Equal to Diesel
+C. Greater than Diesel
+D. Independent of cycle
+Ans: C
+
+147. The ideal cycle for gas turbine power plants is
+A. Rankine cycle
+B. Otto cycle
+C. Brayton cycle
+D. Diesel cycle
+Ans: C
+
+148. Basic components of a gas turbine plant are
+A. Boiler, turbine, condenser
+B. Compressor, combustor, turbine
+C. Pump, turbine, condenser
+D. Engine, alternator
+Ans: B
+
+149. In Brayton cycle, heat addition occurs at
+A. Constant volume
+B. Constant pressure
+C. Constant temperature
+D. Constant entropy
+Ans: B
+
+150. Regeneration in gas turbine cycles is used to
+A. Increase turbine work
+B. Reduce compressor work
+C. Increase thermal efficiency
+D. Reduce combustion temperature
+Ans: C
+
+151. Intercooling in gas turbine plants results in
+A. Increase in compressor work
+B. Decrease in compressor work
+C. Decrease in turbine work
+D. No effect
+Ans: B
+
+152. Reheating in gas turbine cycle results in
+A. Lower turbine work
+B. Higher turbine work
+C. Lower efficiency
+D. No change
+Ans: B
+
+153. Among the following cycles, which uses external combustion?
+A. Otto cycle
+B. Diesel cycle
+C. Rankine cycle
+D. Brayton cycle
+Ans: C
+
+154. Gas turbine plants are preferred over steam plants when
+A. Load variation is small
+B. Quick start and compactness are required
+C. Water is abundantly available
+D. Fuel cost is very low
+Ans: B
+
+155. A solution is defined as
+A. A heterogeneous mixture
+B. A homogeneous mixture of two or more components
+C. A pure substance
+D. A colloidal system only
+Ans: B
+
+156. Properties of solutions depend mainly on
+A. Mass of components
+B. Volume of container
+C. Composition, temperature and pressure
+D. Shape of vessel
+Ans: C
+
+157. A partial molar property of a component is defined as
+A. Property per unit mass
+B. Property per unit volume
+C. Change in total property with respect to moles of that component at constant T, P, and other components
+D. Average property of mixture
+Ans: C
+
+158. The partial molar volume of component *i* is defined as
+A. (∂V/∂nᵢ)
+B. (∂V/∂nᵢ)ₜ,ₚ,ₙⱼ
+C. V/nᵢ
+D. ΔV/Δnᵢ
+Ans: B
+
+159. The total property of a solution is related to partial molar properties by
+A. Arithmetic mean
+B. Geometric mean
+C. Sum of partial molar properties multiplied by number of moles
+D. Difference of partial properties
+Ans: C
+
+160. Which of the following is a partial molar property?
+A. Density
+B. Pressure
+C. Partial molar Gibbs free energy
+D. Temperature
+Ans: C
+
+161. Partial molar properties can be determined experimentally by
+A. Calorimetry only
+B. Slope method
+C. Intercept method
+D. Both B and C
+Ans: D
+
+162. The tangent–intercept method is commonly used to determine
+A. Heat capacity
+B. Partial molar volume
+C. Vapour pressure
+D. Density only
+Ans: B
+
+163. In the graphical method, partial molar properties are obtained from
+A. Area under curve
+B. Slope and intercept of total property vs composition plot
+C. Maximum point
+D. Minimum point
+Ans: B
+
+164. Lewis–Randall rule states that for an ideal solution
+A. Fugacity equals pressure
+B. Activity coefficient equals unity
+C. Fugacity of a component equals mole fraction times fugacity of pure component
+D. Vapour pressure is independent of composition
+Ans: C
+
+165. Lewis–Randall rule is applicable to
+A. Non-ideal solutions
+B. Ideal solutions
+C. Electrolyte solutions
+D. Dilute solutions only
+Ans: B
+
+166. According to Lewis–Randall rule, activity of a component in an ideal solution is
+A. Equal to its mole fraction
+B. Equal to its mass fraction
+C. Greater than one
+D. Zero
+Ans: A
+
+167. Raoult’s law states that partial vapour pressure of a component equals
+A. Mole fraction × total pressure
+B. Mole fraction × vapour pressure of pure component
+C. Mass fraction × vapour pressure
+D. Activity × total pressure
+Ans: B
+
+168. Raoult’s law is strictly applicable to
+A. Dilute solutions
+B. Ideal solutions
+C. Electrolyte solutions
+D. Gas mixtures
+Ans: B
+
+169. A solution obeying Raoult’s law over entire composition range is called
+A. Dilute solution
+B. Non-ideal solution
+C. Ideal solution
+D. Regular solution
+Ans: C
+
+170. Henry’s law states that at low concentrations, the partial pressure of a solute gas is proportional to
+A. Mass fraction
+B. Mole fraction in liquid
+C. Vapour pressure of solvent
+D. Density of solution
+Ans: B
+
+171. Henry’s law is mainly applicable to
+A. Solvent
+B. Non-volatile solute
+C. Gas dissolved in liquid at low concentration
+D. Ideal solutions
+Ans: C
+
+172. Henry’s law constant depends on
+A. Pressure only
+B. Temperature and nature of gas–solvent system
+C. Mole fraction only
+D. Volume only
+Ans: B
+
+173. Activity (aᵢ). of a component is defined as
+A. Effective concentration in non-ideal systems
+B. Actual concentration
+C. Mass fraction
+D. Volume fraction
+Ans: A
+
+174. Activity is related to mole fraction by
+A. aᵢ = xᵢ
+B. aᵢ = γᵢ xᵢ
+C. aᵢ = xᵢ / γᵢ
+D. aᵢ = γᵢ / xᵢ
+Ans: B
+
+175. Activity coefficient (γᵢ. accounts for
+A. Pressure effect
+B. Temperature effect
+C. Non-ideality of solution
+D. Phase change
+Ans: C
+
+176. For an ideal solution, activity coefficient is
+A. Zero
+B. Less than one
+C. Greater than one
+D. Equal to one
+Ans: D
+
+177. In highly non-ideal solutions, activity coefficient generally
+A. Equals one
+B. Equals zero
+C. Deviates significantly from unity
+D. Is constant
+Ans: C
+
+178. Activity and activity coefficient concepts are mainly used in
+A. Heat transfer calculations
+B. Chemical equilibrium calculations
+C. Fluid mechanics
+D. Solid mechanics
+Ans: B
+
+179. Activity coefficient (γ). of a component mainly accounts for
+A. Temperature change
+B. Pressure change
+C. Non-ideality of solution
+D. Phase change
+Ans: C
+
+180. For most liquid solutions, activity coefficients are
+A. Strongly dependent on pressure
+B. Independent of temperature
+C. Weakly dependent on pressure
+D. Independent of composition
+Ans: C
+
+181. Increase in temperature generally causes activity coefficients of liquid solutions to
+A. Increase indefinitely
+B. Decrease toward unity
+C. Become zero
+D. Remain unchanged
+Ans: B
+
+182. At very high temperatures, most solutions tend to behave
+A. Highly non-ideal
+B. As electrolytes
+C. Ideally
+D. As solids
+Ans: C
+
+183. Pressure effect on activity coefficient of condensed phases is usually
+A. Very large
+B. Negligible
+C. Infinite
+D. Unpredictable
+Ans: B
+
+184. Activity coefficients deviate most from unity when
+A. Intermolecular forces are similar
+B. Unlike-molecule interactions differ significantly
+C. Temperature is high
+D. Solution is ideal
+Ans: B
+
+185. The Gibbs–Duhem equation expresses a relationship between
+A. Temperature and pressure
+B. Enthalpy and entropy
+C. Chemical potentials of components in a mixture
+D. Heat and work
+Ans: C
+
+186. Gibbs–Duhem equation for a binary system at constant T and P is
+A. x₁dμ₁ + x₂dμ₂ = 0
+B. μ₁ + μ₂ = 0
+C. dμ₁ + dμ₂ = 0
+D. μ₁/μ₂ = constant
+Ans: A
+
+187. Gibbs–Duhem equation shows that in a mixture
+A. Chemical potentials are independent
+B. Activity coefficients are independent
+C. Partial molar properties are interdependent
+D. Mole fractions are equal
+Ans: C
+
+188. Gibbs–Duhem equation is valid for
+A. Ideal gases only
+B. Ideal solutions only
+C. All multicomponent systems at equilibrium
+D. Solids only
+Ans: C
+
+189. Gibbs–Duhem equation cannot be used to determine
+A. Activity coefficients
+B. Partial molar properties
+C. Absolute value of a single activity coefficient alone
+D. Consistency of experimental data
+Ans: C
+
+190. Property change on mixing is defined as
+A. Final property of mixture
+B. Difference between mixture property and sum of pure component properties
+C. Average property of components
+D. Property per unit mass
+Ans: B
+
+191. For an ideal solution, change in volume on mixing is
+A. Positive
+B. Negative
+C. Zero
+D. Maximum
+Ans: C
+
+192. Change in Gibbs free energy on mixing for an ideal solution is
+A. Zero
+B. Positive
+C. Negative
+D. Infinite
+Ans: C
+
+193. Which property change on mixing drives spontaneous mixing?
+A. Enthalpy decrease only
+B. Entropy increase
+C. Volume change
+D. Pressure decrease
+Ans: B
+
+194. Entropy change on mixing of ideal gases is always
+A. Zero
+B. Positive
+C. Negative
+D. Unpredictable
+Ans: B
+
+195. Heat of mixing is defined as
+A. Heat required to form solution
+B. Enthalpy change when components are mixed at constant T and P
+C. Heat of vaporization
+D. Heat of reaction
+Ans: B
+
+196. Heat of mixing for an ideal solution is
+A. Positive
+B. Negative
+C. Zero
+D. Maximum
+Ans: C
+
+197. Heat of mixing may be positive or negative depending on
+A. Pressure
+B. Volume
+C. Nature of intermolecular interactions
+D. Container size
+Ans: C
+
+198. Exothermic heat of mixing indicates that
+A. Like-molecule interactions dominate
+B. Unlike-molecule interactions are stronger
+C. Solution behaves ideally
+D. Entropy decreases
+Ans: B
+
+199. Endothermic heat of mixing implies
+A. Strong attraction between unlike molecules
+B. Weaker interactions between unlike molecules
+C. Ideal solution behavior
+D. Zero entropy change
+Ans: B
+
+200. Heat effects of mixing are mainly important in
+A. Fluid mechanics
+B. Chemical equilibrium calculations
+C. Heat exchanger design
+D. Structural analysis
+Ans: B
